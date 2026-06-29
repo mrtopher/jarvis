@@ -1,40 +1,39 @@
-target_title: "VP, Software Engineering — Platform"
+target_title: "VP, Software Engineering (Platform)"
 target_subtitle: "Platform Engineering | Agentic AI | Enterprise SaaS at Scale"
 
 summary: >-
-  Hands-on engineering executive with 20 years building platform organizations and the
-  shared services, data systems, and developer experience that scale them. Founded and
-  scaled a cross-functional org from 8 to 40+ engineers, stood up a paved-road operating
-  model that cut speed-to-market 35%, and delivered a revenue-critical platform from zero
-  to production in under 90 days, protecting an 8-figure revenue line. Currently building
-  and advising on agentic AI systems—tool management, model evaluation, AI-native
-  development lifecycles, and governance—for enterprise clients. Known for converting
-  repeated engineering needs into well-adopted platform capabilities and connecting
-  platform investment directly to business outcomes.
+  Hands-on engineering executive with 20 years building platform organizations. Builds the
+  shared services, data systems, and developer experience that let teams ship, on AWS,
+  Kubernetes, Ruby on Rails, Node.js, Python, and PostgreSQL. Founded and scaled a
+  cross-functional org from 8 to 40+ engineers. Stood up a self-service platform model now
+  used across the portfolio. Today, builds agentic-AI systems with the OpenAI SDK and MCP:
+  tool management, model evaluation, AI-native development, and governance for enterprise
+  clients. Turns repeated engineering needs into platform capabilities teams actually adopt,
+  then ties that work to business results.
 
 achievements:
   - label: "Agentic AI Delivery"
-    text: "Lead hands-on agentic AI engineering and advisory for enterprise clients—building tool-management, model-interaction, and workflow-automation systems with clear evaluation and guardrails."
+    text: "Lead hands-on agentic AI engineering and advisory for enterprise clients. Build tool-management, model-interaction, and workflow-automation systems with clear evaluation and guardrails."
   - label: "Platform Under Pressure"
     text: "Delivered a revenue-critical demand-side platform from zero to production in under 90 days on AWS, protecting an 8-figure revenue line without compromising security or reliability."
   - label: "Org Scaling"
     text: "Scaled a platform/shared-services engineering org from 8 to 40+ engineers across 5 cross-functional teams, supporting 100+ digital properties serving millions of users."
   - label: "Paved-Road Model"
-    text: "Established a paved-road operating model—automated provisioning and deployment that improved speed-to-market 35% and was adopted across the broader portfolio."
+    text: "Established a paved-road operating model. Automated provisioning and deployment improved speed-to-market 35% and spread across the broader portfolio."
 
 competencies:
   - "Platform Strategy & Roadmap"
   - "Shared Services & Dev Experience"
   - "Paved-Road / Internal Tooling"
-  - "Distributed Systems"
+  - "Kubernetes & AWS"
   - "Reliability & Observability"
   - "CI/CD & DevOps"
-  - "Agentic AI Platforms"
-  - "Model Evaluation"
+  - "Agentic AI (OpenAI SDK, MCP)"
+  - "Model Evaluation & Guardrails"
   - "AI-Native Development"
-  - "AI Governance & Guardrails"
+  - "Rails / Node.js / Python"
   - "Enterprise Integrations"
-  - "Data Pipeline Design"
+  - "PostgreSQL & Data Pipelines"
   - "Security & Compliance"
   - "Org Design & Scaling"
   - "Executive Communication"
@@ -46,35 +45,35 @@ experience:
     role: "Head of Technology"
     summary: "Hands-on AI engineering and advisory partnership building automation, workflow, and platform systems for enterprise clients."
     bullets:
-      - "Build agentic AI and engagement-platform capabilities using AI-assisted engineering—hands-on across development, workflow automation, tool management, and model deployment at the code level."
-      - "Advise CTOs and engineering leaders on AI governance, model evaluation, and an AI-native development lifecycle—standardizing agent skills, templates, and security guardrails."
-      - "Designed cohort-based AI enablement for an 800+ person SaaS enterprise, focused on ROI, developer productivity, and adoption."
+      - "Build agentic AI and engagement-platform capabilities with AI-assisted engineering, hands-on across development, workflow automation, tool management, and model deployment at the code level."
+      - "Advise CTOs and engineering leaders on AI governance, model evaluation, and an AI-native development lifecycle, standardizing agent skills, templates, and security guardrails."
+      - "Drove agentic-AI adoption across an 800+ person SaaS engineering org by standardizing reusable agent skills, evaluation harnesses, and security guardrails on the OpenAI SDK and MCP."
   - company: "Pipeline 360"
     location: "Remote"
-    dates: "2025–2026"
+    dates: "2025-2026"
     role: "Sr. Vice President, Technology"
     summary: "Owned platform strategy and execution across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
     bullets:
       - "Delivered a custom demand-side ad-buying/campaign platform on The Trade Desk from zero to production in under 90 days, protecting an 8-figure revenue line."
-      - "Made architecture and infrastructure decisions across application, data, and infrastructure layers—balancing delivery velocity with long-term resilience and security."
+      - "Set architecture and infrastructure standards across application, data, and platform layers on AWS, Kubernetes, and PostgreSQL. Raised delivery velocity while hardening resilience and security."
       - "Matured DevOps, CI/CD, cloud (AWS) optimization, and AI-assisted security and developer tooling to raise productivity and operational resilience."
       - "Served as the sole technology voice in PE investor and board diligence, translating platform architecture and risk into capital-allocation decisions."
   - company: "Industry Dive / Informa TechTarget"
     location: "Washington, DC"
-    dates: "2018–2025"
+    dates: "2018-2025"
     role: "VP, Engineering"
     summary: "Founded and scaled the Brand & Content Engineering platform organization through post-acquisition integration."
     bullets:
       - "Scaled from 1 team (8 engineers) to 5 cross-functional teams (40+ engineers) across multiple time zones, owning shared platform services for 100+ properties used by millions."
-      - "Built a repeatable paved-road operating model—automated provisioning and deployment cut average time-to-ship 35%; later adopted across the broader portfolio."
+      - "Built a repeatable paved-road operating model. Automated provisioning and deployment cut average time-to-ship 35%, then spread across the broader portfolio."
       - "Shipped an AI-driven lead-qualification system into the core product, automating scoring and reducing manual qualification effort."
-      - "Drove platform observability and reliability: CI/CD maturity, incident management, and automated workflows that improved uptime and developer experience."
+      - "Drove platform observability and reliability on AWS and Kubernetes: CI/CD maturity, incident management, and automated workflows that improved uptime and developer experience."
       - "Built the Product Management function from zero and introduced career frameworks and structured feedback, improving retention 15%."
   - company: "Phone2Action"
     location: "Arlington, VA"
-    dates: "2016–2017"
+    dates: "2016-2017"
     role: "VP, Engineering"
     summary: "Led engineering through a Series-A growth stage, bringing planning and delivery structure to a fast-scaling team."
     bullets:
       - "Stabilized a Series-A engineering org, achieving consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
-      - "Doubled the engineering team while maintaining release quality across web and mobile-responsive experiences."
+      - "Doubled the engineering team with no loss of release quality by instituting a sprint-planning cadence, code-review gates, and a clear on-call rotation across web and mobile-responsive products."
