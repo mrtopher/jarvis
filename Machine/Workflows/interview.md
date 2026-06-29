@@ -15,9 +15,11 @@ Read:
 - `00 Human/70 Context/business-profile.md`
 - `00 Human/70 Context/audience-profile.md`
 - `00 Human/70 Context/writing-style.md`
+- `00 Human/70 Context/content-preferences.md`
 - `Machine/Personalization/operator-profile.md`
 - `Machine/Personalization/today-prompt.md`
 - `Machine/Personalization/closeday-prompt.md`
+- `Machine/Personalization/content-prompt.md`
 - the last 2 daily notes in `00 Human/10 Daily Notes/` if they exist
 - project notes in `00 Human/30 Projects/` if they exist
 
@@ -43,12 +45,21 @@ Ask one question at a time:
 3. "What should `/closeday` ask every day besides wins and blockers, if anything?"
 4. "Do you want `/closeday` to be quick, reflective, or performance-oriented?"
 
+## Step 4b - Ask about content and personal brand
+Ask one question at a time:
+1. "Which channels do you actually publish on (LinkedIn, company blog, webinar, other)?"
+2. "What 3-5 themes (content pillars) should everything map to?"
+3. "What cadence are you aiming for on each channel?"
+4. "Who is the one reader you're writing for, and what are they tired of hearing?"
+5. "Any hard nos for your content (topics, tone, buzzwords)?"
+
 ## Step 5 - Update vault notes
 Create or update project notes in `00 Human/30 Projects/` for any active project surfaced.
 Update these files so the user can read them directly:
 - `00 Human/70 Context/business-profile.md`
 - `00 Human/70 Context/audience-profile.md`
 - `00 Human/70 Context/writing-style.md` if relevant
+- `00 Human/70 Context/content-preferences.md`
 - `Machine/Personalization/operator-profile.md`
 
 ## Step 6 - Regenerate compiled prompts
@@ -56,8 +67,9 @@ Rewrite these files fully based on the interview answers:
 - `Machine/Personalization/today-prompt.md`
 - `Machine/Personalization/closeday-prompt.md`
 - `Machine/Personalization/meeting-notes-prompt.md`
+- `Machine/Personalization/content-prompt.md` (compile from `00 Human/70 Context/content-preferences.md` + `audience-profile.md` + `business-profile.md`; keep `VOICE.md` as the authoritative voice)
 
-The point is to compile the user's preferences into prompt-ready instructions so `/today` and `/closeday` do not need to read a pile of separate preference files each run.
+The point is to compile the user's preferences into prompt-ready instructions so `/today`, `/closeday`, and `/content` do not need to read a pile of separate preference files each run.
 
 ## Step 7 - Log it
 Append to today's daily note Activity Log:

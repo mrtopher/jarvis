@@ -21,6 +21,7 @@ This repository is an **Obsidian vault operating system** packaged for community
 - `/closeday`
 - `/meeting-notes`
 - `/job-apply`
+- `/content`
 
 ## Personalization model
 `/interview` updates these files:
@@ -31,9 +32,11 @@ This repository is an **Obsidian vault operating system** packaged for community
 - `Machine/Personalization/today-prompt.md`
 - `Machine/Personalization/closeday-prompt.md`
 - `Machine/Personalization/meeting-notes-prompt.md`
+- `Machine/Personalization/content-prompt.md`
 
 `/today` should read `Machine/Personalization/today-prompt.md` rather than loading multiple preference notes.
 `/closeday` should read `Machine/Personalization/closeday-prompt.md` rather than loading multiple preference notes.
+`/content` should read `Machine/Personalization/content-prompt.md` (plus `VOICE.md`) rather than loading multiple preference notes.
 
 ## Working rules
 1. Respect the Human/Machine boundary.

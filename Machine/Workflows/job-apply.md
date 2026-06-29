@@ -32,7 +32,7 @@ Read these so the research, recommendation, and writing reflect the user's actua
 Given a job (a URL or pasted description):
 1. **Get the job text.** If it is a URL, use WebFetch to retrieve the posting and extract the full description; keep the complete raw text and the source URL. If it is pasted text, use it directly. If nothing usable is available, say so and stop for this job.
 2. **Identify the role and company.** Extract company name, role title, location / remote policy, seniority, compensation (if listed), and the key requirements and responsibilities. Determine the canonical company name for the folder.
-3. **Create the company folder and archive the JD.** Create `00 Human/30 Projects/Job Search/[Company Name]/`. Save the full, unedited posting (source URL + fetch date at the top, then the verbatim text) as `00 Human/30 Projects/Job Search/[Company Name]/[Company Name] - Job Description.md`. Do not summarize - this is the archival copy.
+3. **Create the company folder and archive the JD.** Create `00 Human/30 Projects/Job Search/Applications/[Company Name]/`. Save the full, unedited posting (source URL + fetch date at the top, then the verbatim text) as `00 Human/30 Projects/Job Search/Applications/[Company Name]/[Company Name] - Job Description.md`. Do not summarize - this is the archival copy.
 4. **Research the company.** Use WebSearch / WebFetch: what they do, size, stage / funding, products, business model, tech stack, recent news, culture and values, Glassdoor / reputation, green and red flags. Create from `Machine/Templates/Job Company Research.md` and save as `.../[Company Name]/Company Research.md`.
 5. **Research the hiring manager.** Identify the most likely hiring manager, team lead, or recruiter from the posting, company site, and LinkedIn. Capture name, title, background, what they likely care about, mutual connections, and talking points. If unconfirmed, say so and list best guesses plus how to find the right contact. Create from `Machine/Templates/Job Hiring Manager Research.md` and save as `.../[Company Name]/Hiring Manager Research.md`.
 6. **Summarize the role and recommend.** Map requirements against the user's experience and 30-day goals. Give a clear, honest **APPLY** or **DON'T APPLY** recommendation with reasoning (fit, compensation, growth, alignment to the goal of a signed offer by 2026-07-29). Create from `Machine/Templates/Job Role Summary.md` and save as `.../[Company Name]/Role Summary.md`.
@@ -40,7 +40,7 @@ Given a job (a URL or pasted description):
 ## Shared phase: Apply (the apply half)
 Only run once the decision to apply has been made (standalone: the user says yes; tracker: the card is in the **Apply** column). For company `[Company Name]`:
 1. **Craft the resume.** Read the user's resumes from `00 Human/30 Projects/Job Search/Resumes/` (most recent as base, older ones for detail). If none exist, ask the user to add resumes there and stop. Tailor to this role: lead with the most relevant experience, mirror the posting's language, quantify impact. Write every line in the user's voice per `VOICE.md` (no em dashes, ever; no sentences starting with "and"; short, punchy). Save the content as a YAML data file matching the template schema (`target_title`, `target_subtitle`, `summary`, `achievements[]` with `label`/`text`, `competencies[]`, `experience[]` with `company`/`location`/`dates`/`role`/`summary`/`bullets[]`) at `.../[Company Name]/[Company Name] - Resume.yaml`. Generate the styled `.docx` (the template owns all layout/styling):
-   `Machine/Scripts/resume-fill.py "00 Human/30 Projects/Job Search/[Company Name]/[Company Name] - Resume.yaml" "00 Human/30 Projects/Job Search/[Company Name]/chris-monnat-resume([company-slug]).docx"`
+   `Machine/Scripts/resume-fill.py "00 Human/30 Projects/Job Search/Applications/[Company Name]/[Company Name] - Resume.yaml" "00 Human/30 Projects/Job Search/Applications/[Company Name]/chris-monnat-resume([company-slug]).docx"`
    If `docxtpl`/`pyyaml` are missing, tell the user to run `pip3 install --user docxtpl pyyaml` once, then re-run.
 2. **Recruiter-audit loop (must reach >= 80/100).** Adopt the recruiter persona below and audit the current resume against the target JD. Loop:
    1. Run the full audit on the latest resume version.
@@ -87,7 +87,7 @@ Only run once the decision to apply has been made (standalone: the user says yes
    - Rewrite the card so it carries the company and the verdict, e.g. `[[<Company> - Role Summary]] — APPLY` (or `DON'T APPLY`), keeping the original URL.
    - **Move the card from `## Research` to `## Pending`.**
 4. **Process every card in `## Apply`:**
-   - Resolve `[Company Name]` from the card (the link / company text written during research) and its folder under `00 Human/30 Projects/Job Search/[Company Name]/`. If the folder or research is missing, note it and skip.
+   - Resolve `[Company Name]` from the card (the link / company text written during research) and its folder under `00 Human/30 Projects/Job Search/Applications/[Company Name]/`. If the folder or research is missing, note it and skip.
    - Run the **Apply** phase.
    - Update the card with the final resume review score and a link to the generated `.docx`.
    - **Move the card from `## Apply` to `## Done`.**

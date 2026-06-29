@@ -16,8 +16,8 @@ tags: [project, sample]
 > This sample project shows how to structure a project note in the vault.
 
 ## Tasks
-- [ ] Clarify the next step
-- [ ] Link the people involved
+- [x] Clarify the next step ✅ 2026-06-29
+- [x] Link the people involved ✅ 2026-06-29
 
 ## People
 - [[Alex Example]]
