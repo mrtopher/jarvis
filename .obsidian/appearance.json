@@ -1,3 +1,7 @@
 {
-  "cssTheme": "PLN"
+  "cssTheme": "PLN",
+  "enabledCssSnippets": [
+    "Rainbow Glass Folders"
+  ],
+  "accentColor": "#f434db"
 }

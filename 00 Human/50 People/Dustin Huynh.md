@@ -1,0 +1,27 @@
+---
+type: person
+name: "Dustin Huynh"
+title: "SE2"
+company: "[[Industry Dive]]"
+relationship:
+tags: [person]
+---
+
+# Dustin Huynh
+
+## Overview
+> SE2 at [[Industry Dive]].
+
+## Contact
+- **Email:** 
+- **Phone:** 
+- **LinkedIn:**
+
+## Projects
+-
+
+## Notes
+
+## Log
+### 2026-06-29
+- Imported from CRM.

@@ -41,8 +41,17 @@ Append to Activity Log:
 ## Step 6 - Stage tomorrow
 Create tomorrow's note if needed and pre-populate `## ✅ Today's Tasks` with carry-overs.
 
-## Step 7 - Close
+## Step 7 - Back up the vault to git
+Commit and push the day's changes so nothing is lost across devices.
+- Stage everything: `git add -A`
+- Commit: `git commit -m "closeday: YYYY-MM-DD"` (use today's date)
+- Push: `git push`
+- If there is nothing to commit, skip the commit and push. Continue.
+- If commit or push fails (no remote, offline, or auth issue), do not block the workflow. Note that the git backup was skipped so it can be retried later.
+
+## Step 8 - Close
 Report back with:
 - wins logged
 - carry-overs staged
 - tomorrow note ready
+- git backup status (pushed, or skipped and why)
