@@ -2,7 +2,6 @@
 .DS_Store
 
 # Obsidian per-machine UI state
-.obsidian/workspace.json
 .obsidian/workspaces.json
 
 # Shell history captured by lean-terminal plugin (may contain sensitive commands)
