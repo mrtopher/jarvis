@@ -35,14 +35,14 @@ Read the last 3 daily notes before today and pull forward:
 - blockers worth carrying
 
 ## Step 6 - Read open work
-First, sync the Ridgewells/CATE repo so the project note reflects current build state:
-- Run: `python3 Machine/Scripts/sync-ridgewells.py --apply`
-- This appends new commits/PRs/issues to the Ridgewells `## Log` and refreshes the read-only docs mirror at `00 Human/30 Projects/Ridgewells/repo-docs/`.
-- It is graceful: if `gh` is missing, unauthenticated, or offline, it prints a `[skip]` line and does nothing. Do not block the workflow.
+First, sync the repo-backed projects so their notes reflect current build state:
+- Run: `python3 Machine/Scripts/sync-repos.py --apply`
+- Config-driven: it walks every project in the script's `PROJECTS` list (currently Ridgewells -> `cate-hq/platform` and Dual Logic Platform -> `Dual-Logic/platform`). For each it appends new commits/PRs/issues to that project's `## Log` and refreshes the read-only docs mirror at `<project>/repo-docs/`.
+- It is graceful per-repo: if `gh` is missing, unauthenticated, or offline, it prints a `[skip]` line for that repo and moves on. One bad repo never blocks the others or the workflow.
 
 Then read:
 - pending task files in `00 Human/20 Tasks/`
-- active project notes in `00 Human/30 Projects/` (the Ridgewells note is now current)
+- active project notes in `00 Human/30 Projects/` (the repo-backed notes are now current)
 
 ## Step 7 - Pull today's Google Calendar
 Import real commitments so the plan and time blocks fit the actual day.

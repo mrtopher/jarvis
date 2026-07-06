@@ -11,7 +11,8 @@
 # lean-terminal plugin state: UI prefs + serialized terminal scrollback, churns every session
 .obsidian/plugins/lean-terminal/data.json
 
-# Ridgewells sync: generated read-only mirror of the cate-hq/platform repo docs
+# Repo sync: generated read-only mirrors of upstream repo docs (one per project)
 00 Human/30 Projects/Ridgewells/repo-docs/
-# Ridgewells sync: per-machine last-run window (digest dedupes off the note itself)
-Machine/Scripts/.ridgewells-sync-state.json
+00 Human/30 Projects/Dual Logic Platform/repo-docs/
+# Repo sync: per-machine last-run window (digest dedupes off the note itself)
+Machine/Scripts/.repo-sync-state.json
