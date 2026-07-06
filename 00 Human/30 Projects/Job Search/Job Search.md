@@ -24,6 +24,8 @@ tags: [project, job-search, career]
 
 ## Pipeline
 - Applied: [[Firstup]] — VP, Software Engineering (Platform) — resume drafted 2026-06-29
+- Applied: [[00 Human/30 Projects/Job Search/Applications/Head of Platform Engineering (Undisclosed)/Role Summary|Head of Platform Engineering (Undisclosed)]] — blind recruiter posting — APPLY (conditional) — resume drafted 2026-07-06 (84/100), pending company disclosure before send
+- Applied: [[00 Human/30 Projects/Job Search/Applications/Naviant/Role Summary|Naviant]] — VP of Technology and Solutions — APPLY — resume drafted 2026-07-06 (86/100, 2 passes) + cover letter; hiring contact Greg Albert (COO); confirm comp range before deep interviews
 - Researched: [[00 Human/30 Projects/Job Search/Applications/Change.org/Role Summary|Change.org]] — VP of Engineering, Elections — APPLY (awaiting greenlight; card in Pending)
 - Phone screens:
 - Interviews:
@@ -43,3 +45,7 @@ tags: [project, job-search, career]
 - Created during `/interview` personalization.
 - `/job-apply` — Firstup VP, Software Engineering (Platform). Recommendation: APPLY (with diligence) — strong AI-platform fit + $250–300K, offset by layoff/morale red flags. Research + tailored resume drafted in `[[Firstup]]` folder.
 - `/job-apply` — Change.org VP of Engineering, Elections (Change.vote). Recommendation: APPLY. Strong AI-forward + VP-reports-to-CTO fit; gaps in consumer-scale/bursty traffic; comp undisclosed (nonprofit-owned PBC). Research drafted in `[[Change.org/Role Summary|Change.org]]` folder. Card moved Research to Pending (awaiting greenlight before resume).
+
+### 2026-07-06
+- `/job-apply` — Head of Platform Engineering (blind recruiter posting; no company, URL, or contact). Recommendation: APPLY (conditional — unmask the company first). One of the cleanest role-fits in the pipeline (platform org scaling, self-service/paved-road, SRE, developer enablement), but employer anonymous with no comp/location. Research + tailored resume (84/100, 2 passes) + generic cover letter drafted in `[[Head of Platform Engineering (Undisclosed)/Role Summary|Head of Platform Engineering (Undisclosed)]]` folder. Next: get recruiter to disclose company/comp/location before sending.
+- `/job-apply` — Naviant VP of Technology and Solutions (intelligent-automation consulting firm, ~160 people, Verona WI; fully remote). Recommendation: APPLY. Cleanest identity-match in the pipeline — hired to lead Naviant's "AI-first agentic automation" transition, which mirrors the Dual Logic consulting-CTO role exactly. Strong on AI strategy, modern SDLC, DevSecOps/CI/CD, delivery, team building; honest gap on ECM/IDP/RPA (OnBase/ABBYY/Kryon) domain depth. Comp undisclosed — biggest deal-risk. Research + tailored resume (86/100, 2 passes after a sharper services/presales differentiation pass) + cover letter drafted in `[[Naviant/Role Summary|Naviant]]` folder. Hiring contact confirmed as Greg Albert (COO, came up through Professional Services/Delivery). Next: reach out to Greg via LinkedIn; confirm comp range before deep interviews.

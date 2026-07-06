@@ -19,6 +19,8 @@ kanban-plugin: board
 
 ## Done
 
+- [ ] Madison-Davis - Managing Directory, Platform Engineering
+- [ ] Naviant - VP, Technology and Solutions
 
 
 

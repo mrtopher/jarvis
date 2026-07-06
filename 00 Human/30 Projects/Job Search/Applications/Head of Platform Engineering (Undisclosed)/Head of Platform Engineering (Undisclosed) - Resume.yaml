@@ -1,0 +1,79 @@
+target_title: "Head of Platform Engineering"
+target_subtitle: "Platform Strategy | Engineering Leadership | Cloud Computing"
+
+summary: >-
+  Engineering executive with 20 years scaling high-traffic platforms and building the
+  engineering organizations that run them. Founded and grew a platform org from 8 to 40+
+  engineers, stood up a self-service, paved-road model that cut time-to-ship by 35%, and
+  carried it across 100+ properties serving millions of users. At Pipeline 360, delivered a
+  revenue-critical platform from zero to production in under 90 days, protecting an 8-figure
+  revenue line during a post-divestiture reset. Known for running the internal developer
+  platform as a product, holding the line on reliability, and connecting platform investment
+  directly to how fast teams ship.
+
+achievements:
+  - label: "Scaled a Platform Org"
+    text: "Founded and grew a platform and shared-services engineering org from 8 to 40+ engineers across 5 cross-functional teams, supporting 100+ properties serving millions of users."
+  - label: "Platform-as-a-Product"
+    text: "Ran the internal developer platform as a product, a paved-road, self-service model with automated provisioning and deployment. Cut average time-to-ship 35%, then spread it across the broader portfolio."
+  - label: "Reliability Under Pressure"
+    text: "Delivered a revenue-critical platform from zero to production in under 90 days on AWS, protecting an 8-figure revenue line without trading away security or reliability."
+  - label: "Developer Enablement with AI"
+    text: "Standardized reusable agent skills, evaluation harnesses, and security guardrails on the OpenAI SDK and MCP, driving AI-tooling adoption across an 800+ person SaaS engineering org."
+
+competencies:
+  - "Platform Strategy"
+  - "Technology Strategy"
+  - "Engineering Leadership"
+  - "Technology Leadership"
+  - "Engineering Management"
+  - "Scaling Teams"
+  - "Organizational Design"
+  - "Platform Modernization"
+  - "Cloud Computing"
+  - "DevOps"
+  - "Software Architecture"
+  - "Distributed Systems"
+  - "Technology Roadmapping"
+  - "Applied AI"
+  - "Information Security"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Head of Technology"
+    summary: "Hands-on AI engineering and platform advisory, building automation, developer tooling, and platform systems for enterprise clients."
+    bullets:
+      - "Build agentic-AI and developer-tooling capabilities hands-on, at the code level, across workflow automation, tool management, and model deployment on the OpenAI SDK and MCP."
+      - "Advise CTOs and engineering leaders on platform governance, model evaluation, and an AI-native development lifecycle, standardizing reusable agent skills, templates, and security guardrails."
+      - "Drove AI-tooling adoption across an 800+ person SaaS engineering org by turning one-off scripts into a shared, evaluated, guardrailed developer platform."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned platform, infrastructure, and reliability strategy across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Set architecture and infrastructure standards across application, data, and platform layers on AWS, Kubernetes, and PostgreSQL, raising delivery velocity while hardening resilience and security."
+      - "Matured DevOps, CI/CD, cloud optimization, and Infrastructure-as-Code so teams could provision and deploy through self-service instead of tickets."
+      - "Delivered a custom demand-side campaign platform from zero to production in under 90 days, protecting an 8-figure revenue line."
+      - "Served as the sole technology voice in PE investor and board diligence, translating platform architecture and operational risk into capital-allocation decisions."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the Brand & Content platform engineering organization through post-acquisition integration."
+    bullets:
+      - "Grew from 1 team (8 engineers) to 5 cross-functional teams (40+ engineers) across time zones, owning shared platform services for 100+ properties used by millions."
+      - "Built a repeatable, paved-road operating model. Automated provisioning and deployment cut average time-to-ship 35%, then spread across the broader portfolio."
+      - "Established SRE and reliability practices across 100+ properties, improving uptime and developer experience, by maturing observability, incident management, and automated CI/CD on AWS and Kubernetes."
+      - "Shipped an AI-driven lead-qualification system into the core product, automating scoring and cutting manual qualification effort."
+      - "Built the Product Management function from zero and introduced career frameworks and structured feedback, improving retention 15%."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through a Series-A growth stage, bringing planning, delivery, and on-call structure to a fast-scaling team."
+    bullets:
+      - "Stabilized a Series-A engineering org, reaching consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
+      - "Doubled the engineering team with no loss of release quality by instituting a sprint-planning cadence, code-review gates, and a clear on-call rotation across web and mobile-responsive products."

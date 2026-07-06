@@ -1,0 +1,81 @@
+target_title: "VP of Technology and Solutions"
+target_subtitle: "Technology Strategy | Agentic AI Development | Agile Delivery"
+
+summary: >-
+  Technology executive and hands-on AI builder who turns strategy into delivered client
+  outcomes. Runs the implementation side of an AI consulting practice today, building
+  agentic automation for enterprise clients and leading the discovery, scoping, and
+  solution design that wins and de-risks the work. Owns delivery end to end: matured
+  DevSecOps, CI/CD, and configuration-as-code into self-service, and at Pipeline 360
+  shipped a revenue-critical automation platform from zero to production in under 90 days,
+  protecting an 8-figure line. Known for making an AI-first transition real inside a
+  services business, where margin, delivery quality, and craftsmanship all have to hold
+  at once.
+
+achievements:
+  - label: "Presales to Delivery, Owned"
+    text: "Lead technical discovery, estimation, and deal validation for enterprise engagements, then own the delivery that follows, so what gets sold is what gets built."
+  - label: "AI-First, Hands-On"
+    text: "Build agentic automation for enterprise clients today, at the code level, turning AI strategy into working systems rather than slideware."
+  - label: "Modern SDLC in a Delivery Org"
+    text: "Matured DevSecOps, CI/CD, and configuration-as-code into self-service, replacing ticket queues so teams delivered faster without loosening security."
+  - label: "Delivery Under Pressure"
+    text: "Shipped a revenue-critical automation platform from zero to production in under 90 days on AWS, protecting an 8-figure revenue line without cutting security or reliability."
+
+competencies:
+  - "Technology Strategy"
+  - "AI Strategy"
+  - "Agentic AI Development"
+  - "Applied AI"
+  - "Change Management"
+  - "Engineering Leadership"
+  - "Engineering Management"
+  - "Scaling Teams"
+  - "Organizational Design"
+  - "Agile Delivery"
+  - "Enterprise Architecture"
+  - "Software Architecture"
+  - "DevOps"
+  - "Technology Roadmapping"
+  - "Product Strategy"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the implementation practice of a full-service AI consulting firm, owning solution design and delivery from presales discovery through production for enterprise clients."
+    bullets:
+      - "Build agentic-AI and intelligent-automation systems hands-on, at the code level, turning client AI strategy into working solutions across workflow automation, tool orchestration, and model deployment."
+      - "Run presales technical rigor for enterprise engagements: lead discovery, estimation, and deal validation, translating ambiguous business goals into scoped solution designs the delivery team can commit to."
+      - "Advise CTOs and delivery leaders on an AI-native SDLC across solution architecture, model evaluation, and governance, standardizing reusable agent skills, templates, and DevSecOps-grade security guardrails."
+      - "Drove AI-tooling adoption across an 800+ person SaaS engineering org by turning one-off scripts into a shared, evaluated, guardrailed platform teams actually trusted."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, solution architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Set technology strategy and architecture standards across application, data, and platform layers on AWS, Kubernetes, and PostgreSQL, raising delivery velocity while hardening resilience and security."
+      - "Stood up modern SDLC practice: matured DevSecOps, CI/CD, cloud optimization, and configuration-as-code so teams could provision and deploy through self-service instead of tickets."
+      - "Delivered a custom demand-side ad-buying and campaign-management platform from zero to production in under 90 days, protecting an 8-figure revenue line."
+      - "Served as the sole technology voice in PE investor and board diligence, leading technical discovery and risk validation that shaped capital-allocation decisions."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the Brand & Content platform and delivery engineering organization through post-acquisition integration."
+    bullets:
+      - "Grew from 1 team (8 engineers) to 5 cross-functional teams (40+ engineers) across time zones, owning shared solution and platform services for 100+ properties used by millions."
+      - "Established modern SDLC and SRE practices across 100+ properties by maturing observability, incident management, and automated CI/CD on AWS and Kubernetes, improving uptime and developer experience."
+      - "Built a repeatable, paved-road delivery model. Automated provisioning and deployment cut average time-to-ship 35%, then spread across the broader portfolio."
+      - "Shipped an AI-driven lead-qualification system into the core product, automating scoring and cutting manual qualification effort."
+      - "Built the Product Management function from zero and introduced career frameworks and structured feedback, improving retention 15%."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through a Series-A growth stage, bringing planning, delivery, and on-call structure to a fast-scaling team."
+    bullets:
+      - "Stabilized a Series-A engineering org, reaching consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
+      - "Doubled the engineering team with no loss of release quality by instituting a sprint-planning cadence, code-review gates, and a clear on-call rotation across web and mobile-responsive products."
