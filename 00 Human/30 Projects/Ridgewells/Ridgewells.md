@@ -13,7 +13,7 @@ tags: [project, client]
 > Build a SaaS application for Ridgewells that they can spin off as a standalone company, [[CATE]].
 
 ## Context
-> Ridgewells is a catering company and Dual Logic client. We are building them a SaaS application ([[CATE]]) which they intend to spin off as a new company. Design system work ("CATE 2.0") is in progress with [[Nate Gersten]].
+> [[Ridgewells Catering]] is a catering company and [[Dual Logic]] client. We are building them a SaaS application ([[CATE]]) which they intend to spin off as a new company. Design system work ("CATE 2.0") is in progress with [[Nate Gersten]].
 
 ## Tasks
 - [ ] Advance CATE 2.0 design system (with [[Nate Gersten]])
@@ -22,8 +22,8 @@ tags: [project, client]
 - [[Nate Gersten]] (design system)
 
 ## Related
-- Company: [[Ridgewells]] (client) / [[CATE]] (planned spin-off)
-- Topic:
+- Company: [[Ridgewells Catering]] (client) / [[CATE]] (planned spin-off)
+- Topic: [[CATE]]
 
 ## Notes
 - CATE = the SaaS product being built, which Ridgewells plans to spin off as its own company.

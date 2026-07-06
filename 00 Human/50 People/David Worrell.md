@@ -2,7 +2,7 @@
 type: person
 name: "David Worrell"
 title: "Owner"
-company: "[[WeAquatics]]"
+company: "[[WeAquatics Swim School]]"
 relationship:
 tags: [person]
 ---
@@ -10,7 +10,7 @@ tags: [person]
 # David Worrell
 
 ## Overview
-> Owner at [[WeAquatics]].
+> Owner / Managing Director at [[WeAquatics Swim School]].
 
 ## Contact
 - **Email:** 

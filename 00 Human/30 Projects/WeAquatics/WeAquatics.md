@@ -15,7 +15,7 @@ tags:
 > Deliver the client engagement (rescheduler, AppSheet build and final recommendation presentation). Will likely transition to maintenance by end of July 2026.
 
 ## Context
-> Dual Logic client. Active build across two workstreams: a rescheduler (with [[Muskann Badjatia]] and [[Pradeep Mishra]]) and an AppSheet app (with [[Faraz Ahmad]]).
+> [[WeAquatics Swim School]] is a [[Dual Logic]] client. Active build across two workstreams: a rescheduler (with [[Muskann Badjatia]] and [[Pradeep Mishra]]) and an AppSheet app (with [[Faraz Ahmad]]).
 
 ## Tasks
 - [ ] Wrap up active work across both workstreams (rescheduler + AppSheet) by end of July
@@ -29,6 +29,7 @@ tags:
 - [[Faraz Ahmad]] (AppSheet)
 
 ## Related
+- Company: [[WeAquatics Swim School]] (client)
 - Topic:
 
 ## Notes

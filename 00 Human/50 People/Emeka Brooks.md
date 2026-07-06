@@ -2,7 +2,7 @@
 type: person
 name: "Emeka Brooks"
 title: "Operations Manager"
-company: "[[WeAquatics]]"
+company: "[[WeAquatics Swim School]]"
 relationship:
 tags: [person]
 ---
@@ -10,7 +10,7 @@ tags: [person]
 # Emeka Brooks
 
 ## Overview
-> Operations Manager at [[WeAquatics]].
+> Operations Manager at [[WeAquatics Swim School]].
 
 ## Contact
 - **Email:** 
