@@ -35,9 +35,14 @@ Read the last 3 daily notes before today and pull forward:
 - blockers worth carrying
 
 ## Step 6 - Read open work
-Read:
+First, sync the Ridgewells/CATE repo so the project note reflects current build state:
+- Run: `python3 Machine/Scripts/sync-ridgewells.py --apply`
+- This appends new commits/PRs/issues to the Ridgewells `## Log` and refreshes the read-only docs mirror at `00 Human/30 Projects/Ridgewells/repo-docs/`.
+- It is graceful: if `gh` is missing, unauthenticated, or offline, it prints a `[skip]` line and does nothing. Do not block the workflow.
+
+Then read:
 - pending task files in `00 Human/20 Tasks/`
-- active project notes in `00 Human/30 Projects/`
+- active project notes in `00 Human/30 Projects/` (the Ridgewells note is now current)
 
 ## Step 7 - Pull today's Google Calendar
 Import real commitments so the plan and time blocks fit the actual day.

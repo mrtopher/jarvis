@@ -7,3 +7,11 @@
 
 # Shell history captured by lean-terminal plugin (may contain sensitive commands)
 .obsidian/plugins/lean-terminal/shell-integration/.zsh_history
+
+# lean-terminal plugin state: UI prefs + serialized terminal scrollback, churns every session
+.obsidian/plugins/lean-terminal/data.json
+
+# Ridgewells sync: generated read-only mirror of the cate-hq/platform repo docs
+00 Human/30 Projects/Ridgewells/repo-docs/
+# Ridgewells sync: per-machine last-run window (digest dedupes off the note itself)
+Machine/Scripts/.ridgewells-sync-state.json
