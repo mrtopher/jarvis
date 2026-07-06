@@ -3,6 +3,7 @@
 
 # Obsidian per-machine UI state
 .obsidian/workspaces.json
+.obsidian/graph.json
 
 # Shell history captured by lean-terminal plugin (may contain sensitive commands)
 .obsidian/plugins/lean-terminal/shell-integration/.zsh_history
