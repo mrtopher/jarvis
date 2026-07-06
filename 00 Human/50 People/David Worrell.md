@@ -18,7 +18,7 @@ tags: [person]
 - **LinkedIn:**
 
 ## Projects
--
+- [[WeAquatics]]
 
 ## Notes
 

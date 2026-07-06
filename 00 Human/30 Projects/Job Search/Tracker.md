@@ -10,7 +10,6 @@ kanban-plugin: board
 
 ## Pending
 
-- [ ] [[00 Human/30 Projects/Job Search/Applications/Change.org/Role Summary|Change.org - VP of Engineering, Elections]] - APPLY - https://jobs.ashbyhq.com/Change/e291773c-cb1a-4782-aec0-163166e7ae58
 
 
 ## Apply
@@ -19,8 +18,10 @@ kanban-plugin: board
 
 ## Done
 
+- [ ] Change.org - VP of Engineering, Elections (passed 2026-07-06)
 - [ ] Madison-Davis - Managing Directory, Platform Engineering
 - [ ] Naviant - VP, Technology and Solutions
+- [ ] Ocrolus - VP, Engineering
 
 
 
