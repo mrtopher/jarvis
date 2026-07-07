@@ -5,7 +5,7 @@ tags:
 cssclasses:
   - ops-dashboard-note
 ---
-	
+
 ```dataviewjs
 /* =====================================================================
    OPERATIONS DASHBOARD  v1  (DataviewJS)
@@ -32,6 +32,17 @@ try {
   const body = inboxRaw.split(/##\s*Unprocessed/)[1] || "";
   inboxN = (body.match(/^\s*[-*]\s+\S/gm) || []).length;
 } catch (e) { inboxN = 0; }
+
+// daily quote from zenquotes.io. Use Obsidian's requestUrl (not fetch) so the
+// call goes through Electron's main process and skips browser CORS. /api/today
+// returns the quote of the day as [{q, a, ...}], stable for the whole day.
+let quote = null;
+try {
+  const { requestUrl } = require("obsidian");
+  const res = await requestUrl({ url: "https://zenquotes.io/api/today" });
+  const data = res.json;
+  if (Array.isArray(data) && data[0]?.q) quote = { q: data[0].q, a: data[0].a || "Unknown" };
+} catch (e) { quote = null; }
 
 const esc = (s) => (s ?? "").toString()
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -223,6 +234,15 @@ root.innerHTML = `
 
     </div>
     <div class="ops-col">
+
+      <!-- DAILY QUOTE -->
+      <div class="ops-card ops-quote">
+        <div class="ops-card-head">💬 Daily Quote</div>
+        ${quote
+          ? `<blockquote class="ops-quote-text">${mdInline(quote.q)}</blockquote>
+             <div class="ops-quote-author">— ${mdInline(quote.a)}</div>`
+          : `<div class="ops-empty">Couldn't reach zenquotes.io right now.</div>`}
+      </div>
 
       <!-- SCHEDULE -->
       <div class="ops-card">

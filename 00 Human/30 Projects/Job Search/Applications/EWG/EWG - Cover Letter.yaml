@@ -1,0 +1,38 @@
+date: "July 7, 2026"
+salutation: "Dear Mr. Cook,"
+
+paragraphs:
+  - >-
+    I am a technology executive who still writes code. I run the implementation side of an AI
+    consulting practice, which means I own the architecture, build the data pipelines, and carry
+    them to production. Your posting asks for a leader who modernizes an aging stack, kills the
+    manual work, brings AI to consumer products responsibly, and stays hands-on through all of it.
+    That is the job I do now. It is the one I want to do for EWG.
+  - >-
+    EWG is at the moment I like best. You reach millions through Skin Deep, Food Scores, and the
+    Healthy Living app, and you are ready to move off manual, spreadsheet-bound workflows onto
+    systems that scale. Turning legacy, hand-run operations into modern, automated platforms is
+    exactly where I work. At Pipeline 360 I shipped a revenue-critical platform, data ingestion
+    and processing pipelines included, from zero to production in under 90 days, protecting an
+    8-figure line without loosening security. At Industry Dive I grew one team of eight into five
+    teams of forty serving 100-plus properties used by millions, set the testing and release
+    standards, and cut time-to-ship 35% into a repeatable operating model.
+  - >-
+    The AI work is the part I care about most, and my conviction fits your mission. I shipped an
+    AI scoring system into a core product used by millions, pairing automation with a human review
+    loop that cut manual effort at scale. I do not believe you bolt AI onto a consumer product to
+    chase the hype cycle. You add it where it earns trust, with a human in the loop where the
+    stakes are high. That is your brand. Millions rely on EWG because the science is honest, and
+    AI should deepen that trust, not dilute it.
+  - >-
+    A nonprofit is a new setting for me, and I want to be straight about that. What carries across
+    is how I lead. I translate technology strategy for the people who fund it, so a President, a
+    board, and funders can see what they are buying and why. I steward the budget like it is the
+    mission's money, because it is. I build the right thing, not the expensive thing, and I stay in
+    the code while I do it.
+  - >-
+    I would welcome a conversation about modernizing EWG's platforms and where you want the
+    technology to go next.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

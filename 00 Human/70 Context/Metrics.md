@@ -6,7 +6,7 @@ tags:
 
 # Metrics
 
-Data source for the **[[Operations Dashboard]]** audience panel.
+Data source for the **[[Dashboard]]** audience panel.
 
 - One row per day. Newest row = "today", second-newest = "yesterday".
 - The dashboard reads the **last** row for current values, computes "vs yesterday"

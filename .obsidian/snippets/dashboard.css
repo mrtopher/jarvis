@@ -206,3 +206,14 @@
 .ops-dashboard .ops-feedback { color: var(--ops-green); font-size: 12px; }
 
 .ops-dashboard .ops-empty { color: var(--ops-muted); font-style: italic; font-size: 13px; }
+
+/* ---- daily quote ----------------------------------------------------- */
+.ops-dashboard .ops-quote blockquote.ops-quote-text {
+  margin: 0; padding: 0 0 0 14px; border: none;
+  border-left: 3px solid var(--ops-green-dim);
+  font-size: 16px; font-style: italic; line-height: 1.5; color: var(--ops-text);
+}
+.ops-dashboard .ops-quote-author {
+  margin-top: 10px; text-align: right;
+  font-size: 13px; font-weight: 700; color: var(--ops-green);
+}
