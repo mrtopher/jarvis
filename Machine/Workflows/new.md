@@ -18,7 +18,7 @@ If `/new` is run with no input (or explicitly to "triage the inbox"), instead re
 ## Step 2 - Classify the pieces
 Split the input into any mix of:
 - task
-- frog
+- daily commitment candidate
 - project update
 - person update
 - resource
@@ -27,7 +27,7 @@ Split the input into any mix of:
 
 ## Step 3 - Route each piece
 - Tasks -> `00 Human/20 Tasks/`
-- Frogs -> today's daily note `## 🐸 Frogs to Eat`
+- Daily commitment candidates -> today's daily note `## ✅ Today's Tasks` (flag as a candidate for `## 🎯 Today's Commitment`)
 - Project updates -> project note log
 - People -> `00 Human/50 People/`
 - Resources -> `00 Human/40 Resources/`

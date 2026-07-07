@@ -36,7 +36,7 @@ Ask one question at a time:
 1. "How do you want `/today` to plan your days — focused, balanced, or aggressive?"
 2. "How many true priorities do you want in a normal day?"
 3. "Do you want suggested time blocks, or just a priority list?"
-4. "What counts as a frog for you — overdue tasks, avoided tasks, admin, or something else?"
+4. "What's the one thing you most often avoid that should become a daily commitment — overdue tasks, avoided outreach, admin, or something else?" (Do not use "frog" framing; the operator dislikes it.)
 
 ## Step 4 - Ask about metrics and closeout
 Ask one question at a time:

@@ -20,4 +20,4 @@ Use the current business and operator context to prioritize decisions, action it
 ## Route outputs
 - Client/prospect meetings → link to [[Client Acquisition]] and the relevant [[50 People]] note.
 - Interview/networking meetings → link to [[Job Search]].
-- Surface any follow-up as a frog candidate for the next `/today`.
+- Surface any follow-up as a daily-commitment candidate for the next `/today`.

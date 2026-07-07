@@ -31,7 +31,7 @@ Look for `00 Human/10 Daily Notes/YYYY-MM-DD.md`.
 ## Step 5 - Read recent execution state
 Read the last 3 daily notes before today and pull forward:
 - unchecked tasks
-- unchecked frogs
+- an unfinished commitment worth carrying
 - blockers worth carrying
 
 ## Step 6 - Read open work
@@ -57,9 +57,8 @@ Import real commitments so the plan and time blocks fit the actual day.
 
 ## Step 8 - Build the plan
 Use the compiled today prompt plus the real vault state to determine:
-- The ONE Thing
+- Today's Commitment (the one thing to finish today; do NOT use "frog" or "ONE Thing" framing)
 - Top priorities
-- Frogs
 - Today's tasks
 - Quick wins
 - Time blocks if the compiled prompt says to use them, scheduled around the calendar events from Step 7
@@ -72,16 +71,13 @@ Use this format:
 ```
 ## Today's Plan - [Day, Date]
 
-### The ONE Thing
+### Today's Commitment
 > ...
 
 ### Top Priorities
 1. ...
 2. ...
 3. ...
-
-### Frogs to Eat
-- [ ] ...
 
 ### Today's Tasks
 - [ ] ...
@@ -100,8 +96,7 @@ Use this format:
 ## Step 10 - Write to today's note
 After presenting the plan, ask whether to write it into today's note.
 If yes, update:
-- `## 🎯 Today's Focus`
-- `## 🐸 Frogs to Eat`
+- `## 🎯 Today's Commitment`
 - `## ✅ Today's Tasks`
 - `## ⚡ Quick Wins`
 - `## 📅 Calendar` with the imported Google Calendar events (Step 7) plus any time blocks created

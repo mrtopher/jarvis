@@ -20,7 +20,7 @@ If it does not exist, create it from the daily template.
 
 ## Step 3 - Find carry-overs
 Pull unchecked items from:
-- `## 🐸 Frogs to Eat`
+- `## 🎯 Today's Commitment`
 - `## ✅ Today's Tasks`
 - `## ⚡ Quick Wins`
 

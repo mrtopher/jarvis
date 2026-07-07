@@ -9,14 +9,9 @@ tags:
 # {{date:dddd, MMMM D, YYYY}}
 ← [[{{date-1d:YYYY-MM-DD}}]] | [[{{date+1d:YYYY-MM-DD}}]] →
 
-## 🎯 Today's Focus
-> The ONE thing that makes the day feel like progress.
-- **ONE Thing:**
-- **Priority 2:**
-- **Priority 3:**
-
-## 🐸 Frogs to Eat
-- [ ]
+## 🎯 Today's Commitment
+> The one thing I'm committing to finish today.
+-
 
 ## ✅ Today's Tasks
 - [ ]
