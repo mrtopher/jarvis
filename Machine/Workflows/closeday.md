@@ -2,7 +2,7 @@
 type: workflow
 status: active
 trigger: /closeday
-last_verified: "2026-05-01"
+last_verified: "2026-07-07"
 tags: [workflow, eod, daily]
 ---
 
@@ -28,6 +28,18 @@ Pull unchecked items from:
 Read `00 Human/00 Inbox/Inbox.md` and count the bullets under `## Unprocessed`.
 - If there are none, note "inbox clear" and continue.
 - If there are captures, list them and ask whether to triage now. If yes, route each via `/new` (which will remove the bullet as it processes it). Anything left stays in the inbox for tomorrow.
+
+## Step 3c - Import today's meetings from Fireflies
+Meetings are transcribed by Fireflies AI (MCP tools namespaced `mcp__claude_ai_Fireflies__*`). Turn any of today's transcripts that match today's meetings into meeting notes automatically.
+
+1. Read the meeting names from today's `## 📅 Calendar` section.
+2. Call `fireflies_get_transcripts` filtered to today's date to list what Fireflies captured.
+3. Match Fireflies transcripts to the calendar meetings by name (fuzzy — Fireflies titles won't match exactly; a partial/keyword match is fine).
+4. For each match with no existing `00 Human/40 Resources/Meetings/YYYY-MM-DD - [name].md`, run the `/meeting-notes` workflow with that Fireflies transcript ID to create the meeting note, tasks, and people updates. Skip anything already imported (this step is idempotent).
+5. If a Fireflies transcript has no calendar match, list it and ask whether to import it anyway.
+6. If Fireflies is not connected (`! Needs authentication`), skip this step and note it — do not block closeday.
+
+Fold action items from imported meetings into the carry-overs staged in Step 6.
 
 ## Step 4 - Ask the end-of-day questions
 Ask one question at a time.
@@ -60,4 +72,5 @@ Report back with:
 - carry-overs staged
 - tomorrow note ready
 - inbox status (cleared, or N items left to triage)
+- meetings imported from Fireflies (N, with names — or none / skipped and why)
 - git backup status (pushed, or skipped and why)

@@ -1,0 +1,37 @@
+date: "July 7, 2026"
+salutation: "Dear Julia,"
+
+paragraphs:
+  - >-
+    I am a technology executive who still writes code. I run the technical side of an AI
+    consulting practice, which means I build the agentic workflows, wire up the LLM calls,
+    and own the architecture that carries them to production. Your posting asks for a leader
+    who turns an executive's product vision into commercial software fast, without letting
+    quality slip, while staying hands-on. That is the job I do now, and it is the one I want
+    to do at scale for CeCe.
+  - >-
+    Churchstreeter and Crosse is at the moment I like best: a services business with real
+    healthcare depth that now wants to turn its proprietary AI platform into an enterprise
+    product. That seam, taking an executive's AI vision from concept to commercial launch,
+    is exactly where I work. At Pipeline 360 I shipped a revenue-critical platform on AWS
+    from zero to production in under 90 days, protecting an 8-figure line without loosening
+    security. At Industry Dive I grew one team of eight into five cross-functional teams of
+    forty across time zones, built the product management function from scratch, and cut
+    time-to-ship 35% into a repeatable operating model.
+  - >-
+    The AI work is the part I care about most, and it is where I hold a strong conviction that
+    fits your mission. I shipped an AI scoring system into a core product used by millions,
+    pairing automated scoring with a human review loop that cut manual effort at scale. I do
+    not believe you can blindly replace people with AI agents, least of all in healthcare. The
+    right build augments the workforce and keeps a human in the loop where the stakes are high.
+    A workforce-intelligence platform for health systems is that belief made into product.
+  - >-
+    I will be direct about one thing. Healthcare workforce is not a domain I have shipped in
+    before. It is also the domain I would ramp on the way I ramp on every new one: embedded with
+    the operators who know it, fast, and in the open. That is your own model, join the team, apply
+    data to the root problem, stay until the outcome is measurable. It is how I work too.
+  - >-
+    I would welcome a conversation about where you want CeCe and the product to go next.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

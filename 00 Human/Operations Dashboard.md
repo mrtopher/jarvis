@@ -5,7 +5,7 @@ tags:
 cssclasses:
   - ops-dashboard-note
 ---
-
+	
 ```dataviewjs
 /* =====================================================================
    OPERATIONS DASHBOARD  v1  (DataviewJS)

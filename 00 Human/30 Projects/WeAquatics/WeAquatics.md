@@ -34,9 +34,13 @@ tags:
 
 ## Notes
 - Two workstreams: rescheduler (Musk, Pradeep) and AppSheet (Faraz).
+- Platform selection now feeds the final recommendation: evaluating [[Commit Swimming]] for the swim team (see [[2026-07-07 - WeAquatics × Commit Swimming Platform Eval]]). Leaning swim team on Commit now, defer lessons until Commit's lessons module ships (summer).
 - Chris owns this engagement and is driving it across both workstreams. No handoff to Peter (that framing predated the July break). Goal is to wrap active work by end of month.
 
 ## Log
+### 2026-07-07
+- [[2026-07-07 - WeAquatics × Commit Swimming Platform Eval]] call. Commit ($2,490/yr Premium, ~3-wk onboarding) is a credible fit for the swim team; lessons deferred. Follow-ups: [[Fold Commit Swimming eval into WeAquatics recommendation]], [[Assess Commit Swimming API and export limits for WeAquatics]].
+
 ### 2026-07-06
 - Created project note. Backfilled the dangling [[WeAquatics]] wikilink referenced across daily notes and person notes (David Worrell, Emeka Brooks).
 - Corrected ownership: engagement stays with Chris (no Peter handoff). Focus shifted to wrapping active work across both workstreams by 2026-07-31.

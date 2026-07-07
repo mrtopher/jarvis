@@ -3,10 +3,17 @@
 resume-fill.py — Render a styled .docx resume from a YAML content file and a
 docxtpl (Jinja) template.
 
-The template (Machine/Templates/resume-reference.docx) owns ALL layout and
-styling — tables, the shaded achievements box, the competency grid, fonts,
-margins. This script only pours in tailored content, so the format is identical
-every time.
+The template owns ALL layout and styling — tables, fonts, margins, and (for the
+styled template) the shaded achievements box and competency grid. This script
+only pours in tailored content, so the format is identical every time.
+
+Two templates ship with the vault:
+  - resume-ats.docx        the default: a simple, single-column, ATS-friendly
+                           layout with a keyword-rich categorized Skills line
+                           (uses skill_groups[]).
+  - resume-reference.docx  the styled version with shaded boxes and a
+                           competency grid (uses competencies[]). Opt in with
+                           --template Machine/Templates/resume-reference.docx.
 
 Usage:
     Machine/Scripts/resume-fill.py <content.yaml> [output.docx] [--template path]
@@ -23,7 +30,7 @@ from docxtpl import DocxTemplate
 import yaml
 
 VAULT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-DEFAULT_TEMPLATE = os.path.join(VAULT_ROOT, "Machine", "Templates", "resume-reference.docx")
+DEFAULT_TEMPLATE = os.path.join(VAULT_ROOT, "Machine", "Templates", "resume-ats.docx")
 
 
 def main():

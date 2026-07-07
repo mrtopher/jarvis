@@ -23,6 +23,7 @@ kanban-plugin: board
 - [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
 - [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
 - [ ] Civis - CTO (applied 2026-07-06)
+- [ ] Churchstreet & Crosse - VP, Engineering & Product
 
 
 

@@ -1,6 +1,6 @@
 # /closeday
 
-Close the day, log wins/blockers, and stage tomorrow.
+Close the day, log wins/blockers, import today's Fireflies meeting transcripts, and stage tomorrow.
 
 Read and execute the workflow file at `Machine/Workflows/closeday.md` — follow every step exactly as documented.
 

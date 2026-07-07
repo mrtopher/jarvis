@@ -10,7 +10,6 @@ tags: [area, sample]
 > Areas track ongoing responsibility, not one-off outcomes.
 
 ## Active Projects
-- [[Example Project]]
 
 ## Key Metrics
 | Metric | Current | Target |

@@ -12,4 +12,4 @@ Triage with `/new` to route each item into a project, task, person, or resource,
 then delete the bullet once it's been processed.
 
 ## Unprocessed
-- [21:10] Do something important
+- 
