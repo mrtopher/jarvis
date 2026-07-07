@@ -1,0 +1,82 @@
+target_title: "Chief Technology Officer"
+target_subtitle: "AI Strategy | Technology Leadership | Platform Strategy"
+
+summary: >-
+  Hands-on CTO who came up through architecture and never left the code. Runs the technical
+  side of an AI consulting practice today, building agentic and LLM-backed products for
+  enterprise clients while owning strategy, delivery, and the teams that ship them. Turns a
+  data platform into product: at Pipeline 360 shipped a revenue-critical, data-driven platform
+  on AWS from zero to production in under 90 days, protecting an 8-figure line, and at Industry
+  Dive scaled one team of 8 into five cross-functional teams of 40+ serving 100+ properties
+  used by millions. Drove AI-augmented tooling across an 800+ engineer org by turning loose
+  scripts into an evaluated, guardrailed platform teams trusted. Known for the player-coach
+  seam, closing the gap from AI strategy to production without letting quality, reliability,
+  or craft slip.
+
+achievements:
+  - label: "Player-Coach at the Code"
+    text: "Build agentic and LLM-backed systems for enterprise clients hands-on while owning strategy and delivery, so architecture decisions come from someone still in the weeds."
+  - label: "Data Platform, Zero to Prod"
+    text: "Shipped a revenue-critical, data-driven platform on AWS from zero to production in under 90 days, protecting an 8-figure line without loosening reliability or security."
+  - label: "AI Product, Human in the Loop"
+    text: "Shipped an AI-driven scoring system into a core product used by millions, pairing automated document and signal scoring with a human review loop that cut manual effort at scale."
+  - label: "Scaled a Cross-Functional Org"
+    text: "Grew 1 team of 8 into 5 cross-functional teams of 40+ across time zones, standing up SRE, observability, and paved-road delivery that cut time-to-ship 35%."
+
+competencies:
+  - "AI Strategy"
+  - "Applied AI"
+  - "Agentic AI Development"
+  - "AI Integration"
+  - "Technology Strategy"
+  - "Platform Strategy"
+  - "Technology Leadership"
+  - "Engineering Leadership"
+  - "Scaling Teams"
+  - "Team Building"
+  - "Software Architecture"
+  - "Enterprise Architecture"
+  - "Distributed Systems"
+  - "Technology Roadmapping"
+  - "Product Strategy"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Ship AI products to production hands-on: build agentic workflows and LLM-backed systems at the code level, turning client AI strategy into working software across tool orchestration, RAG retrieval, and model deployment."
+      - "Own technical vision and architecture across engagements as a player-coach, setting long-term direction while staying close enough to systems and delivery to make the hard calls under ambiguity."
+      - "Drove adoption of AI-augmented development tools across an 800+ engineer SaaS org by turning one-off scripts into a shared, evaluated, guardrailed platform, with standards for output quality, hallucination control, and cost governance."
+      - "Advise CEOs and CTOs on an AI-native SDLC across solution architecture, model evaluation, and human-in-the-loop verification, standardizing reusable agent skills and DevSecOps-grade guardrails."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Owned the technical roadmap for cloud-native, distributed, data-driven systems on AWS, Kubernetes, and PostgreSQL, setting architecture standards across application, data, and platform layers to raise velocity while hardening high availability and security."
+      - "Set and enforced engineering standards through architecture reviews, observability, incident response, and configuration-as-code, moving teams to self-service provisioning and deploys instead of ticket queues."
+      - "Delivered a custom demand-side ad-buying and campaign-management platform from zero to production in under 90 days on AWS, protecting an 8-figure revenue line."
+      - "Served as the sole technology voice in PE investor and board diligence, leading technical risk validation that shaped capital-allocation decisions."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the Brand & Content platform and delivery engineering organization through post-acquisition integration."
+    bullets:
+      - "Grew 1 team of 8 into 5 cross-functional teams of 40+ across time zones, owning shared platform and solution services for 100+ properties used by millions."
+      - "Established SRE and modern SDLC across 100+ properties by maturing observability, incident management, and automated CI/CD on AWS and Kubernetes, improving uptime and developer experience."
+      - "Built a paved-road delivery model where automated provisioning and deployment cut average time-to-ship 35%, then spread the pattern across the broader portfolio."
+      - "Shipped an AI-driven lead-qualification system into the core product, pairing automated document and signal scoring with a human review loop to cut manual qualification effort at scale."
+      - "Built the Product Management function from zero and introduced career ladders and structured feedback, improving retention 15%."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth, bringing planning, delivery, and on-call structure to a fast-scaling team."
+    bullets:
+      - "Stabilized a Series-A engineering org to consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
+      - "Doubled the engineering team with no loss of release quality by instituting sprint-planning cadence, code-review gates, and a clear on-call rotation across web and mobile-responsive products."

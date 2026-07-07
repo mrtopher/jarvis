@@ -1,0 +1,35 @@
+date: "July 6, 2026"
+salutation: "Dear Dan,"
+
+paragraphs:
+  - >-
+    I am a CTO who still writes code. I run the technical side of an AI consulting practice,
+    which means I build the agentic workflows, wire up the LLM calls, and own the architecture
+    that carries them to production. Your posting asks for a player-coach who sets long-term
+    direction while staying close to systems and delivery. That is the job I do now, and it is
+    the one I want to do at scale.
+  - >-
+    Civis is at the moment I like best: a company that owns a serious data platform and now
+    wants to build real AI products on top of it. That seam is exactly where I work. The hard
+    part is not the model. The hard part is cohesion, keeping the platform strong and extensible
+    while the product portfolio grows, without letting reliability or craft slip. I hold a strong
+    opinion that AI done fast is not the same as AI done well. The team that ships AI slop loses
+    to the team that ships judgment.
+  - >-
+    Here is what I would bring. At Pipeline 360 I shipped a revenue-critical, data-driven platform
+    on AWS from zero to production in under 90 days, protecting an 8-figure line without loosening
+    security. At Industry Dive I grew one team of eight into five cross-functional teams of forty
+    across time zones, standing up SRE, observability, and paved-road delivery that cut time-to-ship
+    35%. I also shipped an AI scoring system into a core product used by millions, pairing automated
+    scoring with a human review loop that cut manual effort at scale. Leading a lean, cross-functional
+    group of product, engineering, data, and AI is familiar ground, not a stretch.
+  - >-
+    I will be direct about one thing. My public voice today lives in advisory work and the writing
+    I do on adopting AI well, not a conference circuit. If the CTO here is the face of Civis
+    technology, I would grow into that on your terms, the same way I ramp on every new domain:
+    fast, and in the open.
+  - >-
+    I would welcome a conversation about where you want the platform and the products to go next.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

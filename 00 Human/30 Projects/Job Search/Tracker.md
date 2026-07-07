@@ -19,9 +19,10 @@ kanban-plugin: board
 ## Done
 
 - [ ] Change.org - VP of Engineering, Elections (passed 2026-07-06)
-- [ ] Madison-Davis - Managing Directory, Platform Engineering
-- [ ] Naviant - VP, Technology and Solutions
-- [ ] Ocrolus - VP, Engineering
+- [ ] Madison-Davis - Managing Directory, Platform Engineering (applied 2026-07-06)
+- [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
+- [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
+- [ ] Civis - CTO (applied 2026-07-06)
 
 
 
