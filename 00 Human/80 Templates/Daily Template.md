@@ -24,6 +24,14 @@ tags:
 ## ⚡ Quick Wins
 - [ ]
 
+## 🔁 Daily Drivers
+> Recurring habits that keep the pipeline warm. Dashboard tracks completion %.
+- [ ] Send 1 client outreach
+- [ ] Send 1 networking touch
+- [ ] Inbox triage
+- [ ] Move the job-search pipeline forward
+- [ ] Daily review (`/closeday`)
+
 ## 📅 Calendar
 > Hard stops, time blocks, and important timing context.
 

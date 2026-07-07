@@ -43,6 +43,7 @@ First, sync the repo-backed projects so their notes reflect current build state:
 Then read:
 - pending task files in `00 Human/20 Tasks/`
 - active project notes in `00 Human/30 Projects/` (the repo-backed notes are now current)
+- unprocessed inbox captures in `00 Human/00 Inbox/Inbox.md` (bullets under `## Unprocessed`). These come from the Operations Dashboard Quick Capture and still need triage.
 
 ## Step 7 - Pull today's Google Calendar
 Import real commitments so the plan and time blocks fit the actual day.
@@ -63,6 +64,7 @@ Use the compiled today prompt plus the real vault state to determine:
 - Quick wins
 - Time blocks if the compiled prompt says to use them, scheduled around the calendar events from Step 7
 - Watch-outs or drift warnings
+- If the inbox (Step 6) has unprocessed captures, surface the count. If it is growing (roughly 5+), suggest triaging it via `/new` as a quick win rather than letting it accumulate.
 
 ## Step 9 - Present the plan
 Use this format:

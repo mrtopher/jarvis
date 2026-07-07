@@ -1,5 +1,7 @@
 {
   "cssTheme": "PLN",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "dashboard"
+  ],
   "accentColor": "#f434db"
 }

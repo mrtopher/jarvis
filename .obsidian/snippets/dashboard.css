@@ -1,0 +1,208 @@
+/* =====================================================================
+   Operations Dashboard v1  —  styling for the DataviewJS dashboard note
+   Everything is scoped under .ops-dashboard so it never leaks to other
+   notes. Edit the tokens in :root below to re-skin the whole thing.
+   ===================================================================== */
+
+.ops-dashboard {
+  --ops-bg:        #0a0b09;
+  --ops-card:      #131510;
+  --ops-card-2:    #0f110d;
+  --ops-border:    rgba(255, 255, 255, 0.07);
+  --ops-green:     #f472b6;
+  --ops-green-dim: #b83280;
+  --ops-orange:    #a855f7;
+  --ops-orange-2:  #c084fc;
+  --ops-text:      #e7e7df;
+  --ops-muted:     #8b8c7f;
+  --ops-radius:    16px;
+
+  color: var(--ops-text);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* kill the default reading-view padding so the dashboard fills the pane */
+.markdown-preview-view:has(.ops-dashboard),
+.markdown-source-view.mod-cm6:has(.ops-dashboard) .cm-content {
+  background: var(--ops-bg);
+}
+
+/* -----------------------------------------------------------------------
+   Full-bleed layout: Obsidian's "Readable line length" wraps content in a
+   .markdown-preview-sizer / .cm-sizer with a max-width + auto margins, which
+   is what centers the dashboard in a narrow column. The `ops-dashboard-note`
+   cssclass (set in the note's frontmatter) lets us override it for this note
+   only, without touching the global readable-line-length setting.
+   ----------------------------------------------------------------------- */
+.ops-dashboard-note .markdown-preview-sizer,
+.ops-dashboard-note .cm-sizer {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 20px 24px !important;
+}
+/* hide the frontmatter/properties block so the dashboard starts at the top */
+.ops-dashboard-note .metadata-container,
+.ops-dashboard-note .frontmatter-container {
+  display: none !important;
+}
+/* hide the inline note title (filename) — the dashboard renders its own H1 */
+.ops-dashboard-note .inline-title {
+  display: none !important;
+}
+
+/* ---- layout ---------------------------------------------------------- */
+.ops-dashboard .ops-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.ops-dashboard .ops-col { display: flex; flex-direction: column; gap: 16px; }
+@media (max-width: 900px) {
+  .ops-dashboard .ops-grid { grid-template-columns: 1fr; }
+}
+
+/* ---- header ---------------------------------------------------------- */
+.ops-dashboard .ops-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--ops-green);
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+.ops-dashboard .ops-subtitle {
+  color: var(--ops-muted);
+  margin: 2px 0 18px;
+  font-size: 13px;
+}
+
+/* ---- cards ----------------------------------------------------------- */
+.ops-dashboard .ops-card {
+  background: var(--ops-card);
+  border: 1px solid var(--ops-border);
+  border-radius: var(--ops-radius);
+  padding: 18px 20px;
+}
+.ops-dashboard .ops-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ops-orange);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.ops-dashboard .ops-card-head .ops-spacer { flex: 1; }
+
+/* ---- current focus --------------------------------------------------- */
+.ops-dashboard .ops-focus h2 {
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--ops-green);
+  margin: 4px 0 6px;
+  line-height: 1.1;
+}
+.ops-dashboard .ops-focus .ops-sub { color: var(--ops-muted); margin-bottom: 14px; }
+.ops-dashboard .ops-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.ops-dashboard .ops-chip {
+  background: var(--ops-card-2);
+  border: 1px solid var(--ops-border);
+  border-radius: 8px;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: var(--ops-muted);
+}
+
+/* ---- buttons --------------------------------------------------------- */
+.ops-dashboard .ops-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.ops-dashboard button.ops-btn {
+  background: var(--ops-card-2);
+  border: 1px solid var(--ops-border);
+  color: var(--ops-text);
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: transform .08s ease, background .12s ease, border-color .12s ease;
+}
+.ops-dashboard button.ops-btn:hover { transform: translateY(-1px); border-color: var(--ops-green-dim); }
+.ops-dashboard button.ops-btn.ops-primary {
+  background: linear-gradient(180deg, var(--ops-orange-2), var(--ops-orange));
+  color: #1a0b2e;
+  border-color: transparent;
+}
+
+/* ---- schedule -------------------------------------------------------- */
+.ops-dashboard .ops-sched-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--ops-card-2);
+  border: 1px solid var(--ops-border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+.ops-dashboard .ops-sched-time { color: var(--ops-muted); font-size: 12px; min-width: 64px; }
+.ops-dashboard .ops-sched-body { flex: 1; }
+.ops-dashboard .ops-sched-title { font-weight: 700; }
+.ops-dashboard .ops-badge {
+  font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px;
+}
+.ops-dashboard .ops-badge.now  { background: rgba(244,114,182,.18); color: var(--ops-green); }
+.ops-dashboard .ops-badge.next { background: rgba(168,85,247,.20);  color: #c084fc; }
+
+/* ---- daily drivers / progress --------------------------------------- */
+.ops-dashboard .ops-progress-wrap { margin-bottom: 12px; }
+.ops-dashboard .ops-progress-label { color: var(--ops-muted); font-size: 12px; margin-bottom: 6px; }
+.ops-dashboard .ops-progress {
+  height: 6px; border-radius: 999px; background: var(--ops-card-2); overflow: hidden;
+}
+.ops-dashboard .ops-progress > span {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, var(--ops-green-dim), var(--ops-green));
+}
+/* let dataview task lists inherit the dark card look */
+.ops-dashboard .contains-task-list,
+.ops-dashboard ul.contains-task-list { padding-left: 4px; margin: 0; }
+.ops-dashboard .task-list-item { list-style: none; padding: 6px 0; }
+
+/* ---- metrics --------------------------------------------------------- */
+.ops-dashboard .ops-tabs { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+.ops-dashboard .ops-tab {
+  background: var(--ops-card-2); border: 1px solid var(--ops-border);
+  border-radius: 8px; padding: 6px 14px; font-size: 13px; color: var(--ops-muted); cursor: pointer;
+}
+.ops-dashboard .ops-tab.active { color: var(--ops-green); border-color: var(--ops-green-dim); }
+.ops-dashboard .ops-metrics { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+@media (max-width: 1200px) { .ops-dashboard .ops-metrics { grid-template-columns: repeat(2, 1fr); } }
+.ops-dashboard .ops-metric {
+  background: var(--ops-card-2); border: 1px solid var(--ops-border);
+  border-radius: 12px; padding: 14px;
+}
+.ops-dashboard .ops-metric .ops-metric-label {
+  color: var(--ops-muted); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px;
+}
+.ops-dashboard .ops-metric .ops-metric-value { font-size: 28px; font-weight: 800; margin: 6px 0; }
+.ops-dashboard .ops-metric .ops-delta { font-size: 12px; font-weight: 700; color: var(--ops-green); }
+.ops-dashboard .ops-metric .ops-delta.flat { color: var(--ops-muted); }
+.ops-dashboard .ops-metric .ops-delta.down { color: #e2685f; }
+.ops-dashboard .ops-metric .ops-metric-unit { color: var(--ops-muted); font-size: 11px; margin-top: 4px; }
+
+/* ---- quick capture --------------------------------------------------- */
+.ops-dashboard textarea.ops-qc {
+  width: 100%; box-sizing: border-box; min-height: 90px; resize: vertical;
+  background: var(--ops-card-2); border: 1px solid var(--ops-border); border-radius: 12px;
+  color: var(--ops-text); padding: 12px; font-size: 14px; margin-top: 10px;
+}
+.ops-dashboard .ops-qc-row { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.ops-dashboard .ops-feedback { color: var(--ops-green); font-size: 12px; }
+
+.ops-dashboard .ops-empty { color: var(--ops-muted); font-style: italic; font-size: 13px; }

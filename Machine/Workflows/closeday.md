@@ -24,6 +24,11 @@ Pull unchecked items from:
 - `## ✅ Today's Tasks`
 - `## ⚡ Quick Wins`
 
+## Step 3b - Review the inbox
+Read `00 Human/00 Inbox/Inbox.md` and count the bullets under `## Unprocessed`.
+- If there are none, note "inbox clear" and continue.
+- If there are captures, list them and ask whether to triage now. If yes, route each via `/new` (which will remove the bullet as it processes it). Anything left stays in the inbox for tomorrow.
+
 ## Step 4 - Ask the end-of-day questions
 Ask one question at a time.
 Always ask:
@@ -54,4 +59,5 @@ Report back with:
 - wins logged
 - carry-overs staged
 - tomorrow note ready
+- inbox status (cleared, or N items left to triage)
 - git backup status (pushed, or skipped and why)
