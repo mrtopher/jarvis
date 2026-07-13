@@ -43,3 +43,8 @@ tags: [project, internal]
 - Merged PRs (9): #240 docs(nightly): issue-fixer report for 2026-07-07; #229 docs(nightly): issue-fixer report for 2026-06-26; #228 docs(nightly): issue-fixer report for 2026-06-25; #227 docs(nightly): issue-fixer report for 2026-06-24; #226 fix(email): harden seam timeout + fail closed on missing accept-URL base; #225 feat(email): Cloudflare transactional email + invitation accept-link send; #224 feat(users): invite-only signup, member roster, revoked invite visibility; #223 fix(programs): use the mockup's true green + stronger task border; #222 fix(programs): match employee program detail to the UAT mockup
 - Open issues (17): #192 Events; #137 Client User Onboarding; #136 API/MCP C1; #135 AI Governance; #134 Transactional Email; #132 Posthog Integration; #131 Client/Tenant Management; #130 On-prem Cloud Deployment; #129 Reporting; #128 User Management C1
 - Docs mirrored to `repo-docs/` from Dual-Logic/platform.
+### 2026-07-08 (repo sync 08:06)
+- Commits (2): `dda0c6b` Merge pull request #241 from Dual-Logic/agent-fix/report-2026-07-08; `0f44082` docs(nightly): issue-fixer report for 2026-07-08
+- Merged PRs (1): #241 docs(nightly): issue-fixer report for 2026-07-08
+- Open issues (17): #192 Events; #137 Client User Onboarding; #136 API/MCP C1; #135 AI Governance; #134 Transactional Email; #132 Posthog Integration; #131 Client/Tenant Management; #130 On-prem Cloud Deployment; #129 Reporting; #128 User Management C1
+- Docs mirrored to `repo-docs/` from Dual-Logic/platform.

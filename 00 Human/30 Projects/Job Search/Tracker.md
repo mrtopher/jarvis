@@ -20,7 +20,6 @@ kanban-plugin: board
 
 - [ ] Madison-Davis - Managing Directory, Platform Engineering (applied 2026-07-06)
 - [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
-- [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
 - [ ] Civis - CTO (applied 2026-07-06)
 - [ ] EWG - VP, Engineering (applied 2026-07-07)
 
@@ -29,6 +28,7 @@ kanban-plugin: board
 
 - [ ] Change.org - VP of Engineering, Elections (passed 2026-07-06)
 - [ ] Churchstreet & Crosse - VP, Engineering & Product (applied 2026-07-07)
+- [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
 
 
 
