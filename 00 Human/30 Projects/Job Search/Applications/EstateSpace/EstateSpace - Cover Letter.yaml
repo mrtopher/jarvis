@@ -1,0 +1,36 @@
+date: "July 14, 2026"
+salutation: "Dear Jonathan,"
+
+paragraphs:
+  - >-
+    I am a CTO who still writes code. I run the technical side of an AI consulting practice,
+    which means I own the architecture, build the agentic workflows, and carry them to production.
+    Your posting asks for a leader who owns technology end to end, sets the direction, and stays
+    hands-on writing and reviewing code as needed. That is the job I do now, and it is the one I
+    want to do at scale.
+  - >-
+    EstateSpace is at the moment I like best. You have real customers, fast growth, and a
+    multi-tenant platform ready for its next phase. Designing an AI-native architecture that lets
+    a lean team ship continuously is exactly where I work. Lily is the right instinct: let people
+    manage by exception instead of chasing updates. I hold a strong opinion that AI done fast is
+    not the same as AI done well. The team that ships AI slop loses to the team that ships judgment,
+    and a platform holding wealthy families' private records has no room for the former.
+  - >-
+    Here is what I would bring. At Pipeline 360 I shipped a revenue-critical, multi-tenant platform
+    on AWS from zero to production in under 90 days, protecting an 8-figure line without loosening
+    security or reliability. At Industry Dive I grew one team of eight into five cross-functional
+    teams of forty across time zones, standing up SRE, observability, automated CI/CD, and incident
+    response that cut time-to-ship 35%. I also drove AI-native development across an 800-plus
+    engineer org by turning loose scripts into an evaluated, guardrailed platform teams trusted.
+    Owning architecture, infrastructure, security, and AI strategy at once is familiar ground.
+  - >-
+    I will be direct about one thing. I have not worked inside wealth management or estate operations
+    before. What I have done is earn trust in high-stakes settings where a mistake is expensive, and
+    ramp fast on new domains by getting close to the people who live in them. Your customers care
+    about discretion and a verified record. So do I, and I would learn your world the same way I
+    learn every new one: fast, and in the open.
+  - >-
+    I would welcome a conversation about where you want the platform and the team to go next.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

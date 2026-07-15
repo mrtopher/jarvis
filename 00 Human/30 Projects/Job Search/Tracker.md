@@ -22,6 +22,7 @@ kanban-plugin: board
 - [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
 - [ ] Civis - CTO (applied 2026-07-06)
 - [ ] EWG - VP, Engineering (applied 2026-07-07)
+- [ ] EstateSpace - CTO (applied 7/14/24)
 
 
 ## Closed

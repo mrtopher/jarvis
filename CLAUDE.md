@@ -22,6 +22,7 @@ This repository is an **Obsidian vault operating system** packaged for community
 - `/meeting-notes`
 - `/job-apply`
 - `/content`
+- `/research`
 
 ## Personalization model
 `/interview` updates these files:
