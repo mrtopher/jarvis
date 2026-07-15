@@ -51,3 +51,8 @@ tags: [project, client]
 - Merged PRs (1): #29 feat(dev): multi-environment deployment — local (self-hosted Docker) → staging → prod
 - Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
 - Docs mirrored to `repo-docs/` from cate-hq/platform.
+### 2026-07-15 (repo sync 10:27)
+- Commits (3): `8205276` fix(local-dev): correct apply:schema command + add alt-port launch config (#32); `99e63be` refactor(web): rename live wordmark to CATE 2.0 (#30); `0c46c71` ci(deploy): auto-deploy to staging on merge to main (#31)
+- Merged PRs (3): #32 fix(local-dev): correct apply:schema command + add alt-port launch config; #31 ci(deploy): auto-deploy to staging on merge to main; #30 refactor(web): rename live wordmark to CATE 2.0
+- Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
+- Docs mirrored to `repo-docs/` from cate-hq/platform.

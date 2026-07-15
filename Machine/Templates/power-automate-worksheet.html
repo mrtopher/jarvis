@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: Arial, sans-serif; color: #202124; }
+  h2 { font-size: 16pt; margin-top: 18px; }
+  h3 { font-size: 13pt; }
+  p.hint { color: #666; font-style: italic; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #999; padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: #f1f3f4; }
+</style>
+</head>
+<body>
+
+<h2>1. Snapshot</h2>
+<table>
+<tr><th>Field</th><th>Answer</th></tr>
+<tr><td>Workflow name</td><td>&nbsp;</td></tr>
+<tr><td>Process owner (business)</td><td>&nbsp;</td></tr>
+<tr><td>Department / team</td><td>&nbsp;</td></tr>
+<tr><td>Prepared by</td><td>&nbsp;</td></tr>
+<tr><td>Date</td><td>&nbsp;</td></tr>
+<tr><td>Priority (High / Med / Low)</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>2. Why are we automating this?</h2>
+<p class="hint">The pain we're solving. Be concrete.</p>
+<ul>
+<li>What's happening today that's slow, error-prone, or annoying?</li>
+<li>How often does this run? (e.g. 10x/day, weekly, per new hire)</li>
+<li>Roughly how much time does it take manually each time?</li>
+<li>What goes wrong when it's done by hand? (missed steps, delays, errors)</li>
+</ul>
+
+<h2>3. What does "done right" look like?</h2>
+<p class="hint">Success criteria. How will we know the automation worked?</p>
+<p>&#9744;<br>&#9744;<br>&#9744;</p>
+
+<h2>4. How it works today (the "as-is")</h2>
+<p class="hint">Walk through the current manual steps in order. Don't skip the obvious ones.</p>
+<ol><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ol>
+
+<h2>5. The trigger &mdash; what kicks this off?</h2>
+<p class="hint">Every workflow starts with ONE thing. Check the closest match and describe it.</p>
+<p>
+&#9744; On a schedule (e.g. every morning at 8am, 1st of the month)<br>
+&#9744; Someone submits a form (which form? _______________)<br>
+&#9744; An email arrives (to which inbox? matching what? _______________)<br>
+&#9744; A file is added or changed (where? _______________)<br>
+&#9744; A record is created or updated (in which system? _______________)<br>
+&#9744; A person clicks a button / manually starts it<br>
+&#9744; Something happens in another system (which? _______________)<br>
+&#9744; Other: _______________________________________________
+</p>
+<p><b>Describe the trigger in one sentence:</b><br>_______________________________________________</p>
+
+<h2>6. The steps &mdash; what should happen, in order (the "to-be")</h2>
+<p class="hint">Number the steps the automation will perform. One action per row. Plain English.</p>
+<table>
+<tr><th>#</th><th>What happens</th><th>Who / what does it</th><th>System involved</th></tr>
+<tr><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>2</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>4</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>7. Decisions &amp; branches</h2>
+<p class="hint">Anywhere the path splits. Write these as "If ___, then ___, otherwise ___."</p>
+<table>
+<tr><th>If this is true...</th><th>...then do this</th><th>...otherwise do this</th></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>8. People &amp; approvals</h2>
+<p class="hint">Who needs to act, approve, or be kept in the loop.</p>
+<table>
+<tr><th>Person / role</th><th>What they do</th><th>Approve?</th><th>How they're notified</th></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p>What happens if an approver doesn't respond? (reminder after ___ / auto-approve / escalate to ___)</p>
+
+<h2>9. Systems &amp; data</h2>
+<p class="hint">The apps this touches and the information that moves between them.</p>
+<p><b>Systems / apps involved (connectors):</b><br>
+&#9744; SharePoint / OneDrive&nbsp;&nbsp; &#9744; Outlook / Exchange&nbsp;&nbsp; &#9744; Teams&nbsp;&nbsp; &#9744; Excel&nbsp;&nbsp; &#9744; Forms<br>
+&#9744; Dataverse&nbsp;&nbsp; &#9744; SQL / database&nbsp;&nbsp; &#9744; Approvals&nbsp;&nbsp; &#9744; Third-party: _______________&nbsp;&nbsp; &#9744; Other: _______________</p>
+<p><b>Key data / fields that move through the workflow:</b></p>
+<table>
+<tr><th>Field / piece of info</th><th>Where it comes from</th><th>Where it goes</th></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+
+<h2>10. Outputs &amp; notifications</h2>
+<p class="hint">What the workflow produces and who hears about it.</p>
+<ul>
+<li>What gets created, updated, sent, or filed at the end?</li>
+<li>Who gets notified on success? How?</li>
+<li>Where does the result live? (folder, list, record, inbox)</li>
+</ul>
+
+<h2>11. Exceptions &amp; edge cases</h2>
+<p class="hint">What could go wrong, and what should happen when it does. This is where flows break &mdash; don't skip it.</p>
+<table>
+<tr><th>What could go wrong</th><th>What should happen instead</th></tr>
+<tr><td>Missing / bad data</td><td>&nbsp;</td></tr>
+<tr><td>A system is down or times out</td><td>&nbsp;</td></tr>
+<tr><td>Duplicate entry</td><td>&nbsp;</td></tr>
+<tr><td>Approver is out of office</td><td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table>
+<p>Who should be alerted if the whole workflow fails? _______________</p>
+
+<h2>12. Business rules &amp; assumptions</h2>
+<p class="hint">Constraints, policies, and things we're taking as given.</p>
+<ul><li>&nbsp;</li><li>&nbsp;</li></ul>
+
+<h2>13. Out of scope</h2>
+<p class="hint">What this workflow will NOT do (protects against scope creep).</p>
+<ul><li>&nbsp;</li><li>&nbsp;</li></ul>
+
+<h2>14. Open questions / decisions needed</h2>
+<p class="hint">Anything unresolved that blocks the build.</p>
+<p>&#9744;<br>&#9744;</p>
+
+<h2>15. Sign-off</h2>
+<table>
+<tr><th>Role</th><th>Name</th><th>Date</th><th>Approved</th></tr>
+<tr><td>Process owner</td><td>&nbsp;</td><td>&nbsp;</td><td>&#9744;</td></tr>
+<tr><td>Solution developer</td><td>&nbsp;</td><td>&nbsp;</td><td>&#9744;</td></tr>
+</table>
+
+<h2>16. Developer handoff notes</h2>
+<p class="hint">Filled in by the builder after the session &mdash; technical translation, not for the client.</p>
+<ul>
+<li>Suggested trigger type:</li>
+<li>Connectors required:</li>
+<li>Environment / licensing considerations:</li>
+<li>Estimated complexity (S / M / L):</li>
+</ul>
+
+</body>
+</html>
