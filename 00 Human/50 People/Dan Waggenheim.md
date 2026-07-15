@@ -2,7 +2,7 @@
 type: person
 name: "Dan Waggenheim"
 title: "Founder / Consultant"
-company: "Pragmatic Operations"
+company: "Pragmatic Operations LLC"
 location: "Boston"
 relationship: former colleague (P360), referral partner
 tags: [person]
@@ -11,7 +11,7 @@ tags: [person]
 # Dan Waggenheim
 
 ## Overview
-> Founder of Pragmatic Operations (his own ops/AI consulting practice). Former COO at [[Pipeline 360]] and a former colleague of Chris's from P360. Warm referral partner for [[Client Acquisition]].
+> Founder/principal of Pragmatic Operations LLC (his own ops/AI consulting practice). Former COO at [[Pipeline 360]] and a former colleague of Chris's from P360. Warm referral partner for [[Client Acquisition]].
 
 ## Contact
 - **Email:** dan@pragmaticoperations.com
