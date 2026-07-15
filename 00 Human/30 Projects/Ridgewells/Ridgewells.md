@@ -46,3 +46,8 @@ tags: [project, client]
 - Merged PRs (6): #28 feat(web): PostHog product analytics (Phase 1); #27 refactor(web): remove AI-suggested dishes from proposals (catalog-only); #23 docs(progress): executive status report — week ending 2026-07-10; #22 docs(evals): menu-gen quality evaluation plan + client-inputs checklist; #21 refactor(web): modals + numbered pager for the Menu Items tab; #20 feat(web): catalog-only menu generation toggle (disable AI-suggested dishes)
 - Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
 - Docs mirrored to `repo-docs/` from cate-hq/platform.
+### 2026-07-14 (repo sync 11:52)
+- Commits (1): `2a7fbcc` feat(dev): multi-environment deployment — local (self-hosted Docker) → staging → prod (#29)
+- Merged PRs (1): #29 feat(dev): multi-environment deployment — local (self-hosted Docker) → staging → prod
+- Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
+- Docs mirrored to `repo-docs/` from cate-hq/platform.

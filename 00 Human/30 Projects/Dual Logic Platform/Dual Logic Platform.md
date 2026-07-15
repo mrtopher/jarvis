@@ -53,3 +53,8 @@ tags: [project, internal]
 - Merged PRs (5): #246 docs(nightly): issue-fixer report for 2026-07-13; #245 docs(nightly): issue-fixer report for 2026-07-12; #244 docs(nightly): issue-fixer report for 2026-07-11; #243 docs(nightly): issue-fixer report for 2026-07-10; #242 docs(nightly): issue-fixer report for 2026-07-09
 - Open issues (17): #192 Events; #137 Client User Onboarding; #136 API/MCP C1; #135 AI Governance; #134 Transactional Email; #132 Posthog Integration; #131 Client/Tenant Management; #130 On-prem Cloud Deployment; #129 Reporting; #128 User Management C1
 - Docs mirrored to `repo-docs/` from Dual-Logic/platform.
+### 2026-07-14 (repo sync 11:52)
+- Commits (2): `4f2ad4b` Merge pull request #247 from Dual-Logic/agent-fix/report-2026-07-14; `7d13942` docs(nightly): issue-fixer report for 2026-07-14
+- Merged PRs (1): #247 docs(nightly): issue-fixer report for 2026-07-14
+- Open issues (17): #192 Events; #137 Client User Onboarding; #136 API/MCP C1; #135 AI Governance; #134 Transactional Email; #132 Posthog Integration; #131 Client/Tenant Management; #130 On-prem Cloud Deployment; #129 Reporting; #128 User Management C1
+- Docs mirrored to `repo-docs/` from Dual-Logic/platform.
