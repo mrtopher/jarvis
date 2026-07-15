@@ -5,12 +5,15 @@ client:
 process_owner:
 prepared_by:
 date: "{{date:YYYY-MM-DD}}"
+gdoc: https://docs.google.com/document/d/1vyV40-vm7xgfHGVAmU_wUmp94Q-jOEse/edit
 tags: [power-automate, workflow, discovery]
 ---
 
 # Workflow Sketch - {{title}}
 
 > One-page quick-capture for whiteboard / hallway sessions. Use the full worksheet before development.
+
+**Branded Google Doc:** [Open in Google Docs](https://docs.google.com/document/d/1vyV40-vm7xgfHGVAmU_wUmp94Q-jOEse/edit)
 
 **Workflow:** ______________________  **Owner:** ______________  **Date:** __________
 

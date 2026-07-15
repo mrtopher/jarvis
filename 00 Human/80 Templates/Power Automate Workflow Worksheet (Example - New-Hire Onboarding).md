@@ -5,12 +5,15 @@ client: Sample Co.
 process_owner: Dana Reyes (HR Manager)
 prepared_by: Chris (Dual Logic)
 date: "2026-07-15"
+gdoc: https://docs.google.com/document/d/1OJ6fBPw82H3Om29fP_pPTBUgAOc7qqf0/edit
 tags: [power-automate, workflow, discovery, example]
 ---
 
 # Workflow Worksheet - New-Hire Onboarding (EXAMPLE)
 
 > ⚠️ **This is a completed sample** showing how to fill out the worksheet. Copy the blank template for real workflows.
+
+**Branded Google Doc:** [Open in Google Docs](https://docs.google.com/document/d/1OJ6fBPw82H3Om29fP_pPTBUgAOc7qqf0/edit)
 
 ---
 

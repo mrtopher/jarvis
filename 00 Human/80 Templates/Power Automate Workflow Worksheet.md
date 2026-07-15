@@ -5,12 +5,15 @@ client:
 process_owner:
 prepared_by:
 date: "{{date:YYYY-MM-DD}}"
+gdoc: https://docs.google.com/document/d/1NAREOJIH6JjVEUvUkOkx4yj8Nx0g7ZXe/edit
 tags: [power-automate, workflow, discovery]
 ---
 
 # Workflow Worksheet - {{title}}
 
 > Plain-language planning sheet. Fill this out **with the business owner before any development**. One worksheet per workflow. If a section doesn't apply, write "N/A" — don't leave it blank.
+
+**Branded Google Doc:** [Open in Google Docs](https://docs.google.com/document/d/1NAREOJIH6JjVEUvUkOkx4yj8Nx0g7ZXe/edit)
 
 ---
 
