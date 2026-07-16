@@ -23,6 +23,7 @@ kanban-plugin: board
 - [ ] Civis - CTO (applied 2026-07-06)
 - [ ] EWG - VP, Engineering (applied 2026-07-07)
 - [ ] EstateSpace - CTO (applied 7/14/24)
+- [ ] Stand Together - Director of Engineering (applied 7/16/26)
 
 
 ## Closed
@@ -30,6 +31,7 @@ kanban-plugin: board
 - [ ] Change.org - VP of Engineering, Elections (passed 2026-07-06)
 - [ ] Churchstreet & Crosse - VP, Engineering & Product (applied 2026-07-07)
 - [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
+- [ ] McGraw Hill - VP, Engineering (passed)
 
 
 

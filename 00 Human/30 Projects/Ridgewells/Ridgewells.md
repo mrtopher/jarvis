@@ -56,3 +56,8 @@ tags: [project, client]
 - Merged PRs (3): #32 fix(local-dev): correct apply:schema command + add alt-port launch config; #31 ci(deploy): auto-deploy to staging on merge to main; #30 refactor(web): rename live wordmark to CATE 2.0
 - Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
 - Docs mirrored to `repo-docs/` from cate-hq/platform.
+### 2026-07-16 (repo sync 09:25)
+- Commits (3): `5bf558b` refactor(env): inline non-secret staging/prod values; vault holds secrets only (#35); `307b33c` fix(doctor): make hints environment-aware; drop Proton Pass noise on local (#34); `c918421` docs(conventions): refresh worktree/env doc to the non-secret local model (#33)
+- Merged PRs (3): #35 refactor(env): inline non-secret staging/prod values; vault holds secrets only; #34 fix(doctor): make hints environment-aware; drop Proton Pass noise on local; #33 docs(conventions): refresh worktree/env doc to the non-secret local model
+- Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
+- Docs mirrored to `repo-docs/` from cate-hq/platform.

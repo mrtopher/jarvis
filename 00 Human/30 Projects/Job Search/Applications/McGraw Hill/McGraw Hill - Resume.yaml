@@ -1,0 +1,96 @@
+target_title: "Vice President, Software Engineering"
+target_subtitle: "Engineering Leadership | Product Strategy | AI Strategy"
+
+summary: >-
+  Engineering leader who came up through architecture and never left the code. Leads
+  product-engineering organizations that serve millions, setting strategy and building the
+  directors, managers, and retention systems that keep teams shipping. At Industry Dive grew
+  one team of 8 into five cross-functional teams of 40-plus across time zones, running the
+  digital-media platform behind 100-plus properties used by millions. At Pipeline 360 delivered
+  a revenue-critical, data-driven platform on AWS from zero to production in under 90 days,
+  protecting an 8-figure line for a PE-backed business. Today runs the technical side of an AI
+  consulting practice, shipping agentic and personalization features while advising CEOs on the
+  AI-native path. Known for translating technology for non-technical leaders, then delivering it
+  at scale without letting quality, accessibility, or the people slip.
+
+achievements:
+  - label: "Scaled Org, Millions of Users"
+    text: "Grew one team of 8 into five cross-functional teams of 40-plus across time zones, leading through directors and managers to run a digital-media platform behind 100-plus properties used by millions."
+  - label: "Platform Zero to Production"
+    text: "Delivered a revenue-critical, data-driven platform on AWS from zero to production in under 90 days, protecting an 8-figure line for a PE-backed business through a post-divestiture reset."
+  - label: "Retention by Design"
+    text: "Built the Product Management function from zero and introduced career ladders and structured feedback that improved retention 15 percent across a 40-plus engineering org."
+  - label: "AI Into Products Responsibly"
+    text: "Ship agentic and personalization features hands-on, pairing automated scoring with human review loops so AI reaches products without loosening quality, cost, or trust."
+
+competencies:
+  - "Engineering Leadership"
+  - "Technology Leadership"
+  - "Engineering Management"
+  - "Scaling Teams"
+  - "Team Building"
+  - "Organizational Design"
+  - "Technology Strategy"
+  - "Product Strategy"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Platform Modernization"
+  - "Software Architecture"
+  - "People Management"
+  - "Technology Roadmapping"
+  - "Change Management"
+
+skill_groups:
+  - label: "Leadership & Org Scale"
+    entries: "Engineering leadership, org design, developing directors and managers, hiring and retention, globally distributed teams (offshore, nearshore, vendors), budget ownership"
+  - label: "Product & Delivery"
+    entries: "Product engineering, technology roadmap, agile delivery, cross-functional partnership with product, sales, and marketing, executive and board communication"
+  - label: "AI & Personalization"
+    entries: "AI-native development, applied AI, agentic workflows, LLM integrations, personalization, machine learning, prompt engineering, human-in-the-loop"
+  - label: "Platforms & Modernization"
+    entries: "Platform modernization, multi-tenant SaaS, cloud architecture (AWS, GCP), distributed systems, CI/CD, DevOps, observability, SRE"
+  - label: "Full-Stack & Quality"
+    entries: "Full-stack web and mobile, accessibility, usability, scalability, JavaScript (React, Next.js), Python, PHP, automated testing and QA, secure SDLC"
+  - label: "Data"
+    entries: "Data-driven product, data and personalization, data pipelines, data warehousing, PostgreSQL, BigQuery, analytics"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Own technology end to end as a player-coach, building agentic workflows and LLM-backed personalization at the code level while setting the strategy and standards the delivery teams ship against."
+      - "Drove adoption of AI-native development across an 800-plus engineer SaaS org, turning one-off scripts into a shared, evaluated, guardrailed platform that engineers trusted and adopted."
+      - "Advise CEOs and technology leaders on AI product strategy and an AI-native SDLC, translating ambiguous goals into phased, budget-aware roadmaps they can fund and defend."
+      - "Design AI-native architectures and human-in-the-loop guardrails so personalization and agentic features reach products responsibly, holding quality, cost, and trust."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Delivered a revenue-critical, multi-tenant, data-driven platform from zero to production in under 90 days on AWS, protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Owned architecture, infrastructure, staffing, and spend decisions for a 100-plus person org, setting standards across application, data, and platform layers to raise velocity while hardening availability and security."
+      - "Established modern engineering practices through architecture reviews, automated CI/CD, observability, and incident response, moving teams to self-service provisioning instead of ticket queues."
+      - "Served as the sole technology voice in PE investor and board diligence, translating platform strategy and risk for a non-technical audience."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the Brand & Content platform and product-engineering organization for a digital-media SaaS through post-acquisition integration."
+    bullets:
+      - "Grew one team of 8 into five cross-functional teams of 40-plus across time zones, leading through directors and managers to run shared platform, data, and product services for 100-plus digital-media properties used by millions."
+      - "Introduced career ladders and structured feedback that improved retention 15 percent, and built the Product Management function from zero to pair engineering with product, sales, and marketing on the roadmap."
+      - "Shipped an AI-driven lead-qualification and personalization system into the core product across web and mobile-responsive surfaces, pairing automated scoring with a human review loop to cut manual effort at scale."
+      - "Matured SRE and a modern SDLC across 100-plus properties through observability, incident management, and automated CI/CD on AWS and Kubernetes, improving uptime and developer experience."
+      - "Built a paved-road delivery model where automated provisioning and testing cut average time-to-ship 35 percent, then spread the pattern across the broader portfolio."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth, bringing planning, delivery, and on-call structure to a fast-scaling consumer SaaS team."
+    bullets:
+      - "Stabilized a Series-A engineering org to consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
+      - "Doubled the engineering team with no loss of release quality by instituting sprint cadence, code-review gates, and a clear on-call rotation across web and mobile products."
