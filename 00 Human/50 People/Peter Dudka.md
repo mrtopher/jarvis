@@ -19,12 +19,14 @@ tags: [person]
 - **LinkedIn:**
 
 ## Projects
--
+- [[Ridgewells]] (CATE — leads partner outreach / go-to-market)
 
 ## Notes
 aliases:
   - Peter
 
 ## Log
+### 2026-07-17
+- [[2026-07-17 - Weekly CATE Sync]]: driving the CATE launch-partner strategy — revising the two-call outreach template, scheduling the Stavros dry-run, and monitoring feedback for Kate 2.0 demo readiness.
 ### 2026-06-29
 - Imported from CRM.
