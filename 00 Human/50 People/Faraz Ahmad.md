@@ -24,6 +24,9 @@ tags: [person]
 ## Notes
 
 ## Log
+### 2026-07-16
+- [[2026-07-16 - Daily Touchbase]]. Data-pipeline working session. Owns: report-ID + column-level mappings for each iClass report, a manual CSV-merge experiment for the programs table (via Claude), and standing up n8n staging data tables to match the data dictionary. To confirm he can run n8n locally. Chris to send iClass + n8n logins. Next sync 10:00 AM.
+
 ### 2026-07-13
 - [[2026-07-13 - Daily Touchbase]] + [[2026-07-13 - WeAquatics Operations App Walkthrough]]. Led the AppSheet demo to WeAquatics (role previews for impersonation). Owns app invites, data-dictionary sheet, and the feedback Google Doc. Splitting the n8n data-import work with Chris (likely Wednesday).
 
