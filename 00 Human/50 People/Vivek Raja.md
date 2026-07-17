@@ -17,7 +17,7 @@ tags: [person]
 - **LinkedIn:**
 
 ## Projects
--
+- [[Emburse Propensity IQ]]
 
 ## Notes
 
