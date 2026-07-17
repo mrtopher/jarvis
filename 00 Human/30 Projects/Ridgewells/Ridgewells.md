@@ -61,3 +61,8 @@ tags: [project, client]
 - Merged PRs (3): #35 refactor(env): inline non-secret staging/prod values; vault holds secrets only; #34 fix(doctor): make hints environment-aware; drop Proton Pass noise on local; #33 docs(conventions): refresh worktree/env doc to the non-secret local model
 - Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
 - Docs mirrored to `repo-docs/` from cate-hq/platform.
+### 2026-07-17 (repo sync 10:12)
+- Commits (2): `076fc6c` Update 2026-07-17.md; `cd0182f` docs(progress): add executive status report (week ending 2026-07-17) (#36)
+- Merged PRs (1): #36 docs(progress): executive status report (week ending 2026-07-17)
+- Open issues (5): #26 Posthog Analytics; #25 Proposals - Menu Generation; #24 AI menu/catalog analyzer; #8 Revisit transactional email provider; #5 Enable GitHub branch protection on main after GitHub Team upgrade
+- Docs mirrored to `repo-docs/` from cate-hq/platform.
