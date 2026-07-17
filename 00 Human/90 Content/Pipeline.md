@@ -15,6 +15,7 @@ kanban-plugin: board
 
 ## Review
 
+- [ ] [[2026-07-17 - ai-governance-compliance-tax|AI governance is not a compliance tax]] #linkedin
 
 
 ## Scheduled
