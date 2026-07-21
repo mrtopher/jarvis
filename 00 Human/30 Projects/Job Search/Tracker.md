@@ -19,11 +19,11 @@ kanban-plugin: board
 ## Done
 
 - [ ] Madison-Davis - Managing Directory, Platform Engineering (applied 2026-07-06)
-- [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
 - [ ] Civis - CTO (applied 2026-07-06)
 - [ ] EWG - VP, Engineering (applied 2026-07-07)
 - [ ] EstateSpace - CTO (applied 7/14/24)
 - [ ] Stand Together - Director of Engineering (applied 7/16/26)
+- [ ] AARP - VP, Digital Technology (applied 7/21/26)
 
 
 ## Closed
@@ -32,6 +32,7 @@ kanban-plugin: board
 - [ ] Churchstreet & Crosse - VP, Engineering & Product (applied 2026-07-07)
 - [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
 - [ ] McGraw Hill - VP, Engineering (passed)
+- [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
 
 
 

@@ -1,0 +1,36 @@
+date: "July 21, 2026"
+salutation: "Dear Mr. Uddin,"
+
+paragraphs:
+  - >-
+    I am a technology executive who still writes code. I run the technical side of an AI consulting
+    practice, which means I own the architecture, build the systems, and carry them to production.
+    Your posting asks for a leader who shapes consumer-facing technology strategy, stays close to the
+    build, and turns it into measurable outcomes. That is the work I do now, and it is the work I want
+    to do for AARP's members.
+  - >-
+    AARP is serving 38 million people through a multi-year digital transformation, and the member
+    experience is the product. That is the environment I know. I have spent my career on consumer-facing
+    platforms that have to stay fast and available while the ground keeps moving. I also hold a strong
+    opinion that AI done fast is not the same as AI done well. The team that ships AI slop loses to the
+    team that ships judgment, and technology built for older adults has no room for the former.
+  - >-
+    Here is what I would bring. At Industry Dive I founded and scaled the engineering organization behind
+    more than 100 consumer-facing digital properties read by millions, maturing SRE, observability, and
+    automated CI/CD to hold high availability through constant change. At Pipeline 360 I shipped a
+    revenue-critical, multi-tenant platform on AWS from zero to production in under 90 days, owning the
+    technology budget, security, and compliance while protecting an 8-figure line. Today at Dual Logic I
+    build agentic and LLM-backed systems hands-on, using RAG retrieval and vector search to put responsible,
+    evaluated AI into real products instead of demos.
+  - >-
+    I will be direct about one thing. I have not worked inside a membership nonprofit at AARP's scale, and
+    I have not run Palantir Foundry or Adobe Experience Manager in production. What I have done is earn trust
+    in high-stakes settings and ramp fast on new tools and domains by getting close to the people who use
+    them. Your members deserve technology that respects them. I would learn your world the same way I learn
+    every new one: fast, and in the open.
+  - >-
+    I would welcome a conversation about where you want AARP's consumer technology to go next, and how I can
+    help get it there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
