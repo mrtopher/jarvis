@@ -14,6 +14,38 @@
 - Common phrases I actually use
 - Common phrases I never use
 
+## NO AI SLOP (hard rules for anything AI-generated here)
+
+Apply these to every piece of writing generated in this vault (content, resumes, cover letters, research briefs, notes, messages). Source: petergyang/no-ai-slop. Preserve my real voice and meaning. Make the minimum effective edit. Never invent claims, stats, examples, or opinions. Be concrete: names, numbers, dates, and mechanisms beat abstractions.
+
+### Words to cut (banned outright)
+delve, foster, leverage, utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, this is huge, this changes everything, tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness, ever-evolving.
+
+### Often-empty adverbs (cut when they add nothing)
+just, literally, honestly, simply, actually, truly, fundamentally, importantly, crucially, inherently, inevitably.
+
+### Often-empty phrases (cut when they delay the point)
+it's worth noting, it's important to note, at the end of the day, when it comes to, at its core, in today's world, in the age of, in the world of, the reality is, the truth is, in terms of, with regard to, in order to, going forward, in this article, let's dive in.
+
+### Patterns to cut
+- **Binary contrasts.** "It's not X, it's Y." / "The question isn't X, it's Y." State Y directly.
+- **Throat-clearing openers.** "Here's the thing," "Let me be clear," "I'll be honest." Cut and state the point.
+- **Faux-insight setups.** "What nobody tells you," "the part everyone misses." Make the claim stand alone.
+- **Colon reveals.** Noun phrase + colon + dramatic reveal ("The best part: it learns"). Rewrite as a plain sentence. Colons are for lists, labels, quotes.
+- **Superficial analysis.** Trailing -ing clauses that fake meaning: "highlighting," "underscoring," "reflecting," "showcasing." Replace with the concrete so-what.
+- **Importance puffery.** "marks a pivotal moment," "stands as a testament," "plays a vital role." State the fact; let the reader judge.
+- **Weasel attribution.** "experts agree," "studies show," "many argue." Name the source or cut the claim (ask, don't invent).
+- **Fake-strong verbs.** Prefer "is"/"has" when clearer. "serves as a centralized hub" becomes what it actually does.
+- **Synonym cycling.** Repeat the clear word; don't rotate terms for style.
+- **Negative listing.** "Not a X. Not a Y. A Z." Just say Z.
+- **Dramatic fragmentation.** "That's it. That's the whole thing." Use complete sentences.
+- **Robotic rhythm.** No repeated sentence shapes or stacked punchy fragments. Vary shape only when it helps.
+- **Rhetorical setups.** "What if I told you," "Think about it:", "Plot twist:", self-answered Question/Answer pairs. Drop them.
+- **Fake-profound kickers.** Cut the final "deep" metaphor/mic-drop line. End on the clearest concrete sentence or a plain takeaway/next action.
+- **Summary-recap endings.** "In conclusion," "Ultimately," "Overall." End on the last concrete point instead.
+- **Formatting slop.** No emoji in headings, no bold sprinkled mid-sentence, no bullets where two sentences read better, no headers over tiny sections.
+- **Em dashes.** Already banned in my voice (see above). No exceptions.
+
 ## WHAT I BELIEVE
 
 - 5 strong opinions I hold about my industry:

@@ -11,6 +11,7 @@ kanban-plugin: board
 
 ## Drafting
 
+- [ ] [[2026-07-23 - microsoft-mai-right-sized-models|Right-sized beats biggest]] #linkedin
 - [ ] [[2026-07-20 - agentic-browser-automation|The Browser Does the Busywork]] #webinar
 - [ ] [[2026-07-20 - agentic-browser-automation-webinar-teaser|Webinar teaser (T-7)]] #linkedin
 - [ ] [[2026-07-20 - agentic-browser-automation-webinar-fit-test|Webinar fit test (T-3)]] #linkedin
@@ -29,6 +30,9 @@ kanban-plugin: board
 
 
 ## Published
+
+- [ ] [[2026-07-22 - openai-model-escaped-sandbox-hacked-hugging-face|An AI Model Just Hacked a Real Company]] #linkedin
+
 
 
 

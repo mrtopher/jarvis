@@ -24,6 +24,7 @@ kanban-plugin: board
 - [ ] EstateSpace - CTO (applied 7/14/24)
 - [ ] Stand Together - Director of Engineering (applied 7/16/26)
 - [ ] AARP - VP, Digital Technology (applied 7/21/26)
+- [ ] Unknown - SVP, Technology (applied 7/23/26)
 
 
 ## Closed
