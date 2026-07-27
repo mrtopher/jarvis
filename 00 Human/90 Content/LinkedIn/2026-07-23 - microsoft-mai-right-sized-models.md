@@ -43,6 +43,15 @@ Right-sizing the model to the job is the strategy most AI budgets are missing.
 ## Takeaway / CTA
 Where in your business are you paying for a model far larger than the job requires?
 
+## Seed Comment
+The full breakdown from Microsoft is worth a read if you want the numbers: https://microsoft.ai/news/hill-climbing-mai-models-for-github-copilot-and-excel/
+
+One thing I keep telling clients: model selection is a budget decision, not just a technical one. The default move is to pick the biggest name and move on. That works, but you pay for capability the task never uses.
+
+A quick test I use: name the top three tasks your AI actually runs all day. Then ask what the smallest model is that clears the bar on those. Most teams have never run that exercise.
+
+What's the one AI task in your business you'd trust a smaller, cheaper model to handle?
+
 ## Hashtags
 #AI #EngineeringLeadership #AIStrategy #GitHubCopilot
 
