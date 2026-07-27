@@ -31,7 +31,7 @@ An engineer working with a capable AI model now produces a working feature in ho
 
 The bottleneck is somewhere else now, and most teams are still running the ceremonies built for the old one.
 
-### Where the time actually goes
+### Where the time goes now
 
 When code gets cheap to write, three things become the expensive parts.
 
@@ -57,7 +57,7 @@ The engineer's job changes too. Less time producing first drafts. More time on j
 
 ### What this means if you run a company
 
-If your teams adopted AI tools but kept every ceremony exactly as it was, you are getting a fraction of the return. The tool got faster. The process around it did not. You will feel it as a strange gap. Engineers say the work is easier, but delivery does not speed up the way you expected. The drag is in the process, not the people.
+If your teams adopted AI tools but kept every ceremony exactly as it was, you are getting a fraction of the return. The tool got faster. The process around it did not. You will feel it as a strange gap. Engineers say the work is easier, but delivery does not speed up the way you expected. The drag lives in the process itself.
 
 Ask your engineering leaders one question this week. Now that writing code is no longer the slow part, what is? Your answer decides whether your process still fits your work.
 
