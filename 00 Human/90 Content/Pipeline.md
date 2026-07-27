@@ -6,7 +6,9 @@ kanban-plugin: board
 
 ## Ideas
 
-- [ ] Starter vault walkthrough #blog
+- [ ] What is a forward deployed engineer?
+- [ ] The new engineering org structure in the age of AI
+- [ ] Should product and engineering be combined?
 
 
 ## Drafting
