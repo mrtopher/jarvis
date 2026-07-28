@@ -27,7 +27,7 @@ Her CEO asked me a fair question afterward. If she can do that, what is the engi
 
 It is the right question. Most leaders answer it wrong.
 
-### What is actually happening
+### What is happening
 
 For twenty years, software had a gate. If you wanted a tool, you filed a request, waited in a queue, and the engineering team built it when they got to it. Engineers were the only people in the building who could turn an idea into working software.
 
@@ -46,8 +46,6 @@ This is AI slop at the scale of a company. The software looks finished. It runs.
 ### The new job
 
 So the engineering team's job changes. It stops being the only group that can build. It becomes the group that makes everyone else's building safe, connected, and durable. That is a bigger job than the old one.
-
-It looks like this in practice.
 
 They build the paved road. The engineers create the sanctioned way to build: approved tools, a place to put data that is already secure, starting templates with the guardrails in place. A non-engineer building on that road gets speed without the landmines.
 
@@ -73,7 +71,7 @@ The first is locking it down. You get scared of the mess, so you kill the tools 
 
 The second is letting it run wild. You tell everyone to build and you cheer the speed, right up until the data leak, the silent error, or the pile of tools no one can maintain.
 
-The job is the road between those two. A place where your whole company can build, on a foundation your engineers own and defend. That is the assignment for your engineering team now, and it is worth more than the old one, not less.
+The job is the road between those two. A place where your whole company can build, on a foundation your engineers own and defend. That is the assignment for your engineering team now, and it is worth more than the old one.
 
 Ask your engineering leaders one thing this week. If everyone here can build software now, what is our team the owner of? If they cannot answer that clearly, that is the work.
 

@@ -24,11 +24,13 @@ kanban-plugin: board
 
 ## Review
 
+- [ ] [[2026-07-27 - engineering-team-role-everyone-builds|When everyone can build, what is your engineering team for?]] #linkedin
 - [ ] [[2026-07-17 - ai-governance-compliance-tax|AI governance is not a compliance tax]] #linkedin
 
 
 ## Scheduled
 
+- [ ] [[2026-07-28 - google-ai-overviews-becoming-default|Google answers before anyone clicks]] #linkedin
 
 
 ## Published
