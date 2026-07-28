@@ -1,0 +1,38 @@
+date: "July 28, 2026"
+salutation: "Dear Mr. Chandran,"
+
+paragraphs:
+  - >-
+    I am an engineering leader who came up through architecture and still writes code. I run the
+    technical side of an AI consulting practice, which means I own how teams plan, build, and ship,
+    from the roadmap down to the platform underneath. Your posting asks for a VP who sets direction
+    across product and platform engineering, balances reliable delivery with growth bets, and makes
+    the internal platform strong enough that product teams stop wrestling the plumbing. That is the
+    work I have done for years, and it is what I want to do at Guild.
+  - >-
+    Guild's mission is the part I keep coming back to. Helping frontline workers build real careers is
+    worth doing well, and that is how I think about the AI-native part of this role too. A platform
+    that millions of members and major employers depend on needs AI that shows judgment, not slop. I
+    would build it in responsibly, as a first-class citizen, with agentic workflows behind real
+    guardrails and evaluation.
+  - >-
+    At Pipeline 360 I delivered a revenue-critical, multi-tenant platform
+    on AWS from zero to production in under 90 days, hardening the core while still funding new work and
+    protecting an 8-figure revenue line. At Industry Dive I founded and scaled the engineering organization
+    behind more than 100 consumer-facing properties used by millions, built a paved-road platform that
+    cut time-to-ship 35 percent, and grew one team of 8 into five cross-functional teams of 40-plus as a
+    manager of managers, lifting retention 15 percent along the way. Today at Dual Logic I build agentic
+    and LLM-backed systems into production, using RAG retrieval and vector search to put evaluated AI
+    into real products.
+  - >-
+    I have not worked inside workforce education, and I will not pretend the domain is second nature
+    yet. What I have done is bring lightweight process and outcome focus to messy, fast-moving orgs,
+    earn the trust of senior engineers on the merits, and steady teams through real change without
+    slowing them down. That kind of ambiguity energizes me. I would learn Guild's world the way I learn
+    every new one, fast and in the open.
+  - >-
+    I would welcome a conversation about where you want Guild's product and platform engineering to go
+    next, and how I can help get it there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

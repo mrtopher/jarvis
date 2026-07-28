@@ -29,6 +29,13 @@ Ask your engineering leaders one question this week. Now that writing code is no
 ## CTA
 Rolled out AI tools and delivery stayed flat? Tell me what you are seeing. The drag is usually in the process, not the team.
 
+## Seed comment
+Writing code is close to free now, so the slow part moved to knowing what to build and verifying what comes out. Most teams still run the ceremonies as if code is the expensive part.
+
+Two questions worth asking your own team this week. Does code review have real time on the calendar, or does it get squeezed in around everything else? When a change is validated, does it ship, or does it wait for the sprint to end?
+
+Full argument is here if you want the depth: [link to [[2026-07-24 - agile-gen-ai-bottleneck]]]
+
 ## Hashtags
 #EngineeringLeadership #Agile #AI #CTO
 

@@ -23,8 +23,8 @@ kanban-plugin: board
 - [ ] EWG - VP, Engineering (applied 2026-07-07)
 - [ ] EstateSpace - CTO (applied 7/14/24)
 - [ ] Stand Together - Director of Engineering (applied 7/16/26)
-- [ ] AARP - VP, Digital Technology (applied 7/21/26)
 - [ ] Unknown - SVP, Technology (applied 7/23/26)
+- [ ] Guild - VP, Software Engineering (applied 7/28/26)
 
 
 ## Closed
@@ -34,6 +34,7 @@ kanban-plugin: board
 - [ ] Ocrolus - VP, Engineering (applied 2026-07-06)
 - [ ] McGraw Hill - VP, Engineering (passed)
 - [ ] Naviant - VP, Technology and Solutions (applied 2026-07-06)
+- [ ] AARP - VP, Digital Technology (applied 7/21/26)
 
 
 
