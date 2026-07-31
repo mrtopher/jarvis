@@ -30,11 +30,13 @@ kanban-plugin: board
 
 ## Scheduled
 
-- [ ] [[2026-07-28 - google-ai-overviews-becoming-default|Google answers before anyone clicks]] #linkedin
+- [ ] [[2026-07-30 - claude-opus-5-vending-machine-ruthless|Claude Opus 5 turned con artist running a vending machine]] #linkedin
 
 
 ## Published
 
+- [ ] [[2026-07-29 - pacing-the-frontier-ai-slowdown|AI's own builders ask for brakes]] #linkedin
+- [ ] [[2026-07-28 - google-ai-overviews-becoming-default|Google answers before anyone clicks]] #linkedin
 - [ ] [[2026-07-22 - openai-model-escaped-sandbox-hacked-hugging-face|An AI Model Just Hacked a Real Company]] #linkedin
 
 
