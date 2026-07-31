@@ -1,0 +1,38 @@
+date: "July 30, 2026"
+salutation: "Dear Mr. St. John,"
+
+paragraphs:
+  - >-
+    I am a hands-on engineering leader who has spent his career running the technology behind
+    high-traffic digital media. Your posting describes a builder's seat, not a layer of management
+    between the business and the technology, and someone who will inspect the code, the data, and
+    the workflow before debating abstractions. That is how I work. I would like to do it for Patch.
+  - >-
+    The mission is what pulled me in. Local news is worth saving, and Patch is proving you can serve
+    15,000 communities with a lean team by pointing AI at the right problems. I believe AI makes
+    people stronger rather than replacing them, so a model where AI expands what a small newsroom can
+    reach, with journalists still central, is exactly the kind of work I want to build. I run an AI
+    consulting practice today, putting agentic, LLM-backed systems into production with real
+    evaluation and guardrails, so I know how to move the strongest ideas forward safely and keep
+    the weak ones out.
+  - >-
+    At Industry Dive I founded and scaled the engineering organization behind more than 100
+    high-traffic properties read by millions, modernizing a live platform with meaningful legacy
+    components across search, content delivery, and publishing while holding reliability and site
+    quality through constant change. I built a paved-road platform that cut time-to-ship 35 percent and grew
+    one team of 8 into five cross-functional teams of 40-plus. At Pipeline 360 I took a
+    revenue-critical ad-buying platform from zero to production in under 90 days on AWS, protected an
+    8-figure line through a hard reset, and was the sole technology voice in PE and board diligence.
+    I know how to make capacity, risk, and cost legible to a CEO and a Board.
+  - >-
+    I will be straight about the fit. I have led modern JavaScript and Node engineering orgs and I
+    still build, but I have spent more of the last few years as the architect and leader than in the
+    React weeds every day. Depth, judgment, and fast learning are what I bring, and I ramp quickly. The
+    Drupal and PHP side of your stack is familiar ground from earlier in my career, and the
+    modern-plus-legacy shape of Patch's platform is the exact terrain I have modernized before.
+  - >-
+    I would welcome a conversation about where you want Patch's platform to go next, and how I can
+    help a strong team build it.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

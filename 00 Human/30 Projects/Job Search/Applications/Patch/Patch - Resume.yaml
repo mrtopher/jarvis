@@ -1,0 +1,92 @@
+target_title: "Vice President of Engineering"
+target_subtitle: "Engineering Leadership | Platform Modernization | AI Strategy"
+
+summary: >-
+  Hands-on engineering executive with 20 years building the platforms high-traffic digital-media
+  products run on, and the teams that keep them shipping. Ran engineering for a subscription
+  publisher whose 100-plus properties reached millions of readers, modernizing a live platform
+  with meaningful legacy components without dropping reliability. Runs an AI consulting practice today,
+  putting agentic, LLM-backed systems into production with real evaluation and guardrails, the
+  same way Patch uses AI to reach more communities with a lean team. Known for staying close to
+  the code and the data, and for making technical plans a CEO and Board can fund and defend.
+
+achievements:
+  - label: "Media Platform at Scale"
+    text: "Kept reliability and site quality steady across 100-plus high-traffic properties read by millions, founding and maturing the search, content-delivery, publishing, and SRE foundations the network runs on."
+  - label: "Modernized a Live Stack"
+    text: "Modernized a live platform with meaningful legacy components across search, content delivery, and publishing, holding reliability and site quality steady while product teams kept shipping to millions of readers."
+  - label: "AI Into Production"
+    text: "Turned scattered one-off scripts across an 800-plus employee organization into a shared, evaluated AI platform, then shipped agentic, LLM-backed systems to production with RAG retrieval and guardrails for hallucination and cost."
+  - label: "Board-Legible Delivery"
+    text: "Served as the sole technology voice in PE investor and board diligence while delivering a revenue-critical ad-buying platform from zero to production in under 90 days, protecting an 8-figure line without loosening reliability or security."
+
+competencies:
+  - "Engineering Leadership"
+  - "Technology Leadership"
+  - "Platform Modernization"
+  - "Software Architecture"
+  - "Technology Strategy"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Distributed Systems"
+  - "Product & Engineering Alignment"
+  - "Scaling Teams"
+  - "Engineering Management"
+  - "Technology Roadmapping"
+  - "Change Management"
+  - "Information Security"
+  - "Cross-functional Leadership"
+
+skill_groups:
+  - label: "Languages & Web"
+    entries: "JavaScript, TypeScript, React, Next.js, Node.js, PHP, REST APIs"
+  - label: "AI & Machine Learning"
+    entries: "AI-assisted engineering, agentic workflows, LLMs, RAG, evaluation and guardrails"
+  - label: "Cloud, Platform & Architecture"
+    entries: "AWS (Lambda, EKS, S3), GCP, distributed and event-driven systems, multi-tenant SaaS, platform modernization, CDN/edge"
+  - label: "Data & Search"
+    entries: "SQL, PostgreSQL, data warehousing, analytics instrumentation, search platforms"
+  - label: "DevOps, Reliability & Secure SDLC"
+    entries: "Git-based CI/CD, automated testing and QA, observability, incident response, SRE, site quality"
+  - label: "Leadership & Business"
+    entries: "Engineering leadership, manager of managers, executive and Board communication, vendor management, budget and portfolio stewardship"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Act as player-coach for enterprise clients, carrying agentic and RAG-backed systems from prototype to production with the evaluation and guardrails that keep AI outputs trustworthy in real use."
+      - "Build AI into internal workflows that make small teams far more productive, turning manual, repetitive work into fast, reviewed, automated output without adding headcount."
+      - "Drive adoption across an 800-plus employee org, replacing scattered one-off scripts with a shared, evaluated AI platform they trust and use every day."
+      - "Turn ambiguous executive goals into roadmaps a CEO can fund and defend, owning the build-versus-buy calls and the security-first architecture underneath them."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Took a revenue-critical ad-buying platform built on The Trade Desk from zero to production in under 90 days on AWS (Lambda, EKS, S3), protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Owned architecture for high-volume, low-latency systems on AWS, Kubernetes, and PostgreSQL, tuning for performance, reliability, and cost under production load."
+      - "Guided a mix of modern and legacy systems through platform migration, standing up architecture reviews, Git-based CI/CD, observability, and incident response to hold delivery steady through the reset."
+      - "Served as the sole technology voice in PE investor and board diligence, making capacity, risk, and cost legible to non-technical executives."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the platform and product-engineering organization for a consumer-facing, subscription digital-media publisher through post-acquisition integration."
+    bullets:
+      - "Founded and scaled the platform and delivery org behind more than 100 high-traffic digital properties serving millions of readers, maturing search, content delivery, publishing, SRE, and automated CI/CD on AWS to hold reliability and site quality through constant change."
+      - "Built the paved-road platform of automated provisioning, shared services, and testing that cut time-to-ship 35 percent, then made it the default so product teams shipped features without fighting the infrastructure underneath."
+      - "Scaled one team of 8 into five cross-functional teams of 40-plus across time zones, coached Directors and Engineering Managers on clear standards and career ladders that lifted retention 15 percent, and partnered with a separate Product function on roadmap and delivery."
+      - "Shipped AI-driven personalization and lead-qualification into the core product across web and mobile, pairing predictive scoring with a human review loop to cut manual work at scale."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth for a fast-scaling consumer SaaS, bringing planning, delivery, and reliability structure to an early-stage team."
+    bullets:
+      - "Brought planning, estimation, and delivery structure to a Series-A team, reaching steady sprint predictability inside 60 days without losing momentum."
+      - "Doubled the team with no drop in release quality by adding sprint cadence, code-review gates, and a clear on-call rotation across web, iOS, and Android."

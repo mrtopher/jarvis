@@ -24,6 +24,7 @@ kanban-plugin: board
 - [ ] EstateSpace - CTO (applied 7/14/24)
 - [ ] Unknown - SVP, Technology (applied 7/23/26)
 - [ ] Guild - VP, Software Engineering (applied 7/28/26)
+- [ ] Patch - VP, Engineering (applied 7/30/26; emailed CEO Warren St. John wsj@patch.com 7/30/26)
 
 
 ## Closed
