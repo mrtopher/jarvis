@@ -44,8 +44,14 @@ Given an idea and a target channel:
    - **LinkedIn:** scroll-stopping hook in the first two lines, short lines, one idea per line, a clear takeaway or question, 3-5 relevant hashtags. No hard sell.
    - **Blog:** scannable subheads, intro hook, body, conclusion + CTA, and a ~155-char meta description. Write for `target_keyword` if set, naturally.
    - **Webinar:** a one-sentence promise, a run-of-show table with rough minutes, key teaching points, a promo plan (pre-webinar LinkedIn + blog tie-in), and a follow-up plan (replay, recap, lead follow-up).
-5. **AI-smell and voice pass (remediate in place).** Re-read `VOICE.md`. Scrub: VOICE.md violations (replace every `—`/`–`; no "and"-starts; banned phrases), AI smell (generic buzzwords like "passionate," "leverage synergy," "cutting-edge," "seamlessly," "robust," "dynamic," "in today's fast-paced world"; uniform sentence length; tidy rule-of-three lists), and robotic cadence (vary sentence length). Fix directly in the file.
-6. **Suggest repurposing.** Note in the file's repurpose section how this piece can spawn the others (a blog post -> 2-3 LinkedIn posts; a webinar -> a blog recap + promo posts).
+5. **no-ai-slop pass (mandatory, every channel, remediate in place).** Run the `no-ai-slop` skill via the Skill tool, pointing it at the draft file, in edit mode: instruct it to audit and lightly edit the piece against the no-ai-slop rules, preserve the user's voice, make the minimum effective edit, invent nothing, and apply the edits directly to the file. `VOICE.md` hard rules still sit on top of the skill: after the skill runs, confirm no em dashes (`—`/`–`), no sentence starts with "and", and the word "hope" is not overused. Fix any remaining VOICE.md violation directly in the file.
+6. **Generate a cover image (mandatory, every channel).** Create a visual for the piece with the OpenAI image script:
+   - **Write the prompt.** One or two sentences describing a clean, professional editorial illustration that matches the piece's angle. Do not make an infographic (charts, labeled diagrams, bullet layouts, data callouts) unless the piece specifically calls for one; text in the image is otherwise fine. Keep it on-brand for the audience in `content-prompt.md` (senior technical leaders / "Joe CEO"): modern, restrained, not clip-art or hype-y stock. Save this prompt in the note's `## Cover image` section as `> Prompt: <text>` so it can be regenerated.
+   - **Pick the output path.** `00 Human/90 Content/<Channel>/assets/YYYY-MM-DD - <slug>.png` (same date + slug as the note; create the `assets/` folder if missing).
+   - **Run the script:** `~/.venvs/jarvis/bin/python "Machine/Scripts/generate-content-image.py" --prompt "<prompt>" --out "<output path>" --size 1536x1024` (LinkedIn/blog landscape; use `1024x1024` for square if the piece calls for it).
+   - **Embed it.** Add the image to the note's `## Cover image` section as `![[<output path>]]` (Obsidian embed) directly under the saved prompt line.
+   - This step needs an OpenAI API key (env `OPENAI_API_KEY` or the gitignored `Machine/Scripts/.secrets`). If the key is missing or the API call fails, **skip gracefully** (do not block the draft): leave the `> Prompt:` line in the note, tell the user the image was skipped and why, and move on. Mirrors the gcalcli graceful-skip pattern.
+7. **Suggest repurposing.** Note in the file's repurpose section how this piece can spawn the others (a blog post -> 2-3 LinkedIn posts; a webinar -> a blog recap + promo posts).
 
 ---
 
@@ -82,6 +88,8 @@ Given an idea and a target channel:
 | `VOICE.md` missing | Fall back to `00 Human/70 Context/writing-style.md` and tell the user to create `VOICE.md` |
 | `content-prompt.md` missing | Run with `audience-profile.md` + `business-profile.md` + `VOICE.md` and tell the user to run `/interview` to compile content preferences |
 | Channel folder missing | Create it, then save the note |
+| `no-ai-slop` skill unavailable | Fall back to a manual VOICE.md scrub (em dashes, "and"-starts, banned words/phrases, robotic cadence) and tell the user the skill did not run |
+| OpenAI key missing / image API fails | Skip the image, keep the `> Prompt:` line in the note's `## Cover image` section, and report why (mirror gcalcli graceful-skip) |
 
 ## Related
 - Board - [[Pipeline]]

@@ -25,6 +25,10 @@ tags: [content, linkedin]
 ## Hashtags
 > 3-5 max, relevant.
 
+## Cover image
+> Prompt: <image-generation prompt, no infographics unless the piece calls for one>
+> (embed the generated PNG here as ![[assets/YYYY-MM-DD - <slug>.png]])
+
 ## Notes
 - Source idea / draft origin:
 - Repurpose from: <!-- blog post, webinar, etc. -->

@@ -34,6 +34,10 @@ tags: [content, blog]
 ## CTA
 > What should the reader do next? (Book a call, subscribe, reply.)
 
+## Cover image
+> Prompt: <image-generation prompt, no infographics unless the piece calls for one>
+> (embed the generated PNG here as ![[assets/YYYY-MM-DD - <slug>.png]])
+
 ## Repurpose
 - LinkedIn post(s) to pull from this:
 - Webinar tie-in:

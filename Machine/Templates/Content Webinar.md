@@ -42,5 +42,9 @@ tags: [content, webinar]
 - Recap post:
 - Lead follow-up:
 
+## Cover image
+> Prompt: <image-generation prompt, no infographics unless the piece calls for one>
+> (embed the generated PNG here as ![[assets/YYYY-MM-DD - <slug>.png]])
+
 ## Notes
 -

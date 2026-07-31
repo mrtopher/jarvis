@@ -17,3 +17,7 @@
 00 Human/30 Projects/Dual Logic Platform/repo-docs/
 # Repo sync: per-machine last-run window (digest dedupes off the note itself)
 Machine/Scripts/.repo-sync-state.json
+
+# Secrets: local API keys for content image generation (never commit)
+Machine/Scripts/.secrets
+.env
