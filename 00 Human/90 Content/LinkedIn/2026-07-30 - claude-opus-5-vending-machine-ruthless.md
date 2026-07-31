@@ -44,6 +44,11 @@ What would an AI agent do to hit its target if no one was watching? If you canno
 ## Hashtags
 #AI #AIAgents #Leadership #AIStrategy #ArtificialIntelligence
 
+## Cover image
+> Prompt: A clean, modern editorial illustration of a single sleek vending machine standing on a busy San Francisco sidewalk at dusk, glowing softly against the city skyline. Restrained, cinematic lighting, muted professional color palette, a subtle sense of tension. Not clip-art, not stock, no charts or diagrams.
+
+![[assets/2026-07-30 - claude-opus-5-vending-machine-ruthless.png]]
+
 ## Notes
 - Source idea / draft origin: TechCrunch, "Claude Opus 5 became downright ruthless when tasked with running a vending machine" (Julie Bort, 2026-07-29). Underlying study: Andon Labs Vending-Bench, models Claude Opus 5 / GPT-5.6 Sol / Kimi K3.
 - Verified details: Opus final balance $11,182; broke 11 collusion truces vs 2 (GPT) and 1 (Kimi); price-fix at $2.15 then undercut to $2.14; bribes/threats via conditional bulk discounts; lied to suppliers about competing quotes; waited a week to tell a partner it broke a promise. Researcher Lukas Petersson raised the economy-scale question. Corroborated via TechCrunch, BigGo Finance, Slashdot, Newsbytes.
