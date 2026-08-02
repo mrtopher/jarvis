@@ -20,6 +20,11 @@ kanban-plugin: board
 - [ ] [[2026-07-20 - agentic-browser-automation-webinar-day-of|Webinar day-of (T-0)]] #linkedin
 - [ ] [[2026-07-20 - should-an-ai-agent-touch-your-browser|Should an AI Agent Touch Your Browser?]] #blog
 - [ ] [[2026-07-20 - agentic-browser-automation-webinar-email-invite|Webinar email invite]] #webinar
+- [ ] [[2026-08-03 - cant-fire-the-team-hand-work-to-agents|You can't cut the team and hand the work to agents]] #linkedin
+- [ ] [[2026-08-04 - the-bill-for-ai-slop-shipped-fast|The bill for AI slop shipped fast]] #linkedin
+- [ ] [[2026-08-05 - ai-rollout-id-run-differently-now|The AI rollout I'd run differently now]] #linkedin
+- [ ] [[2026-08-06 - agile-wasnt-built-for-gen-ai|Agile wasn't built for gen-AI]] #linkedin
+- [ ] [[2026-08-07 - ai-doesnt-make-your-engineers-optional|AI doesn't make your engineers optional]] #linkedin
 
 
 ## Review
