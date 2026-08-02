@@ -14,17 +14,17 @@ tags: [content, linkedin, needs-review]
 > The story in Citi's AI numbers is not the software. It is the 4,000 people whose whole job is helping everyone else use it well.
 
 ## Hook (first 2 lines)
-Citi says more than 10,000 of its engineers now use AI every day.
+Citi says AI is freeing up 100,000 engineering hours a week.
 The number that actually matters is 4,000.
 
 ## Body
-Citi says more than 10,000 of its engineers now use AI every day.
+Citi says AI is freeing up 100,000 engineering hours a week.
 
 The number that actually matters is 4,000.
 
-That is the size of the internal network Citi built to help the rest of the company use AI well. People whose whole job is training, guardrails, and answering "how do I do this safely" for the workforce.
+That is the size of the internal network Citi built to help the rest of the company use AI well. Roughly 4,000 employees, its AI Champions and AI Accelerators, pulled from tech, operations, risk, and support, whose job is to help colleagues on their own teams actually use the tools.
 
-The results are real. Over 80% of employees with access use the tools regularly. Automated code reviews passed 1.5 million, which Citi says frees close to 100,000 engineering hours a week.
+The adoption is real. More than 70% of Citi's 182,000 employees now use firm-approved AI tools, over 80% of those with access use them regularly, and staff have logged more than 6.5 million prompts.
 
 They earned that by treating adoption as a people problem and staffing it like one.
 
@@ -44,7 +44,15 @@ If your AI rollout is a license and a launch email, you bought the easy 10%. Who
 ![[assets/2026-08-03 - citi-ai-adoption-enablement-not-licenses.png]]
 
 ## Notes
-- Peg: Citi's 2026 AI disclosures. Facts used, attributed to Citi: 10,000+ engineers use AI daily; 80%+ of employees with access use tools regularly; 1.5M automated code reviews freeing ~100,000 engineering hours/week; a 4,000-person internal enablement network; Arc agent platform. Corroborated across Citi newsroom, CIO Dive, artificialintelligence-news, Yahoo Finance/WSJ. Kept round, well-supported figures; dropped the disputed exact headcount (175K vs 180K).
+- Peg: Citi's 2025-2026 AI disclosures. Facts used, each attributed to a named source below: ~100,000 engineering hours/week freed (CEO Jane Fraser, Oct 2025 earnings call); 4,000-person AI Champions/Accelerators enablement network; 70%+ of ~182,000 employees use firm-approved AI; 80%+ of those with access use regularly (Citi); 6.5M+ prompts logged; Arc agent platform.
+- Accuracy fix (2026-08-02): an earlier draft used an unsourced "10,000 engineers use AI daily" hook and "1.5M automated code reviews." Neither traced to a named source, so both were replaced with the sourced figures above.
 - Pillar: adopting AI well. Format: company/news reaction. Goal: saves. Framed for the CEO/CTO buyer.
 - Cross-week thread: teases Tuesday's "why 95% of pilots return nothing" post. NOT a repeat, different argument (enablement vs pilot selection).
 - Diffed against post history: no prior Citi/enablement-network post. Distinct from the 07-24/07-27 agile-bottleneck posts and 07-27 engineering-team-role post.
+
+## Sources
+- [Citi: Introducing AI Agents (Arc, 80% of 180K with access use tools)](https://www.citigroup.com/global/news/perspectives/2026/introducing-ai-agents-next-phase-citi-artificial-intelligence-journey)
+- [The quiet work behind Citi's 4,000-person internal AI rollout - AI News](https://www.artificialintelligence-news.com/news/the-quiet-work-behind-citi-4000-person-internal-ai-rollout/)
+- [Citigroup's AI usage frees up 100,000 hours for developers a week - Investing.com](https://www.investing.com/news/stock-market-news/citigroups-ai-usage-frees-up-100000-hours-for-developers-a-week-4286804)
+- [Citi mandates AI prompt training for most employees (6.5M+ prompts) - American Banker](https://www.americanbanker.com/news/citi-mandates-ai-prompt-training-for-most-employees)
+- [Citi launches Arc to scale AI agents across the business - CIO Dive](https://www.ciodive.com/news/citi-launches-arc-scale-ai-agents/819113/)

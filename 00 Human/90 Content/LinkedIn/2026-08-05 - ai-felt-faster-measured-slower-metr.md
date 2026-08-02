@@ -45,3 +45,7 @@ Are your AI gains showing up in something you can count, or only in how fast the
 - Peg, attributed: METR, "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity" (randomized controlled trial, July 2025). 16 experienced OSS devs, 246 tasks, Cursor Pro + Claude 3.5/3.7 Sonnet. Predicted +24% faster, actual -19% slower, still self-reported +20% after. Primary slowdown factor: low AI reliability -> time spent verifying output. METR published a Feb 2026 note that they are redesigning the experiment (question still open). arxiv 2507.09089.
 - Stated both real caveats (early-2025 tools; expert devs on familiar code) so the post is honest, not cherry-picked. Ties "AI makes engineers stronger" to "AI slop vs quality."
 - Distinct from prior posts: introduces the perception-vs-measurement tension, not the judgment-over-typing thesis.
+
+## Sources
+- [METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity (arXiv 2507.09089)](https://arxiv.org/abs/2507.09089)
+- [METR blog write-up (16 devs, 246 tasks, +24% expected / -19% actual / +20% self-reported)](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)

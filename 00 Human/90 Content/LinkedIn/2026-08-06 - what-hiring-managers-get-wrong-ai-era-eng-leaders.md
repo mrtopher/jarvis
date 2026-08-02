@@ -47,3 +47,6 @@ If you are hiring an engineering leader this year, look past the stack and the h
 - Origin: Chris's own POV from reading engineering-leadership JDs during the job search. No external stats, opinion piece. Dual purpose: personal brand for the senior-role search AND consulting authority.
 - Pillar: leadership / building teams. This is the week's soft-CTA post (open to the conversation, not a hard sell). Reaches the CXO/hiring layer directly, which last week's analytics said the reach was missing.
 - New material vs history: no prior hiring/JD post. Distinct format (personal opinion, not news or data).
+
+## Sources
+- None. This is a personal-opinion piece from Chris's own read of engineering-leadership JDs during the job search. No external statistics or studies are cited, so there is nothing to link.

@@ -43,3 +43,9 @@ For every AI agent you are about to turn loose, can you name the human who answe
 - Pegs, attributed: Deloitte research (roughly 74% of organizations plan to deploy agentic AI within two years; governance maturity lags); Citi's 2026 launch of "Arc" to run AI agents across the bank under firm controls (CIO Dive, Citi newsroom).
 - Pillar: agents x leadership (Chris's best-performing topic type last week at 3.5%). Fresh angle: accountability/ownership and org design, not "agents misbehave" (that was the 07-30 vending-machine and 07-22 Hugging Face posts). Distinct from the 07-17 "governance is not a compliance tax" post: this is specifically about naming a human owner per agent.
 - Goal: comments. Framed for the CXO deciding rollout.
+
+## Sources
+- [Deloitte State of AI 2026 press release (~74% plan agentic AI within two years; only ~21% have mature agent governance)](https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html)
+- [Deloitte: Agentic AI is scaling faster than guardrails](https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html)
+- [Citi launches Arc to scale AI agents under firm controls - CIO Dive](https://www.ciodive.com/news/citi-launches-arc-scale-ai-agents/819113/)
+- [Citi: Introducing AI Agents (Arc controls and rollout)](https://www.citigroup.com/global/news/perspectives/2026/introducing-ai-agents-next-phase-citi-artificial-intelligence-journey)
