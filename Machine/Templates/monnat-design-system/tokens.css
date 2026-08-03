@@ -1,0 +1,123 @@
+/*
+  Fofana Design System — CSS custom properties
+  Drop this file into any project and reference the variables directly,
+  or use it as the source of truth when porting the palette/type scale
+  to another language (Tailwind config, JSON tokens, etc).
+*/
+
+:root {
+  /* Color */
+  --fof-coral: #ff5252;       /* primary accent — buttons, links, eyebrow labels, icon chips */
+  --fof-charcoal: #333333;    /* headings, dark surfaces (features panel, featured pricing card) */
+  --fof-blush: #fff8f8;       /* alternate section background — never pure white */
+  --fof-muted-plum: #676576;  /* body copy — warm-biased grey, not neutral grey */
+  --fof-deep-plum: #1c1622;   /* testimonial/mood section base */
+  --fof-white: #ffffff;
+
+  /* Supporting gradients (portfolio / project placeholders only) */
+  --fof-gradient-sky: linear-gradient(135deg, #6ec6ff, #4a7fd4);
+  --fof-gradient-amber: linear-gradient(135deg, #ffd48a, #ff8a65);
+  --fof-gradient-orchid: linear-gradient(135deg, #ff8ac2, #b06ae0);
+  --fof-gradient-slate: linear-gradient(135deg, #2b2f3a, #4c5568);
+  --fof-gradient-mood: linear-gradient(rgba(20, 16, 24, 0.86), rgba(20, 16, 24, 0.9)),
+    radial-gradient(circle at 30% 20%, #4a3960, transparent 55%),
+    radial-gradient(circle at 80% 80%, #3a2b4d, transparent 55%),
+    #1c1622;
+
+  /* Typography */
+  --fof-font-display: 'Montserrat', sans-serif; /* headings only, weight 700 (600 for card titles) */
+  --fof-font-body: 'Roboto', sans-serif;        /* everything else, weight 400 (500 for buttons/labels) */
+
+  --fof-h1-size: 70px;
+  --fof-h1-line: 1.05;
+  --fof-h2-size: 46px;
+  --fof-h2-line: 1.15;
+  --fof-h5-size: 20px;
+  --fof-eyebrow-size: 15px;
+  --fof-eyebrow-tracking: 0.06em;
+  --fof-body-size: 16px;
+  --fof-body-line: 28px;
+  --fof-body-tracking: 0.3px;
+
+  /* Layout & spacing */
+  --fof-container-max: 1140px;
+  --fof-container-gutter: 24px;
+  --fof-row-gap: 30px;
+  --fof-section-padding: 130px; /* desktop; drop to 60-90px under 768px */
+  --fof-radius-sm: 5px;   /* buttons, small chips */
+  --fof-radius-md: 8px;   /* icon chips, pricing cards */
+  --fof-radius-lg: 15px;  /* large panels, illustration frame, quote card */
+  --fof-shadow: 0 5px 38px -6px rgba(0, 0, 0, 0.14);
+
+  /* Motion */
+  --fof-transition-fast: 0.2s ease;
+  --fof-transition-slide: 0.45s ease;
+}
+
+/* ------------------------------
+   Reusable component classes
+   Optional — copy the ones you need, or use the tokens above directly.
+---------------------------------*/
+
+.fof-button {
+  display: inline-block;
+  padding: 14px 32px;
+  background: var(--fof-coral);
+  color: var(--fof-white);
+  font-family: var(--fof-font-body);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: var(--fof-radius-sm);
+  border: 0;
+  cursor: pointer;
+  transition: background var(--fof-transition-fast);
+}
+.fof-button:hover {
+  background: var(--fof-charcoal);
+}
+
+.fof-eyebrow {
+  color: var(--fof-coral);
+  text-transform: uppercase;
+  font-size: var(--fof-eyebrow-size);
+  font-weight: 600;
+  letter-spacing: var(--fof-eyebrow-tracking);
+}
+
+.fof-icon-chip {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--fof-radius-md);
+  background: var(--fof-coral);
+  color: var(--fof-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fof-icon-roundel {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--fof-charcoal);
+  color: var(--fof-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--fof-transition-fast);
+}
+.fof-icon-roundel:hover {
+  background: var(--fof-coral);
+}
+
+.fof-card {
+  background: var(--fof-white);
+  border-radius: var(--fof-radius-md);
+  box-shadow: var(--fof-shadow);
+  padding: 35px;
+}
+
+.fof-card-featured {
+  background: var(--fof-charcoal);
+  color: var(--fof-blush);
+}
