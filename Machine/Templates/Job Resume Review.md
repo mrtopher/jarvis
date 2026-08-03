@@ -4,7 +4,7 @@ status: active
 company:
 role:
 score: # 0-100 visibility/impact score from the final pass
-passed: # true when score >= 80
+passed: # true when score >= 90
 passes: # number of review iterations run
 created: "{{date:YYYY-MM-DD}}"
 tags: [job-search, resume-review]
@@ -13,7 +13,7 @@ tags: [job-search, resume-review]
 # Resume Review – {{title}}
 
 > Brutal recruiter / hiring-manager audit of the tailored resume against the target JD.
-> Loop target: **score >= 80/100**.
+> Loop target: **score >= 90/100**.
 
 ## Score: **__ / 100**  ·  Passed: **yes / no**  ·  Passes run: **__**
 
@@ -53,3 +53,14 @@ tags: [job-search, resume-review]
 | Pass | Score | What changed |
 |------|-------|--------------|
 | 1 | | |
+
+## Accuracy pass
+> Honesty/factual audit run after the loop. Not scored. Lists every correction plus any fact flagged for the candidate to confirm.
+- **False/misattributed tenure or scope:**
+- **JD parroting rewritten in own words:**
+- **Unfalsifiable self-claims cut:**
+- **Fabricated/unsupported specifics (or flagged to verify):**
+
+## Final polish
+> VOICE.md + AI-smell remediation. Not scored.
+-
