@@ -38,6 +38,15 @@ If your AI rollout is a license and a launch email, you bought the easy 10%. Who
 ## Hashtags
 #AI #Leadership #AIAdoption #EngineeringLeadership #CTO
 
+## Seed comment
+> First comment to post on the thread, to extend the argument and pull discussion.
+
+Citi did not hire 4,000 new AI specialists. It pulled existing employees from tech, ops, risk, and support and made helping their teammates part of the job, peer to peer, inside the daily workflow. That is why adoption held.
+
+A vendor demo shows people the tool exists. A colleague at the next desk shows them how to use it on the work in front of them.
+
+Curious what others are seeing. If you have rolled out AI at any scale, who actually owns the day-to-day coaching?
+
 ## Cover image
 > Prompt: A clean, modern editorial illustration of a vast office atrium where a small group of guides directs a large crowd toward glowing workstations, warm restrained lighting, muted professional palette, a sense of enablement at scale. Not clip-art, not stock, no charts or infographics, no legible text.
 
