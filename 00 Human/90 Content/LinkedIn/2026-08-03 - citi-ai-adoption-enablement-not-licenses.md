@@ -1,11 +1,12 @@
 ---
 type: content
 channel: linkedin
-status: draft
+status: scheduled
 date: "2026-08-03"
+scheduled_for: "2026-08-03 08:00 ET"
 topic: Citi's AI numbers are an enablement story, not a tools story
 pillar: Adopting AI well (where value is real, where hype fails)
-tags: [content, linkedin, needs-review]
+tags: [content, linkedin]
 ---
 
 # LinkedIn - Citi AI adoption is about the 4,000, not the tool
