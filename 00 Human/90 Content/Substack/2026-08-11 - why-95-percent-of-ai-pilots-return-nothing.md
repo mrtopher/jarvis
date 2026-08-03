@@ -76,3 +76,14 @@ Before you approve the next one, write the one sentence: what must this prove, a
 ---
 
 If you have run an AI pilot that quietly went nowhere, I would bet the tools were fine and the setup was not. Reply and tell me what happened. I am watching this pattern on every client I work with.
+
+---
+<!-- PRODUCTION NOTE - not part of the published essay -->
+
+## Cover image
+
+Concept: most pilots nose-dive, one climbs (the well-defined, gradable one). The `monnat-design-system` directs color and style only. Generated with the standard pipeline (`gpt-image-1` via `Machine/Scripts/generate-content-image.py`, 1536x1024).
+
+> Prompt: Flat geometric vector editorial illustration, wide landscape, generous negative space. Several simple paper airplanes launched across the frame; most nose-dive downward while exactly one climbs steadily upward. The single climbing airplane is the clear focal point. Minimal geometric shapes, solid flat color fills only, no gradients, no shading, no highlights, no 3D, no texture, no photography. Strict palette: warm off-white background #FFF8F8, never pure white; the falling paper airplanes and their dotted trajectory arcs in charcoal #333333 with muted mauve-grey #676576 for secondary shapes; exactly one saturated accent, coral #FF5252, used only on the single climbing airplane and its rising trajectory line, no other saturated color anywhere. A thin coral #FF5252 ring-and-crosshair line drawing radiates behind the scene as the only decorative flourish. No text, no letters, no numbers, no logos.
+
+![[assets/2026-08-11 - why-95-percent-of-ai-pilots-return-nothing.png]]
