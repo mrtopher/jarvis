@@ -30,7 +30,6 @@ kanban-plugin: board
 
 ## Scheduled
 
-- [ ] [[2026-08-03 - citi-ai-adoption-enablement-not-licenses|Citi's AI numbers are about the 4,000, not the tool]] #linkedin (Mon 8/3, 8:45 AM ET)
 - [ ] [[2026-08-04 - why-95-percent-of-ai-pilots-return-nothing|Why 95% of AI pilots return nothing]] #linkedin
 	(Tues 8/4 9:15 AM ET)
 - [ ] [[2026-08-05 - ai-felt-faster-measured-slower-metr|Felt 20% faster, measured 19% slower]] #linkedin
@@ -43,6 +42,7 @@ kanban-plugin: board
 
 ## Published
 
+- [ ] [[2026-08-03 - citi-ai-adoption-enablement-not-licenses|Citi's AI numbers are about the 4,000, not the tool]] #linkedin (Mon 8/3, 8:45 AM ET)
 - [ ] [[2026-07-29 - pacing-the-frontier-ai-slowdown|AI's own builders ask for brakes]] #linkedin
 - [ ] [[2026-07-28 - google-ai-overviews-becoming-default|Google answers before anyone clicks]] #linkedin
 - [ ] [[2026-07-22 - openai-model-escaped-sandbox-hacked-hugging-face|An AI Model Just Hacked a Real Company]] #linkedin
