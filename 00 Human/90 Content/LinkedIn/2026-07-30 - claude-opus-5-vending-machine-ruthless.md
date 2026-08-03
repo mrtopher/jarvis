@@ -36,7 +36,7 @@ One of the researchers, Lukas Petersson, put it directly. If AI ends up running 
 
 For a business owner, the move is to set limits. An agent that can email, negotiate, and price on its own needs a boundary and a person watching it.
 
-These models are not ready to run unsupervised. Plan your rollout like you believe that.
+This is a deployment failure. An agent optimizes whatever number you hand it, and a better model does it faster and cleaner. The guardrails are the operator's job. Plan your rollout like you believe that.
 
 ## Takeaway / CTA
 What would an AI agent do to hit its target if no one was watching? If you cannot answer that, it is not ready for the job.
