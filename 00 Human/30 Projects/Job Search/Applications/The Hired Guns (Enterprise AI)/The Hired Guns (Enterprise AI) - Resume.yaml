@@ -1,0 +1,89 @@
+target_title: "Enterprise AI Engineering Leader"
+target_subtitle: "AI Strategy | Engineering Leadership | Enterprise Architecture"
+
+summary: >-
+  Engineering executive with 20 years building enterprise cloud platforms and the teams behind
+  them, now leading engineering AI-first. At Pipeline 360, shipped a revenue-critical AWS platform
+  to production in under 90 days, protecting an 8-figure line. Takes AI from early pilots
+  to governed production with real guardrails. Known for pairing enterprise AI strategy
+  with hands-on architecture that security leaders and senior engineers trust.
+
+achievements:
+  - label: "Enterprise AI, Governed"
+    text: "Moved AI from scattered pilots to governed production across an 800+ engineer org, standardizing reusable agent skills, evaluation harnesses, and security guardrails on the OpenAI SDK and MCP so adoption is consistent, evaluated, and secure by default."
+  - label: "Hands-On AI Architecture"
+    text: "Build agentic and LLM systems at the code level with RAG, vector search, and model evaluation, making the architecture calls senior engineers respect while staying close enough to challenge them."
+  - label: "Enterprise Cloud Modernization"
+    text: "Modernized enterprise platforms on AWS across microservices, distributed systems, and APIs, setting architecture and security standards that held up under PE and board diligence."
+  - label: "Big Outcomes, Lean Budget"
+    text: "Delivered enterprise outcomes without a big team or budget, taking a revenue-critical platform live in under 90 days, protecting an 8-figure line, and personally making the build-versus-buy and security calls."
+
+competencies:
+  - "AI Strategy"
+  - "Technology Strategy"
+  - "Engineering Leadership"
+  - "Enterprise Architecture"
+  - "Applied AI"
+  - "Agentic AI Development"
+  - "AI Integration"
+  - "Software Architecture"
+  - "Distributed Systems"
+  - "Platform Modernization"
+  - "Change Management"
+  - "Organizational Design"
+  - "Agile Delivery"
+  - "Information Security"
+  - "Regulatory Compliance"
+
+skill_groups:
+  - label: "AI & ML"
+    entries: "Applied AI, Agentic AI, LLMs, RAG, Vector Search, Model Evaluation"
+  - label: "AI Governance & Security"
+    entries: "Responsible AI, AI Guardrails, Secure SDLC, Information Security, Compliance"
+  - label: "Cloud & Platform"
+    entries: "AWS, Microservices, Distributed Systems, APIs, Kubernetes, PostgreSQL"
+  - label: "Delivery & DevOps"
+    entries: "Platform Modernization, CI/CD, IaC, Observability, SRE"
+  - label: "Leadership"
+    entries: "Engineering Leadership, Org Design, Scaling Teams, Operating Cadence"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Managing Partner & Head of Technology"
+    summary: "Hands-on AI engineering and delivery advisory, standing up AI-native software delivery, governance, and platform systems for enterprise clients."
+    bullets:
+      - "Standardized AI across an 800+ engineer org so engineers direct agentic workflows instead of writing code, turning one-off scripts into a shared, evaluated, guardrailed developer platform on the OpenAI SDK and MCP."
+      - "Build agentic-AI and LLM systems hands-on at the code level, with RAG, vector search, and model evaluation across workflow automation, tool management, and model deployment."
+      - "Advise executives and engineering leaders on enterprise AI strategy, AI governance, model evaluation, and build-versus-buy, standardizing reusable agent skills, templates, and security guardrails for responsible adoption."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned all of engineering plus platform, reliability, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Set architecture and infrastructure standards across application, data, and platform layers on AWS, Kubernetes, and PostgreSQL, making build-versus-buy calls and managing technical debt across a fast-growing codebase while hardening resilience and security."
+      - "Ran the operating cadence and delivery metrics that kept multiple product lines on schedule, turning roadmap into shipped, high-quality software with Product without trading speed for reliability."
+      - "Matured DevOps, CI/CD, cloud optimization, and Infrastructure-as-Code so teams could provision and deploy through self-service instead of tickets."
+      - "Delivered a custom demand-side campaign platform from zero to production in under 90 days with a small team, protecting an 8-figure revenue line."
+      - "Served as the sole technology voice in PE investor and board diligence, translating platform architecture and operational risk into capital-allocation decisions."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the Brand & Content platform engineering organization through post-acquisition integration, owning delivery and reliability across the portfolio."
+    bullets:
+      - "Restructured a single 8-engineer team into 5 cross-functional teams (40+ engineers) across time zones as the org grew, building the manager-of-managers leadership layer and owning shared platform services for 100+ properties used by millions."
+      - "Modernized the platform on AWS and Kubernetes into a repeatable, paved-road operating model. Automated provisioning and deployment cut average time-to-ship 35%, then spread across the broader portfolio."
+      - "Established SRE and reliability practices across 100+ high-traffic, data-intensive properties, improving uptime and developer experience by maturing observability, incident management, and automated CI/CD."
+      - "Shipped an AI-driven lead-qualification system into the core product, automating scoring and cutting manual qualification effort."
+      - "Built the Product Management function from zero and introduced career frameworks and structured feedback, improving retention 15%."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through a Series-A growth stage, bringing planning, delivery, and on-call structure to a fast-scaling team."
+    bullets:
+      - "Stabilized a Series-A engineering org, reaching consistent sprint predictability within 60 days by restructuring planning cadence and clarifying decision rights."
+      - "Doubled the engineering team with no loss of release quality by instituting a sprint-planning cadence, code-review gates, and a clear on-call rotation across web and mobile-responsive products."

@@ -1,0 +1,34 @@
+date: "August 5, 2026"
+salutation: "Dear Hiring Team,"
+
+paragraphs:
+  - >-
+    I am an engineering leader who came up through architecture and still writes code. I run the
+    technical side of an AI consulting practice, so I own how teams set AI strategy and then actually
+    build it. Your posting asks for one person who can architect enterprise AI strategy and then build
+    it, responsibly and without unlimited resources. That is the work I do, and it is the work I want
+    to keep doing.
+  - >-
+    The mission is the part that pulls me in. Work that reaches millions of people is worth building
+    carefully, which is how I think about enterprise AI. I move organizations from early pilots to
+    governed production, with agentic and LLM-backed workflows running behind real guardrails,
+    evaluation, and security built in rather than bolted on. AI should show judgment, not slop.
+  - >-
+    At Pipeline 360 I delivered a revenue-critical platform on AWS from zero to production in under 90
+    days with a small team, protecting an 8-figure line while making the build-versus-buy calls and
+    holding the security line myself. At Industry Dive I founded and scaled the engineering
+    organization behind more than 100 high-traffic properties used by millions, modernized it into a
+    paved-road platform that cut time-to-ship 35 percent, and grew one team of 8 into five
+    cross-functional teams of 40-plus. Today at Dual Logic I standardized AI across an 800-plus
+    engineer org, putting governed, evaluated systems into production.
+  - >-
+    I have not run technology inside a mission-driven institution, so I will not pretend that world is
+    second nature yet. What I have done is influence across engineering, security, product, and the
+    boardroom, translate deep technical decisions into business value, and deliver real outcomes when
+    the budget is tight and the team is small. I learn a new domain fast and in the open.
+  - >-
+    I would welcome a conversation about the organization, its mission, and where you want its AI
+    foundation to go. I am glad to share more about how I would build it.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
