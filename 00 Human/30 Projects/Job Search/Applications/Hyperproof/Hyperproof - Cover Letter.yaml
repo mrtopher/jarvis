@@ -1,0 +1,36 @@
+date: "August 7, 2026"
+salutation: "Dear Mr. Unger,"
+
+paragraphs:
+  - >-
+    I am a technology executive who came up through architecture and still ships code, and I run
+    product and engineering as one organization. Your posting asks for a single leader to unify
+    Platform Product and Engineering under the CEO, ship a predictable roadmap, and put Hyperproof's
+    AI-native bet into production. That is the seat I have held, and it is the work I want to keep
+    doing.
+  - >-
+    Hyperproof is the part that pulls me in. You took third-party risk management AI-native and
+    earned FedRAMP Moderate, so the platform has to be fast, standardized, and audited at the same
+    time. For compliance software, the way it is built is part of what earns customer trust. I like
+    building under that kind of constraint.
+  - >-
+    At Pipeline 360, a PE-backed SaaS company, I delivered a revenue-critical, multi-tenant platform
+    on AWS from zero to production in under 90 days, protecting an 8-figure line while I made the
+    build-versus-buy calls and held the security line myself. I standardized shared platform
+    capabilities like authentication, roles and permissions, and workflows so teams reused instead
+    of rebuilt. At Industry Dive I founded and scaled the engineering organization behind more than
+    100 high-traffic properties used by millions, modernized it into a paved-road platform that cut
+    time-to-ship 35 percent, and grew one team of 8 into five cross-functional teams of 40-plus.
+    Today at Dual Logic I move agentic and GenAI systems from pilots to governed production, with
+    real guardrails and evaluation.
+  - >-
+    I have not run a GRC product before, so I will not pretend that domain is second nature yet. What
+    I have done is own security and compliance through real change, stand as the sole technology
+    voice in board and investor diligence, and translate deep technical decisions into business
+    value. I learn a new domain fast and in the open, shipping as I go.
+  - >-
+    I would welcome a conversation about where you want Hyperproof's platform and its AI foundation
+    to go, and how I would help get it there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
