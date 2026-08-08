@@ -1,0 +1,87 @@
+target_title: "VP of Engineering"
+target_subtitle: "Engineering Leadership | AI Strategy | Platform Strategy"
+
+summary: >-
+  Engineering leader who came up through architecture and still ships code, running cross-functional
+  squads as a manager of managers. At Industry Dive, grew one team of 8 into five teams of 40-plus
+  that each own a product area end to end, cutting time-to-ship 35 percent with a paved-road
+  platform. Known for making AI-assisted development the default without shipping slop.
+
+achievements:
+  - label: "AI as the Default"
+    text: "Drove AI-assisted development across an 800-employee org, replacing scattered one-off scripts with a shared platform of reusable agent skills, evaluation harnesses, and review gates that hold quality as code volume climbs."
+  - label: "Teams That Own the Journey"
+    text: "Grew one team of 8 into five cross-functional squads of 40-plus across time zones, each owning a customer journey end to end, and lifted retention 15 percent with career ladders and clear standards."
+  - label: "Quality Built In"
+    text: "Cut average time-to-ship 35 percent with a paved-road platform of self-service provisioning, automated testing, and CI/CD, then spread it across 100-plus properties so squads shipped features instead of fighting infrastructure."
+  - label: "Zero to Production"
+    text: "Delivered a revenue-critical multi-tenant platform on AWS from zero to production in under 90 days, holding reliability and security while protecting an 8-figure revenue line."
+
+competencies:
+  - "Engineering Leadership"
+  - "Technology Leadership"
+  - "Engineering Management"
+  - "Scaling Teams"
+  - "Organizational Design"
+  - "Technology Strategy"
+  - "Platform Strategy"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Change Management"
+  - "Agile Delivery"
+  - "Software Architecture"
+  - "Distributed Systems"
+  - "Agile Leadership"
+  - "Strategic Planning"
+
+skill_groups:
+  - label: "AI & Machine Learning"
+    entries: "AI-assisted development, agentic AI, LLMs, RAG, evals, prompt engineering"
+  - label: "Delivery & DevOps"
+    entries: "Agile/Scrumban, CI/CD, DevOps, automated testing, DORA, observability"
+  - label: "Platform & Cloud"
+    entries: "Platform services, AWS, GCP, Kubernetes, PostgreSQL, distributed systems"
+  - label: "Web & Mobile"
+    entries: "Web & mobile apps, iOS/Android, TypeScript/React, JavaScript, PHP"
+  - label: "Leadership"
+    entries: "Engineering leadership, manager of managers, org design, budget/headcount"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Act as player-coach for enterprise clients, still hands-on in code while carrying agentic and RAG-backed systems from architecture through governed production with the evaluation and guardrails that keep AI trustworthy in real use."
+      - "Made AI-assisted development the default across the SDLC, packaging reusable agent skills and automated tests into CI/CD so small teams ship daily with output quality, hallucination, and cost under control."
+      - "Drove AI-assisted development across an 800-employee org, turning scattered one-off scripts into a shared, evaluated platform teams trust and use every day."
+      - "Turn ambiguous executive goals into roadmaps a CEO can fund, owning the build-versus-buy calls, the budget behind them, and the security-first, cloud-native architecture underneath."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Delivered a revenue-critical, multi-tenant platform from zero to production in under 90 days on AWS (EKS, Lambda, S3), protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Turned shared backend capability into platform services the product teams consume, so each new surface launched faster than the last without rebuilding the plumbing."
+      - "Matured CI/CD and Infrastructure-as-Code into self-service provisioning and deploys, and put DORA delivery metrics in front of leadership to keep the org shipping predictably."
+      - "Owned the technology budget and headcount plan across product, engineering, data, IT, and security, making tradeoffs with Product and Finance as the sole tech voice in PE and board diligence."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the platform and product-engineering organization for a consumer-facing digital-media SaaS through post-acquisition integration."
+    bullets:
+      - "Founded and scaled the platform behind 100-plus customer-facing properties serving millions, maturing SRE, observability, and automated CI/CD on AWS and Kubernetes to hold high availability through constant change."
+      - "Grew one team of 8 into five cross-functional squads of 40-plus across time zones, each owning a customer journey end to end, built the manager-of-managers layer, and lifted retention 15 percent with career ladders and structured feedback."
+      - "Built a paved-road delivery model where self-service provisioning and automated testing cut average time-to-ship 35 percent, shifting quality upstream so engineers owned it instead of a separate QA gate."
+      - "Built the Product Management function from zero and shipped AI-driven personalization and a lead-qualification engine that matched qualified audience demand to advertiser demand across a two-sided B2B media marketplace, pairing predictive scoring with a human review loop."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth for a fast-scaling consumer SaaS, bringing planning, delivery, and reliability structure to an early-stage team."
+    bullets:
+      - "Brought planning, estimation, and on-call structure to a Series-A team, reaching steady sprint predictability inside 60 days without losing momentum."
+      - "Doubled the team with no drop in release quality by adding sprint cadence, code-review gates, and a release rhythm across web, iOS, and Android."

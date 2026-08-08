@@ -1,0 +1,36 @@
+date: "August 8, 2026"
+salutation: "Dear Hiring Team,"
+
+paragraphs:
+  - >-
+    Yourgi's next chapter needs an engineering leader who can make AI-assisted development the default and
+    keep the marketplace shipping while doing it. That is the work I do now. As CTO of an AI consulting
+    practice, I moved AI-assisted development from scattered scripts into a shared, evaluated platform
+    across an 800-employee org, with the agent skills, evaluation harnesses, and review gates that hold
+    quality as code volume climbs. I have a clear point of view on how AI changes throughput, review, and
+    quality, earned in production rather than in a slide deck.
+  - >-
+    I have built the organization you are describing. At Industry Dive I grew one team of eight into five
+    cross-functional squads of more than forty, each owning a product area end to end, and I built the
+    manager-of-managers layer that let leads run their teams without waiting on me. Retention rose 15
+    percent on the back of real career ladders and clear standards. Six leaders reporting in is the shape
+    I know how to grow.
+  - >-
+    Quality has to be built in from the start. My paved-road platform put self-service provisioning,
+    automated testing, and CI/CD in the default path and cut time-to-ship 35 percent across 100-plus
+    properties. At Pipeline 360 I turned shared backend capability into platform services the product
+    teams consumed, so each new surface launched faster than the last, and I took a revenue-critical,
+    multi-tenant platform from zero to production in under 90 days. That is the platform thinking Yourgi
+    Connect will need to add a market without rebuilding.
+  - >-
+    I will be straight about the stretch. My marketplace work is two-sided B2B media, not real-time
+    booking against physical inventory, and my mobile experience is leadership over native teams rather
+    than hands-on release engineering. I close gaps like those by hiring and coaching the right leads.
+    On AI I hold a firm line. It should make engineers stronger and keep slop out of the codebase, and
+    every investment should stand up to review.
+  - >-
+    I would welcome a conversation about how to grow Yourgi's engineering organization as Connect scales
+    nationally.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
