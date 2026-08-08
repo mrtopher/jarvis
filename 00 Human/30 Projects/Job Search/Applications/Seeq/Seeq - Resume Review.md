@@ -3,9 +3,9 @@ type: research
 status: active
 company: Seeq
 role: Engineering Leader (End-User Facing Squads)
-score: 91
+score: 90
 passed: true
-passes: 1
+passes: 2
 created: "2026-08-08"
 tags: [job-search, resume-review]
 ---
@@ -15,7 +15,9 @@ tags: [job-search, resume-review]
 > Brutal recruiter / hiring-manager audit of the tailored resume against the target JD.
 > Loop target: **score >= 90/100**.
 
-## Score: **91 / 100**  ·  Passed: **yes**  ·  Passes run: **1**
+## Score: **90 / 100**  ·  Passed: **yes**  ·  Passes run: **2**
+
+> Cold re-audit on 2026-08-08 (pass 2): re-derived the score from JD-vs-resume fit without anchoring to pass 1. Landed at 90 (from 91). The prior review weighted the JVM/C# language gap as a heavy deduction; re-weighted here because the role leads **end-user-facing squads** (React/TypeScript, the candidate's hands-on strength), which raises fit. Offsetting that, the JD's heavy soft-leadership emphasis (empathy, coaching, conflict resolution, teaching) is carried only implicitly through outcomes, which caps impact visibility. Resume left unchanged — re-score only.
 
 ## Phase 1 – The 6-second recruiter scan
 - **Where the eyes stumble:** Nowhere badly. The header ("VP of Engineering" + "Engineering Leadership | Distributed Systems | AI Strategy") and the summary land the exact thing this JD wants: a hands-on leader who levels up healthy squads. The one micro-stumble is that "distributed systems" and cloud are named but the industrial/streaming-time-series world the JD lives in is absent, so a domain-focused reader notices the vertical isn't there.
@@ -53,6 +55,7 @@ tags: [job-search, resume-review]
 | Pass | Score | What changed |
 |------|-------|--------------|
 | 1 | 91 | Initial tailored ATS resume from a VP-of-Engineering base; led with hands-on player-coach + scale-healthy-squads, foregrounded distributed systems/cloud/CI/CD, added an AI-in-developer-tooling bullet to mirror the JD's AI framing. Cleared 90 on the first pass — no rewrite loop. |
+| 2 | 90 | Cold re-audit, no resume changes. Re-weighted the language gap down (end-user-facing squads are React/TS, the candidate's strength) and the soft-leadership emphasis up (JD leans hard on empathy/coaching/conflict-resolution, shown only implicitly on the resume). Net 90; still a clear pass. Micro-flag: target_title "VP of Engineering" sits one level above the posted "Engineering Leader" seat. |
 
 ## Accuracy pass
 > Honesty/factual audit run after the loop. Not scored.

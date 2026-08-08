@@ -16,7 +16,7 @@ achievements:
   - label: "Shipped Under Pressure"
     text: "Delivered a revenue-critical multi-tenant platform on AWS from zero to production in under 90 days, holding reliability and security while protecting an 8-figure line."
   - label: "AI With Judgment"
-    text: "Moved agentic and LLM-backed systems from early pilots to governed production with reusable components, evaluation harnesses, and guardrails, so a lean team ships AI that shows judgment, not slop."
+    text: "Moved agentic and LLM-backed systems from early pilots to governed production with reusable components, evaluation harnesses, and guardrails, so a lean team ships AI that holds up in production instead of slop."
 
 competencies:
   - "Engineering Leadership"
