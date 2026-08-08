@@ -2,7 +2,7 @@
 type: content
 channel: linkedin
 status: draft
-date: "2026-08-07"
+date: "2026-08-10"
 topic: Companies race to deploy AI agents without naming who is accountable
 pillar: You can't blindly turn agents loose; leadership and guardrails
 tags: [content, linkedin, needs-review]
@@ -37,7 +37,7 @@ For every AI agent you are about to turn loose, can you name the human who answe
 ## Cover image
 > Prompt: A clean, modern editorial illustration of a single empty office chair at a desk of active glowing screens sending messages on their own, a blank nameplate on the desk, restrained cinematic lighting, muted professional palette, a subtle unease about who is accountable. Not clip-art, not stock, no charts or infographics, no legible text.
 
-![[assets/2026-08-07 - everyone-deploying-agents-no-one-accountable.png]]
+![[assets/2026-08-10 - everyone-deploying-agents-no-one-accountable.png]]
 
 ## Notes
 - Pegs, attributed: Deloitte research (roughly 74% of organizations plan to deploy agentic AI within two years; governance maturity lags); Citi's 2026 launch of "Arc" to run AI agents across the bank under firm controls (CIO Dive, Citi newsroom).

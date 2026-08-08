@@ -34,10 +34,12 @@ kanban-plugin: board
 	(Tues 8/4 9:15 AM ET)
 - [ ] [[2026-08-05 - ai-felt-faster-measured-slower-metr|Felt 20% faster, measured 19% slower]] #linkedin
 	(Wed 8/5 10:00 AM ET)
-- [ ] [[2026-08-06 - what-hiring-managers-get-wrong-ai-era-eng-leaders|Most eng-leader job descriptions are hiring for 2019]] #linkedin
+- [ ] [[2026-08-06 - market-punishes-ai-layoff-story|The market punishes the AI layoff story]] #linkedin
 	(Thurs 8/6 9:30 AM ET)
-- [ ] [[2026-08-07 - everyone-deploying-agents-no-one-accountable|Everyone is deploying agents, no one is accountable]] #linkedin
+- [ ] [[2026-08-07 - certified-ai-engineer-ai-makerspace|Certified AI Engineer]] #linkedin
 	(Fri 8/7 10:15 AM ET)
+- [ ] [[2026-08-10 - everyone-deploying-agents-no-one-accountable|Everyone is deploying agents, no one is accountable]] #linkedin
+	(Mon 8/10 9:00 AM ET)
 
 
 ## Published
