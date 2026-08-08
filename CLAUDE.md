@@ -45,4 +45,4 @@ This repository is an **Obsidian vault operating system** packaged for community
 3. Log activity into the daily note when a workflow calls for it.
 4. Keep file paths vault-relative.
 5. Prefer updating compiled personalization files in `Machine/Personalization/` through `/interview` instead of making `/today` or `/closeday` read many separate preference files every run.
-6. All AI-generated prose in this vault (any workflow or ad-hoc request: posts, resumes, cover letters, messages, briefs, notes) must follow `VOICE.md`, including its "NO AI SLOP" hard rules. Read `VOICE.md` before generating written output.
+6. All AI-generated prose in this vault (any workflow or ad-hoc request: posts, resumes, cover letters, messages, briefs, notes) must follow `VOICE.md`. Read `VOICE.md` before generating written output, then run the output through the `humanizer` skill to remove signs of AI writing before saving or returning it.
