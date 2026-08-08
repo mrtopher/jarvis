@@ -1,0 +1,36 @@
+date: "August 8, 2026"
+salutation: "Dear Mr. Baweja,"
+
+paragraphs:
+  - >-
+    I am a technology executive who came up through architecture and still ships code, and I spend
+    my time turning fragmented systems into platforms teams can build on. Your posting asks for a
+    leader to own client-facing platforms across Health, Navigation, Wealth, and Leaves, replace
+    siloed solutions with reusable capabilities, and put AI to work for clients. That is the work I
+    have been doing, and it is the work I want to keep doing.
+  - >-
+    Alight is the part that pulls me in. You joined to modernize the platform and expand what AI can
+    do for 30 million people, which means consolidation and innovation have to happen at the same
+    time, without dropping reliability. That balance, holding the platform steady while you change
+    it underneath, is the problem I like most.
+  - >-
+    At Pipeline 360, a PE-backed SaaS company, I delivered a revenue-critical, multi-tenant platform
+    on AWS from zero to production in under 90 days, protecting an 8-figure revenue line while I made the
+    build-versus-buy calls and held the security line myself. I consolidated siloed systems into
+    shared, composable capabilities like authentication, roles and permissions, and workflows so
+    teams reused instead of rebuilt. At Industry Dive I founded and scaled the engineering
+    organization behind more than 100 high-traffic properties used by millions, modernized it into a
+    paved-road platform that cut time-to-ship 35 percent, and grew one team of 8 into five
+    cross-functional teams of 40-plus. Today at Dual Logic I move agentic and GenAI systems from
+    pilots to governed production, with real guardrails and evaluation.
+  - >-
+    I have not run benefits administration before, so I will not pretend that domain is second nature
+    yet. What I have done is own platforms that carry real revenue and real SLAs, stand as the sole
+    technology voice in board and investor diligence, and work across product, delivery, and data to
+    ship one coherent experience. I learn a new domain fast and in the open, shipping as I go.
+  - >-
+    I would welcome a conversation about where you want Alight's platforms and their AI foundation to
+    go, and how I would help get there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
