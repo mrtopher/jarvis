@@ -1,0 +1,35 @@
+date: "August 8, 2026"
+salutation: "Dear Hiring Team,"
+
+paragraphs:
+  - >-
+    I am an engineering leader who came up through architecture and still ships code. Your posting
+    asks for a hands-on leader to take an already-solid set of squads to the next level and expand
+    capacity as Seeq grows. That is the work I do best, and it is the work I want to keep doing.
+  - >-
+    Seeq is the part that pulls me in. You have been remote-first for 13 years and built a global
+    team that trusts each other, which is exactly how I want to work and how I lead. The problems are
+    real too: streaming calculation, storage, and distributed computing on industrial process data,
+    with AI showing up in both the tooling and the product. I have strong opinions about AI in
+    engineering, and they line up with yours. Used well, it makes good engineers stronger. Used
+    carelessly, it ships slop.
+  - >-
+    At Industry Dive I founded and scaled the engineering organization behind more than 100
+    high-traffic properties used by millions, grew one team of 8 into five cross-functional squads of
+    40-plus across time zones, and built the paved-road platform that cut time-to-ship 35 percent so
+    teams shipped features instead of fighting infrastructure. At Pipeline 360, a PE-backed SaaS
+    company, I took a revenue-critical, multi-tenant platform on AWS and Kubernetes from zero to
+    production in under 90 days, protecting an 8-figure line. Today at Dual Logic I move agentic and
+    LLM-backed systems from early pilots to governed production, with real evaluation and guardrails.
+  - >-
+    I have not worked in industrial process data before, so I will not pretend that domain is second
+    nature yet. What I have done is lead through influence rather than authority, coach engineers and
+    managers into stronger versions of themselves, and get productive in a new domain fast and in the
+    open. Distributed systems, cloud, and delivery discipline travel with me. The rest I will learn
+    from your team, which sounds like a group worth learning from.
+  - >-
+    I would welcome a conversation about your end-user squads, where you want them to go, and how I
+    would help get them there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
