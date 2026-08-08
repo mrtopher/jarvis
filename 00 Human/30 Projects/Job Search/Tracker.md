@@ -26,6 +26,9 @@ kanban-plugin: board
 - [ ] Guild - VP, Software Engineering (applied 7/28/26)
 - [ ] Patch - VP, Engineering (applied 7/30/26; emailed CEO Warren St. John wsj@patch.com 7/30/26)
 - [ ] The ReWork Group - VP, Engineering (applied 8/3/26; blind posting, recruiter Brian Fink)
+- [ ] Hyperproof - SVP, Platform (Engineering & Product) (applied 8/8/26)
+- [ ] Seeq - Engineering Leader, End-User Facing Squads (applied 8/8/26)
+- [ ] Alight - SVP, Platform & Solution Engineering (applied 8/8/26)
 
 
 ## Closed
