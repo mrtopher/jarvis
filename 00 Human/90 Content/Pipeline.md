@@ -6,9 +6,8 @@ kanban-plugin: board
 
 ## Ideas
 
-- [ ] What is a forward deployed engineer?
 - [ ] The new engineering org structure in the age of AI
-- [ ] Should product and engineering be combined?
+- [ ] Client before/after story, anonymized, needs permission #linkedin
 
 
 ## Drafting
@@ -22,6 +21,10 @@ kanban-plugin: board
 - [ ] [[2026-07-20 - agentic-browser-automation-webinar-email-invite|Webinar email invite]] #webinar
 - [ ] [[2026-07-27 - engineering-team-role-everyone-builds|When everyone can build, what is your engineering team for?]] #linkedin
 - [ ] [[2026-07-17 - ai-governance-compliance-tax|AI governance is not a compliance tax]] #linkedin
+- [ ] [[2026-08-11 - forward-deployed-engineer-hire-that-sticks|What is a forward-deployed engineer?]] #linkedin
+- [ ] [[2026-08-13 - hiring-managers-wrong-ai-era-eng-leaders|What hiring managers get wrong about AI-era eng leaders]] #linkedin
+- [ ] [[2026-08-14 - should-product-and-engineering-be-combined|Should product and engineering be combined?]] #linkedin
+- [ ] [[2026-08-18 - forward-deployed-engineer|The AI hire most companies are still missing]] #substack
 
 
 ## Review
@@ -40,6 +43,8 @@ kanban-plugin: board
 	(Fri 8/7 10:15 AM ET)
 - [ ] [[2026-08-10 - everyone-deploying-agents-no-one-accountable|Everyone is deploying agents, no one is accountable]] #linkedin
 	(Mon 8/10 9:00 AM ET)
+- [ ] [[2026-08-12 - pr-review-checklist-ai-code|The AI code review checklist (infographic)]] #linkedin
+	(Wed 8/12 9:00 AM ET)
 
 
 ## Published

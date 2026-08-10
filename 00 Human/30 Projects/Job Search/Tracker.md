@@ -29,6 +29,7 @@ kanban-plugin: board
 - [ ] Hyperproof - SVP, Platform (Engineering & Product) (applied 8/8/26)
 - [ ] Seeq - Engineering Leader, End-User Facing Squads (applied 8/8/26)
 - [ ] Alight - SVP, Platform & Solution Engineering (applied 8/8/26)
+- [ ] Yourgi - VP, Engineering (applied 8/8/26)
 
 
 ## Closed

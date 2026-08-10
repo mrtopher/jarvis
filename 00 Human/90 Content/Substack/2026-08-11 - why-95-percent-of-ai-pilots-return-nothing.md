@@ -37,7 +37,7 @@ I lead with the caveat on purpose. If a number is doing real work in an argument
 
 Look past the one study and the pattern repeats.
 
-PwC's 2026 Global CEO Survey found that 56% of chief executives saw neither more revenue nor lower costs from AI. The same survey put CFO and CEO misalignment on AI at 65%, so the people writing the checks and the people reading the results are not even looking at the same scoreboard.
+PwC's 2026 Global CEO Survey found that 56% of chief executives saw neither more revenue nor lower costs from AI. The same survey put CFO and CEO misalignment on AI at 65%, so the people signing the checks and the people reading the results are not even using the same scoreboard.
 
 Gartner predicted that at least 30% of generative AI projects would be abandoned after proof of concept by the end of 2025. S&P found that 42% of companies abandoned most of their AI projects in 2025.
 
