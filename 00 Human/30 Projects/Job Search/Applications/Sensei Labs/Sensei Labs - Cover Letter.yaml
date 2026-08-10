@@ -1,0 +1,42 @@
+date: "August 10, 2026"
+salutation: "Dear D'Arcy,"
+
+paragraphs:
+  - >-
+    The VP seat you are describing wants someone who can make a lean team deliver far beyond its
+    size, mostly by rebuilding how the team works with AI. That is the work I do now. As CTO of an AI
+    consulting practice, I moved AI-assisted development from scattered one-off scripts into a shared,
+    evaluated platform of agent skills, evaluation harnesses, and review gates that hold quality as
+    code volume climbs. I have a point of view on where AI actually speeds a team up and where it just
+    creates cleanup, earned in production rather than in a slide deck.
+  - >-
+    I read the hands-on part as the best part, not a caveat. I am most useful in the code, the
+    reviews, and the architecture calls, and I have run small teams that way. At Phone2Action I
+    brought planning and release structure to a Series-A team and doubled it without losing quality,
+    and today I stay hands-on for enterprise clients while owning the technical direction. Six
+    engineers and the Platform team is the shape I want to lead, not one I would have to shrink into.
+  - >-
+    Conductor Modern is a delivery problem I have lived. I took a revenue-critical platform from zero
+    to production in under 90 days on a post-divestiture reset, owning the service boundaries, data
+    isolation, and the security and compliance posture an enterprise buyer expects. Earlier I founded
+    the platform behind more than 100 properties and consolidated them onto a modern stack through a
+    post-acquisition integration, holding uptime through the migration. That is the muscle a customer
+    cutover and a legacy sunset need.
+  - >-
+    Harmony is the part I would be most excited to push on. I have carried agentic and RAG-backed
+    systems from architecture through governed production, with the evaluation, guardrails, and
+    permission-aware behavior that keep AI trustworthy when the user is an enterprise operator. My
+    firm line is simple. AI should make engineers stronger and keep slop out of the product, and every
+    AI investment should survive a hard review.
+  - >-
+    I will be straight about the stretch. My cloud depth is AWS and GCP rather than Azure, and the
+    PPM and transformation domain is new to me. Architecture and operating principles carry across
+    clouds, and I close domain gaps quickly by getting into the product and the customer problem. On
+    the parts that matter most to this role, AI-first delivery and hands-on leadership, I am already
+    there.
+  - >-
+    I would welcome a conversation about how to run engineering for Conductor as you finish the
+    rewrite and grow the team.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
