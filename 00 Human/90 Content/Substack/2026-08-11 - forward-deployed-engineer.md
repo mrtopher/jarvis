@@ -7,7 +7,7 @@ date: 2026-08-11
 topic: The forward-deployed engineer is the hire that makes enterprise AI actually stick
 pillar: Leadership and building teams / org design
 source_draft: "[[2026-08-11 - forward-deployed-engineer-hire-that-sticks]]"
-seo_title: "The AI Hire Most Companies Are Still Missing"
+seo_title: "The Forward-Deployed Engineer: The AI Hire You're Missing"
 seo_description: "The hottest engineering job of 2026 was invented in 2005 for the CIA. Here is why the forward-deployed engineer is the hire that makes enterprise AI stick."
 slug: forward-deployed-engineer-the-hire-that-sticks
 substack_tags:
