@@ -24,7 +24,7 @@ kanban-plugin: board
 - [ ] [[2026-08-11 - forward-deployed-engineer-hire-that-sticks|What is a forward-deployed engineer?]] #linkedin
 - [ ] [[2026-08-13 - hiring-managers-wrong-ai-era-eng-leaders|What hiring managers get wrong about AI-era eng leaders]] #linkedin
 - [ ] [[2026-08-14 - should-product-and-engineering-be-combined|Should product and engineering be combined?]] #linkedin
-- [ ] [[2026-08-18 - forward-deployed-engineer|The AI hire most companies are still missing]] #substack
+- [ ] [[2026-08-11 - forward-deployed-engineer|The AI hire most companies are still missing]] #substack
 
 
 ## Review

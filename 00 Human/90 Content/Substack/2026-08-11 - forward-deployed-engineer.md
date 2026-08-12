@@ -3,7 +3,7 @@ type: content
 channel: substack
 format: newsletter
 status: draft
-date: 2026-08-18
+date: 2026-08-11
 topic: The forward-deployed engineer is the hire that makes enterprise AI actually stick
 pillar: Leadership and building teams / org design
 source_draft: "[[2026-08-11 - forward-deployed-engineer-hire-that-sticks]]"
@@ -83,11 +83,11 @@ Reply and tell me where your AI efforts have gotten stuck. I am seeing the same 
 ## Cover image
 > Prompt (monnat-design-system): Flat geometric vector editorial illustration, wide landscape, generous negative space. Strict palette: warm off-white background #FFF8F8, never pure white; figures and objects rendered in charcoal #333333 with muted mauve-grey #676576 for secondary shapes; exactly one saturated accent, coral #FF5252, used sparingly. Scene: a single engineer's simple desk and chair placed directly onto a busy operations floor among the people doing the real work, the outsider who has moved inside, one coral element marking the engineer as the point of focus. No crosshairs, no targets, no ring-and-crosshair motif, no crossing lines or X shapes anywhere. No decorative line flourishes at all; let the negative space and the single coral accent carry the composition. No text, no letters, no numbers, no logos, no clip-art, no stock photography, no infographics.
 
-![[assets/2026-08-18 - forward-deployed-engineer.png]]
+![[assets/2026-08-11 - forward-deployed-engineer.png]]
 
 ## Notes
 - Repurposed from the Tue 8/11 LinkedIn FDE post ([[2026-08-11 - forward-deployed-engineer-hire-that-sticks]]). LinkedIn version is short and hook-led; this expands it into a full essay with sentence-case subheads, keeps the same load-bearing facts (Palantir 2005 origin for CIA/NSA/Army, OpenAI/Anthropic rebuild 2023, standard enterprise hire by 2026), and drops the LinkedIn scaffolding (hashtags, link-in-comments).
-- Next Substack slot: existing posts dated 8/4 and 8/11, weekly cadence, so this is 8/18.
+- Moved up to 8/11 (swapped with the 95%-pilots essay, which shifted to 8/18) so the FDE piece publishes first.
 - Pillar: leadership / org design. Same thesis as the LinkedIn post (the missing role is a person, not a bigger model), given room to breathe.
 - Voice/anti-slop: no em dashes; no sentence starts with "and"; avoided the "not X, it is Y" binary; the "Here is the part that surprises people" line is a single deliberate beat, not a stacked signposting pattern; closed on a concrete diagnostic question, not a summary-recap or a mic-drop aphorism. Ran a discrete humanizer audit pass after drafting.
 

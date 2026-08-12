@@ -1,5 +1,5 @@
 <!-- GPTHuman raw output (not for publishing) -->
-<!-- Source: 2026-08-11 - why-95-percent-of-ai-pilots-return-nothing.md essay body -->
+<!-- Source: 2026-08-18 - why-95-percent-of-ai-pilots-return-nothing.md essay body -->
 <!-- Run 2026-08-08 | humanScore 99.13 | similarity 87 | readability 76 | creditUsage 739 -->
 
 Last year MIT put hundreds of corporate AI initiatives under a microscope and the verdict was 95% returned nothing. Not a dent in the profit and loss statement. The company would put up the cash, run the pilot, watch the demo do its thing, and the bottom line would not budge.

@@ -3,7 +3,7 @@ type: content
 channel: substack
 format: newsletter
 status: draft
-date: 2026-08-11
+date: 2026-08-18
 topic: Why 95% of corporate AI pilots show no return, and it is not the model
 pillar: Adopting AI well (where value is real, where hype fails)
 source_draft: "[[2026-08-04 - why-95-percent-of-ai-pilots-return-nothing]]"
@@ -86,4 +86,4 @@ Concept: most pilots nose-dive, one climbs (the well-defined, gradable one). The
 
 > Prompt: Flat geometric vector editorial illustration, wide landscape, generous negative space. Several simple paper airplanes launched across the frame; most nose-dive downward while exactly one climbs steadily upward. The single climbing airplane is the clear focal point. Minimal geometric shapes, solid flat color fills only, no gradients, no shading, no highlights, no 3D, no texture, no photography. Strict palette: warm off-white background #FFF8F8, never pure white; the falling paper airplanes and their dotted trajectory arcs in charcoal #333333 with muted mauve-grey #676576 for secondary shapes; exactly one saturated accent, coral #FF5252, used only on the single climbing airplane and its rising trajectory line, no other saturated color anywhere. A thin coral #FF5252 ring-and-crosshair line drawing radiates behind the scene as the only decorative flourish. No text, no letters, no numbers, no logos.
 
-![[assets/2026-08-11 - why-95-percent-of-ai-pilots-return-nothing.png]]
+![[assets/2026-08-18 - why-95-percent-of-ai-pilots-return-nothing.png]]
