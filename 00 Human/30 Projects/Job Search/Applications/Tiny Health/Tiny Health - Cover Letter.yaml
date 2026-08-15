@@ -1,0 +1,26 @@
+date: "August 14, 2026"
+salutation: "Dear Hiring Team,"
+
+paragraphs:
+  - >-
+    Your first VP of Engineering has to be one person who owns engineering end to end and is
+    still credible in the code. That is the seat I run. As CTO of an AI consulting practice, I stay
+    in the architecture calls and the reviews while carrying agentic and RAG-backed systems from
+    design through governed production. I read the hands-on part of this role as the appeal, not a
+    caveat.
+  - >-
+    I have built the team you are describing. At Industry Dive I grew one team of eight into five
+    squads of forty, coaching engineers into tech leads and measuring people by real impact instead
+    of ticket volume. I took a revenue-critical platform from zero to production in under 90 days,
+    owning the architecture and the reliability underneath it. What excites me most about Tiny Health
+    is the data. Turning a large longitudinal dataset into something people trust, with evals and
+    guardrails around the AI, is the work I do now.
+  - >-
+    I will be straight about the stretch. Microbiome science and HIPAA and SOC 2 are new to me, and I
+    close domain gaps by getting into the product early. On the parts that matter most for this seat,
+    a single hands-on owner who can grow a lean team and ship governed AI on real data, I am already
+    there. I would welcome a conversation about running engineering for Tiny Health as you scale from
+    two pods.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
