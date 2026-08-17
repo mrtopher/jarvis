@@ -7,7 +7,11 @@ kanban-plugin: board
 ## Ideas
 
 - [ ] The new engineering org structure in the age of AI
-- [ ] Client before/after story, anonymized, needs permission #linkedin
+- [ ] Mon: One real client before/after (WeAquatics or Ridgewells/CATE, anonymized) — the 95%-pilots follow-up; needs client OK + permission #linkedin
+- [ ] Tue: Buyer-framed AI news reaction — pick an adoption/governance story, not a model-release/tooling one; needs current news peg at draft time #linkedin
+- [ ] Wed: Artifact — "What actually goes in an AI usage policy" one-pager, aimed at CEOs; square 1024x1024 image #linkedin
+- [ ] Thu: Contrarian for CEOs — "Your AI adoption problem isn't the tool, it's that no one's job changed" (org-behavior angle, not the Citi peg) #linkedin
+- [ ] Fri: "The AI hire most companies get wrong" — hiring-manager lens; overlaps the #substack FDE card, only run with a genuinely different angle #linkedin
 
 
 ## Drafting
@@ -22,7 +26,7 @@ kanban-plugin: board
 - [ ] [[2026-07-27 - engineering-team-role-everyone-builds|When everyone can build, what is your engineering team for?]] #linkedin
 - [ ] [[2026-07-17 - ai-governance-compliance-tax|AI governance is not a compliance tax]] #linkedin
 - [ ] [[2026-08-11 - forward-deployed-engineer-hire-that-sticks|What is a forward-deployed engineer?]] #linkedin
-- [ ] [[2026-08-13 - hiring-managers-wrong-ai-era-eng-leaders|What hiring managers get wrong about AI-era eng leaders]] #linkedin
+- [ ] [[2026-08-13 - anthropic-watermark-ai-text|Anthropic's Claude watermark won't grade the work]] #linkedin
 - [ ] [[2026-08-14 - should-product-and-engineering-be-combined|Should product and engineering be combined?]] #linkedin
 - [ ] [[2026-08-11 - forward-deployed-engineer|The AI hire most companies are still missing]] #substack
 
