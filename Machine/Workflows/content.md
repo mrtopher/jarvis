@@ -2,7 +2,7 @@
 type: workflow
 status: active
 trigger: /content
-last_verified: "2026-06-29"
+last_verified: "2026-08-15"
 modes: "standalone (idea/topic passed as argument) | board (no argument, drives the content Kanban)"
 channels: "linkedin | blog | webinar"
 tags: [workflow, content, branding, writing]
@@ -27,11 +27,11 @@ Read these so every piece reflects the user's situation, audience, and voice:
 - `VOICE.md` (vault root) - **the authoritative voice for everything written here**. Treat its rules as hard constraints: no em dashes, ever; don't start sentences with "and"; short, punchy sentences. If missing, fall back to `00 Human/70 Context/writing-style.md`.
 - `00 Human/70 Context/audience-profile.md` (who the content is for and their pains).
 - `00 Human/70 Context/business-profile.md` (background, positioning).
-- Recently published pieces in `00 Human/90 Content/{LinkedIn,Blog,Webinars}/` for continuity and to avoid repeating angles.
+- The last ~5-8 pieces in `00 Human/90 Content/{LinkedIn,Blog,Webinars,Substack}/`. Do not just check for a repeated angle. Note, for each recent post: its **form** (news-reaction, first-person story, blunt opinion, how-to, short jab, teardown), its **anchor** (what real experience it was built on, if any), its **close type** (question, takeaway, hard stop), and whether it carried an AI-generated cover illustration. The new piece must differ from the last 2 on form and close, and must not extend a run of identical-style AI images. Sameness across these axes is what makes a feed read as automated, so this diff is load-bearing, not a formality.
 
 ## Shared phase: Draft (the writing half)
 Given an idea and a target channel:
-1. **Resolve the channel.** linkedin, blog, or webinar. If the idea text or card carries a channel hint or tag (`#linkedin`, `#blog`, `#webinar`), use it. Otherwise ask the user which channel (skip the question in board mode if the card is tagged).
+1. **Resolve the channel.** linkedin, blog, webinar, or substack. If the idea text or card carries a channel hint or tag (`#linkedin`, `#blog`, `#webinar`, `#substack`), use it. Otherwise ask the user which channel (skip the question in board mode if the card is tagged).
 2. **Pick the template and destination.**
    | Channel | Template | Save to |
    |---------|----------|---------|
@@ -40,19 +40,35 @@ Given an idea and a target channel:
    | webinar | `Machine/Templates/Content Webinar.md` | `00 Human/90 Content/Webinars/YYYY-MM-DD - <slug>.md` |
    Create the channel folder if it does not exist. Use today's date and a short kebab-case slug from the topic.
 3. **Sharpen the angle.** State, in one sentence, the single idea this piece lands and which audience pain it speaks to (per `audience-profile.md`). Tie it to a content pillar from `content-prompt.md` if one fits.
-4. **Write the piece.** Fill the template fully in the user's voice per `VOICE.md`. Channel specifics:
-   - **LinkedIn:** scroll-stopping hook in the first two lines, short lines, one idea per line, a clear takeaway or question, 3-5 relevant hashtags. No hard sell.
+4. **Anchor the piece in something real (REQUIRED for LinkedIn and Substack).** Before writing, name the ONE first-person, lived thing this piece is built on. Valid anchors: a specific client moment (anonymized, and only with permission), a number Chris actually measured, a mistake and what it cost, a hard-won opinion from 20 years of doing the work, a decision he made this week. **A news peg is NOT an anchor** - reacting to someone else's announcement is the single most automated-looking format there is.
+   - **Never invent the anchor.** The experience, client, or number must be real and sourced from Chris or the vault (his notes, client notes used with permission). Fabricating a personal story or a client result violates the vault's accuracy rule. If you cannot source a real anchor, you do not have one.
+   - **If no real anchor is available:** (a) reframe the idea as a blunt first-person opinion Chris genuinely holds and will defend, or (b) in board mode, leave the card in `## Ideas`, report it, and ask Chris for the raw material (one or two sentences, or a voice memo, about what actually happened), or (c) in standalone mode, ask Chris for the anchor before drafting. Do not ship an anchorless news reaction.
+5. **Choose the post form, and rotate it.** The template is a flexible scaffold, not a fixed skeleton - reshape its sections to fit the form. Pick a form that DIFFERS from the last 2 recent posts (checked in Context):
+   - First-person story (setup, what happened, the turn, what it means)
+   - Blunt opinion with no news peg (a claim, then the case for it)
+   - Tactical how-to / artifact (a real checklist, template, or numbered steps with specifics)
+   - Short jab (under ~50 words, one sharp point, usually no image)
+   - Teardown / contrarian take
+   - News reaction (allowed, but it still needs a real anchor per step 4, and it cannot be the form used in either of the last 2 posts)
+6. **Write the piece.** Fill the scaffold in Chris's voice per `VOICE.md`. Vary length deliberately - not every post is 150-180 words; ship the occasional very short one. Channel specifics:
+   - **LinkedIn:** scroll-stopping hook in the first two lines, short lines, one idea per line, 3-5 relevant hashtags, no hard sell. **Vary the close** - a takeaway, a question, or a hard stop. Do NOT default to a rhetorical question, and do not reuse the previous post's close type.
+   - **Substack:** per the Substack format in `content-prompt.md` (title + subtitle, essay with light subheads, reply/subscribe CTA, no LinkedIn scaffolding).
    - **Blog:** scannable subheads, intro hook, body, conclusion + CTA, and a ~155-char meta description. Write for `target_keyword` if set, naturally.
    - **Webinar:** a one-sentence promise, a run-of-show table with rough minutes, key teaching points, a promo plan (pre-webinar LinkedIn + blog tie-in), and a follow-up plan (replay, recap, lead follow-up).
-5. **GPTHuman humanize pass (optional early pass, remediate in place).** As a mechanical first pass, run the draft through GPTHuman: `~/.venvs/jarvis/bin/python "Machine/Scripts/humanize-text.py" --file "<note path>"`. Replace the draft body with the returned text. GPTHuman is **not** the final authority - it can reintroduce em dashes and generic phrasing, so the no-ai-slop / `VOICE.md` pass in the next step always runs after it and wins any conflict. Needs `GPTHUMAN_API_KEY` (env or the gitignored `Machine/Scripts/.secrets`); if the key is missing or the API call fails, **skip gracefully** (mirror the gcalcli/image pattern): keep the current draft, tell the user GPTHuman was skipped and why, and move on.
-6. **no-ai-slop pass (mandatory, every channel, remediate in place).** Run the `no-ai-slop` skill via the Skill tool, pointing it at the draft file, in edit mode: instruct it to audit and lightly edit the piece against the no-ai-slop rules, preserve the user's voice, make the minimum effective edit, invent nothing, and apply the edits directly to the file. `VOICE.md` hard rules still sit on top of the skill: after the skill runs, confirm no em dashes (`—`/`–`), no sentence starts with "and", and the word "hope" is not overused. Fix any remaining VOICE.md violation directly in the file.
-7. **Generate a cover image (mandatory, every channel).** Create a visual for the piece with the OpenAI image script:
-   - **Write the prompt.** One or two sentences describing a clean, professional editorial illustration that matches the piece's angle. Do not make an infographic (charts, labeled diagrams, bullet layouts, data callouts) unless the piece specifically calls for one; text in the image is otherwise fine. Keep it on-brand for the audience in `content-prompt.md` (senior technical leaders / "Joe CEO"): modern, restrained, not clip-art or hype-y stock. Save this prompt in the note's `## Cover image` section as `> Prompt: <text>` so it can be regenerated.
-   - **Pick the output path.** `00 Human/90 Content/<Channel>/assets/YYYY-MM-DD - <slug>.png` (same date + slug as the note; create the `assets/` folder if missing).
-   - **Run the script:** `~/.venvs/jarvis/bin/python "Machine/Scripts/generate-content-image.py" --prompt "<prompt>" --out "<output path>" --size 1536x1024` (LinkedIn/blog landscape; use `1024x1024` for square if the piece calls for it).
-   - **Embed it.** Add the image to the note's `## Cover image` section as `![[<output path>]]` (Obsidian embed) directly under the saved prompt line.
-   - This step needs an OpenAI API key (env `OPENAI_API_KEY` or the gitignored `Machine/Scripts/.secrets`). If the key is missing or the API call fails, **skip gracefully** (do not block the draft): leave the `> Prompt:` line in the note, tell the user the image was skipped and why, and move on. Mirrors the gcalcli graceful-skip pattern.
-8. **Suggest repurposing.** Note in the file's repurpose section how this piece can spawn the others (a blog post -> 2-3 LinkedIn posts; a webinar -> a blog recap + promo posts).
+7. **GPTHuman humanize pass (optional early pass, remediate in place).** As a mechanical first pass, run the draft through GPTHuman: `~/.venvs/jarvis/bin/python "Machine/Scripts/humanize-text.py" --file "<note path>"`. Replace the draft body with the returned text. GPTHuman is **not** the final authority - it can reintroduce em dashes and generic phrasing, so the no-ai-slop / `VOICE.md` pass in the next step always runs after it and wins any conflict. Needs `GPTHUMAN_API_KEY` (env or the gitignored `Machine/Scripts/.secrets`); if the key is missing or the API call fails, **skip gracefully** (mirror the gcalcli/image pattern): keep the current draft, tell the user GPTHuman was skipped and why, and move on.
+8. **no-ai-slop pass (mandatory, every channel, remediate in place).** Run the `no-ai-slop` skill via the Skill tool, pointing it at the draft file, in edit mode: instruct it to audit and lightly edit the piece against the no-ai-slop rules, preserve the user's voice, make the minimum effective edit, invent nothing, and apply the edits directly to the file. `VOICE.md` hard rules still sit on top of the skill: after the skill runs, confirm no em dashes (`—`/`–`), no sentence starts with "and", and the word "hope" is not overused. Fix any remaining VOICE.md violation directly in the file.
+9. **Genuineness / sameness audit (mandatory for LinkedIn and Substack, discrete pass).** The no-ai-slop pass catches word-level tells. This is the structural counterpart, and it runs as a SEPARATE dedicated pass on the finished piece - not folded into writing. Confirm every item; fix any that fail before moving on:
+   - The piece carries the real first-person anchor from step 4 (a reader can point to the lived detail), not just a news summary.
+   - Its form differs from the last 2 recent posts.
+   - The close is not another default rhetorical question, and not the same close type as the previous post.
+   - Sentence and overall length vary; it is not another tidy 5-paragraph ~160-word block.
+   - The planned image (step 10) will not extend a run of identical-style AI illustrations.
+10. **Cover image (optional, and varied - not every piece).** A feed of matching AI illustrations is itself an "automated" tell, so the default is no longer "always generate one."
+    - **Prefer, when it fits:** a real photo (a whiteboard, a redacted screenshot of an actual PR / diff / dashboard, a phone snap) supplied by Chris, or **no image at all** - especially for short-jab and blunt-opinion forms.
+    - **If you do generate one:** write a one or two sentence prompt for a clean, professional editorial illustration matching the angle. No infographic (charts, labeled diagrams, data callouts) unless the piece calls for one. Keep it on-brand for "Joe CEO" (modern, restrained, not clip-art or hype-y stock), and **vary the style and composition** so consecutive posts do not read as a matched set. Save the prompt in `## Cover image` as `> Prompt: <text>`.
+    - **Path + script:** `00 Human/90 Content/<Channel>/assets/YYYY-MM-DD - <slug>.png` (create `assets/` if missing). `~/.venvs/jarvis/bin/python "Machine/Scripts/generate-content-image.py" --prompt "<prompt>" --out "<output path>" --size 1536x1024` (landscape; `1024x1024` square if the piece calls for it). Embed as `![[<output path>]]` under the prompt line.
+    - Needs an OpenAI API key (env `OPENAI_API_KEY` or the gitignored `Machine/Scripts/.secrets`). If the key is missing or the API call fails, **skip gracefully**: leave the `> Prompt:` line, tell the user why, and move on.
+11. **Suggest repurposing.** Note in the file's repurpose section how this piece can spawn the others (a blog post -> 2-3 LinkedIn posts; a webinar -> a blog recap + promo posts).
 
 ---
 
@@ -86,6 +102,7 @@ Given an idea and a target channel:
 |--------------|----------|
 | Channel unclear (standalone) | Ask the user which channel before drafting |
 | Idea card has no channel tag (board) | Leave the card in `## Ideas` and report it; do not guess |
+| No real first-person anchor available (LinkedIn/Substack) | Do not fabricate one. Reframe as a blunt opinion Chris holds, or leave the card in `## Ideas` and ask Chris for the raw anecdote before drafting |
 | `VOICE.md` missing | Fall back to `00 Human/70 Context/writing-style.md` and tell the user to create `VOICE.md` |
 | `content-prompt.md` missing | Run with `audience-profile.md` + `business-profile.md` + `VOICE.md` and tell the user to run `/interview` to compile content preferences |
 | Channel folder missing | Create it, then save the note |
