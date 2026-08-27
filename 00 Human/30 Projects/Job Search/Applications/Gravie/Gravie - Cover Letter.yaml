@@ -1,0 +1,38 @@
+date: "August 27, 2026"
+salutation: "Dear Mr. Singh,"
+
+paragraphs:
+  - >-
+    Your posting describes the AI platform I am building right now: secure model access, agent
+    orchestration, retrieval and knowledge services, evaluation, observability, and guardrails, with
+    agentic development adopted across Engineering and measured in delivery metrics. That is the core
+    of my current work, so I want to be considered for VP, Platform and Architecture.
+  - >-
+    At Dual Logic I build these platforms for clients as a player-coach, still in the code on the
+    hard problems. I move LLM-backed systems out of pilots and into governed production, with real
+    evaluation harnesses and guardrails so the output holds up under scrutiny. I have driven agentic
+    development across an 800-plus employee SaaS org, turning one-off scripts into a shared, evaluated
+    developer platform teams actually trusted, tracking adoption and impact as it scaled. AI should
+    make strong engineers stronger, not bury them in slop, and a platform is how you enforce that at
+    scale.
+  - >-
+    The platform and architecture half of the seat is where I have spent most of my career. At
+    Industry Dive I built a paved-road delivery platform that other teams reused instead of rebuilding,
+    cutting time-to-ship across more than a hundred customer-facing properties while holding high
+    availability for millions of users. At Pipeline 360 I reset a revenue-critical multi-tenant
+    platform to reliable-at-volume in under 90 days on AWS, consolidated siloed systems into shared
+    services, and stood up the production issue management, incident response, and reliability metrics
+    that gave executives and support real visibility. That is the shared-foundations, reliability, and
+    developer-experience work your roadmap calls for.
+  - >-
+    I have not worked inside healthcare or a PHI environment, so I will not claim that domain is second
+    nature yet. What I have done is run engineering under real revenue and reliability pressure, partner
+    with security and compliance through PE and board diligence, and treat governed, auditable AI as the
+    default rather than an afterthought. The regulated discipline carries. The specific rules I will
+    learn fast and in the open.
+  - >-
+    I would welcome a conversation about where you want Gravie's platform and its AI foundation to go,
+    and how I would help build them.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

@@ -1,0 +1,88 @@
+target_title: "Vice President, Platform & Architecture"
+target_subtitle: "Platform Strategy | AI Strategy | Software Architecture"
+
+summary: >-
+  Good platform work is quiet, where other teams move faster and break less and nobody thinks
+  about why. That is what I build, and I build it hands-on: shared foundations and standards that
+  keep an engineering org fast and reliable. Today I am building the AI platform that puts agents
+  and LLMs into governed production with guardrails and evaluation. AI should make strong engineers
+  stronger, not bury them in slop.
+
+achievements:
+  - label: "Agentic Dev Adoption"
+    text: "Drove agentic development across an 800-plus-employee engineering org, standardizing reusable agent skills, evaluation, and guardrails, and tracked the productivity lift in delivery metrics."
+  - label: "AI Platform In Production"
+    text: "Built the foundations for AI in customer-facing systems with secure model access, agent orchestration, retrieval, evaluation, observability, and guardrails, moving LLM-backed work from pilots into governed production."
+  - label: "Paved-Road Platform"
+    text: "Built a shared paved-road platform that cut average time-to-ship 35 percent across 100-plus properties, spreading one reusable delivery pattern instead of letting teams rebuild."
+  - label: "Reliability Reset"
+    text: "Reset a revenue-critical multi-tenant platform to production and held it reliable at volume in under 90 days on AWS, protecting an 8-figure revenue line through a post-divestiture reset."
+
+competencies:
+  - "Engineering Leadership"
+  - "Technology Strategy"
+  - "Platform Strategy"
+  - "Software Architecture"
+  - "Enterprise Architecture"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Agentic AI Development"
+  - "AI Enablement"
+  - "Platform Modernization"
+  - "Distributed Systems"
+  - "Information Security"
+  - "Organizational Design"
+  - "Engineering Management"
+  - "Change Management"
+
+skill_groups:
+  - label: "AI & GenAI Platform"
+    entries: "Applied AI, Agentic AI, LLMs, RAG, Agent Orchestration, Evals, Guardrails"
+  - label: "Platform & Architecture"
+    entries: "Distributed Systems, Microservices, REST APIs, Developer Experience"
+  - label: "Cloud & Reliability"
+    entries: "AWS, GCP, Kubernetes, Terraform, CI/CD, SRE, Observability"
+  - label: "Quality & Delivery"
+    entries: "Quality Engineering, Test Automation, SDLC, Incident Response"
+  - label: "Security & Compliance"
+    entries: "Information Security, Application Security, Compliance, Governance"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Build AI platforms for clients as a player-coach: secure model access, agent orchestration, retrieval services, evaluation harnesses, observability, guardrails, and model lifecycle management that put LLM-backed systems into governed production."
+      - "Drive adoption of agentic development across engineering, standardizing reusable agent skills, LLM code-generation tooling, and DevSecOps guardrails, then measuring the productivity lift in delivery metrics."
+      - "Turned one-off scripts into a shared, evaluated developer platform trusted across an 800-plus employee SaaS org, with adoption and impact tracked as it scaled."
+      - "Translate ambiguous executive goals into fundable roadmaps and security-first architectures, making the rebuild-versus-refactor calls in plain business terms for CEOs."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Reset a revenue-critical, multi-tenant platform to production and held it reliable at volume in under 90 days on AWS (EKS, Lambda, RDS), protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Cut technical debt and cloud cost by consolidating siloed systems into shared, API-driven services like authentication, roles and permissions, and workflows on Kubernetes and PostgreSQL, so teams reused instead of rebuilt."
+      - "Matured CI/CD and Infrastructure-as-Code with Terraform for self-service deploys, and hardened observability, security, and incident response to lift uptime and developer experience."
+      - "Stood up production issue management, incident response, and the defect and uptime metrics that gave executives and support real visibility, partnered daily with Product on where to invest limited capacity, and owned the engineering budget as the sole technology voice in PE and board diligence."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the platform and product-engineering organization for a B2B digital-media SaaS through post-acquisition integration."
+    bullets:
+      - "Built a paved-road delivery platform where automated provisioning, testing, and quality gates cut average time-to-ship 35 percent and drove defects down, then spread the reusable pattern across 100-plus customer-facing properties."
+      - "Held high availability across 100-plus properties used by millions by maturing SRE, observability, incident triage, and automated CI/CD on AWS and Kubernetes, so the customer experience stayed steady through constant change."
+      - "Shipped an AI-driven personalization and lead-qualification product into the core platform, pairing predictive scoring with a human review loop so support and sales worked from better signals."
+      - "Grew one team of 8 into five cross-functional teams of 40-plus, built the manager-of-managers layer from scratch, and lifted retention 15 percent with career ladders and structured feedback."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth for a fast-scaling B2B2C SaaS, bringing planning, delivery, and reliability structure to an early-stage team."
+    bullets:
+      - "Brought planning, delivery, and on-call structure to a Series-A team, reaching consistent sprint predictability within 60 days without slowing momentum."
+      - "Doubled the engineering team while release quality held, instituting sprint cadence, code-review gates, and an on-call rotation across web, iOS, and Android products."
