@@ -1,0 +1,35 @@
+date: "August 22, 2026"
+salutation: "Dear Alex,"
+
+paragraphs:
+  - >-
+    Your posting frames technology as a revenue engine. That is already how I work. I connect
+    technical investment to the number the CEO cares about, and I can
+    defend the tradeoffs to someone who asks hard questions, because I have sat in that seat through
+    PE and board diligence as the only technology voice in the room.
+  - >-
+    The AI layer is where I would push first. At Dual Logic I move agentic and LLM-backed systems from
+    pilots into governed production, with reusable components, evaluation harnesses, and guardrails, so
+    the output holds up instead of turning into slop. At Industry Dive I shipped an AI-driven
+    lead-qualification product into the core platform, pairing predictive scoring with a human review
+    loop to feed sales better leads. That is the same shape as what your agents do for qualification
+    and outreach today.
+  - >-
+    Your first ninety days are about finding blind spots and making sure no critical knowledge lives in
+    one person's head. I have run that exact play. At Pipeline 360 I came into a post-divestiture reset
+    cold, mapped where every system, credential, and vendor lived, documented it, and set the
+    architecture and security standards that survived board scrutiny. I did it leading a fully remote
+    team, and earlier at Industry Dive across time zones, so a small distributed group in Latin America
+    is familiar ground.
+  - >-
+    I will be straight about two things. Real estate is a new domain for me, so I would ramp into the
+    proptech specifics in the open rather than pretend to own them on day one. My cloud history leans
+    AWS, though I run production on GCP too, and the architecture, API, and event-driven work carries
+    straight across. I also read your line that the CEO owns product. That works for me. I want to own
+    technology, architecture, and execution, and I would rather have a clear line than a blurry one.
+  - >-
+    I would welcome a conversation about where you think the platform is fragile, where AI earns its
+    keep, and where I would push first.
+
+closing: "Best,"
+signer: "Chris Monnat"

@@ -1,0 +1,975 @@
+/* ─── RecurringModal ─────────────────────────────────────────── */
+
+.gcal-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.gcal-modal {
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 32px 28px 24px;
+  width: 100%;
+  max-width: 560px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.gcal-modal-body {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 0;  
+  padding-right: 8px;    
+}
+
+.gcal-modal-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-normal);
+  text-align: center;
+}
+
+.gcal-modal-subtitle {
+  margin: -8px 0 0;
+  font-size: 13px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.gcal-modal-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gcal-modal-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 22px 12px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: border-color 0.15s;
+}
+
+.gcal-modal-option:hover {
+  border-color: var(--interactive-accent);
+}
+
+.gcal-modal-option-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-normal);
+}
+
+.gcal-modal-option-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.gcal-modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.gcal-modal-cancel {
+  padding: 7px 24px;
+  font-size: 13px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gcal-modal-cancel:hover {
+  color: var(--text-normal);
+}
+
+/* ─── Shared inputs ──────────────────────────────────────────── */
+
+.gcal-input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  padding: 6px 8px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+}
+
+.gcal-textarea {
+  resize: vertical;
+  min-height: 60px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.4;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gcal-btn-meet {
+  display: block;
+  width: 100%;
+  padding: 6px 10px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+  cursor: pointer;
+  font-size: 13px;
+  text-align: left;
+}
+
+.gcal-btn-meet:hover {
+  border-color: var(--interactive-accent);
+}
+
+.gcal-field-label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.gcal-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-normal);
+}
+
+.gcal-btn-primary {
+  padding: 6px 12px;
+  background: var(--interactive-accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.gcal-btn-danger {
+  padding: 6px 12px;
+  background: var(--text-error);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin-right: auto;
+}
+
+/* ─── EventModal: header ─────────────────────────────────────── */
+/* kept for RecurringModal which still uses this class */
+.gcal-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gcal-modal-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* ─── EventModal: title row ──────────────────────────────────── */
+
+.gcal-modal-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.gcal-modal-title-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--background-modifier-border);
+  color: var(--text-normal);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px 0;
+  min-width: 0;
+}
+
+.gcal-modal-title-input:focus {
+  outline: none;
+  border-bottom-color: var(--interactive-accent);
+}
+
+.gcal-modal-title-input::placeholder {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ─── EventModal: datetime chip row ─────────────────────────── */
+
+.gcal-datetime-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 6px 0 10px;
+}
+
+.gcal-datetime-chip {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 14px;
+  padding: 4px 10px;
+  color: var(--text-normal);
+  font-size: 13px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.gcal-datetime-chip:focus {
+  outline: none;
+  border-color: var(--interactive-accent);
+}
+
+.gcal-datetime-arrow {
+  color: var(--text-muted);
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.gcal-allday-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  margin-left: 4px;
+  user-select: none;
+}
+
+/* ─── EventModal: calendar row (create mode) ─────────────────── */
+
+.gcal-calendar-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0 8px;
+}
+
+.gcal-calendar-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.gcal-calendar-select {
+  background: transparent;
+  border: none;
+  color: var(--text-normal);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 2px 4px 4px 6px;
+}
+
+.gcal-calendar-select:focus {
+  outline: none;
+}
+
+/* ─── EventModal: section divider ────────────────────────────── */
+
+.gcal-modal-divider {
+  height: 1px;
+  background: rgba(128, 128, 128, 0.2);
+  margin: 6px 0;
+}
+
+/* ─── EventModal: icon + field rows ─────────────────────────── */
+
+.gcal-field-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.gcal-field-icon {
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.gcal-field-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.gcal-field-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: var(--text-normal);
+  font-size: 14px;
+  padding: 4px 0;
+  width: 100%;
+}
+
+.gcal-field-input::placeholder {
+  color: var(--text-muted);
+}
+
+.gcal-field-input:hover {
+  border-bottom-color: var(--background-modifier-border);
+}
+
+.gcal-field-input:focus {
+  outline: none;
+  border-bottom-color: var(--interactive-accent);
+}
+
+/* ─── EventModal: description HTML ──────────────────────────── */
+
+.gcal-description-html {
+  min-height: 40px;
+  font-size: 0.85em;
+  line-height: 1.5;
+  overflow-y: auto;
+  max-height: 150px;
+  color: var(--text-normal);
+}
+
+.gcal-description-html a {
+  color: var(--interactive-accent);
+}
+
+.gcal-modal-meet-icon {
+  background: none;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.gcal-modal-meet-icon:hover {
+  border-color: var(--interactive-accent);
+  color: var(--text-normal);
+}
+
+.gcal-field-sublabel {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ─── EventModal: guests section ─────────────────────────────── */
+
+.gcal-guests-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 2px 0;
+}
+
+.gcal-guests-count {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-normal);
+  margin-bottom: 2px;
+}
+
+.gcal-attendee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gcal-attendee-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 0;
+}
+
+.gcal-attendee-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+}
+
+.gcal-attendee-email {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gcal-attendee-status {
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.gcal-attendee-status--accepted  { color: #34A853; }
+.gcal-attendee-status--declined  { color: #EA4335; }
+.gcal-attendee-status--tentative { color: #FBBC04; }
+.gcal-attendee-status--needsAction { color: var(--text-muted); }
+
+.gcal-see-all-btn {
+  background: none;
+  border: none;
+  color: var(--interactive-accent);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 2px 0;
+  text-align: left;
+}
+
+.gcal-see-all-btn:hover {
+  text-decoration: underline;
+}
+
+/* ─── EventModal: response buttons ──────────────────────────── */
+
+.gcal-response-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 0;
+}
+
+.gcal-response-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.gcal-response-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.gcal-btn-response {
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  cursor: pointer;
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  font-size: 13px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.gcal-btn-response:hover {
+  color: var(--text-normal);
+  border-color: var(--text-muted);
+}
+
+.gcal-btn-response--accepted.gcal-btn-response--active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+.gcal-btn-response--tentative.gcal-btn-response--active {
+  background: #f59e0b;
+  color: white;
+  border-color: #f59e0b;
+}
+
+.gcal-btn-response--declined.gcal-btn-response--active {
+  background: var(--text-error);
+  color: white;
+  border-color: var(--text-error);
+}
+
+/* ─── Recurrence UI ──────────────────────────────────────────── */
+
+.gcal-recurrence-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.gcal-day-picker {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.gcal-day-btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.gcal-day-btn--active {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border-color: var(--interactive-accent);
+}
+
+.gcal-recurrence-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.gcal-recurrence-label {
+  width: 36px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+
+.gcal-recurrence-interval {
+  width: 52px;
+  padding: 4px 6px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  color: var(--text-normal);
+  text-align: center;
+}
+
+.gcal-recurrence-freq {
+  flex: 1;
+}
+
+/* ─── Calendar density ───────────────────────────────────────── */
+
+.gcal-density-medium .fc-timegrid-slot {
+  height: 40px;
+}
+
+.gcal-density-large .fc-timegrid-slot {
+  height: 40px;
+}
+
+/* ─── needsAction crosshatch ─────────────────────────────────── */
+
+.gcal-event-needs-action {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.3) 0px,
+      rgba(255, 255, 255, 0.3) 1px,
+      transparent 1px,
+      transparent 5px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.3) 0px,
+      rgba(255, 255, 255, 0.3) 1px,
+      transparent 1px,
+      transparent 5px
+    ) !important;
+}
+
+/* ─── CalendarPanel layout ───────────────────────────────────── */
+
+.gcal-panel-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.gcal-panel-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 4px 8px;
+  flex-shrink: 0;
+}
+
+.gcal-panel-btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: var(--text-normal);
+  font-size: 14px;
+}
+
+.gcal-panel-btn-icon:disabled {
+  cursor: not-allowed;
+  color: var(--text-muted);
+}
+
+.gcal-panel-btn-density {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: var(--text-normal);
+  font-size: 12px;
+}
+
+.gcal-panel-error {
+  color: var(--text-error);
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.gcal-panel-loading {
+  padding: 4px 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.gcal-calendar-wrapper {
+  flex: 1;
+  overflow: hidden;
+  --fc-border-color: rgba(128, 128, 128, 0.2);
+}
+
+/* ─── Toast ──────────────────────────────────────────────────── */
+
+.gcal-toast {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gcal-toast--loading {
+  background: var(--background-secondary);
+  color: var(--text-muted);
+}
+
+.gcal-toast--success {
+  background: rgba(52, 168, 83, 0.15);
+  color: #34A853;
+}
+
+.gcal-toast--error {
+  background: rgba(234, 67, 53, 0.15);
+  color: var(--text-error);
+  max-width: 220px;
+  white-space: normal;
+  text-overflow: clip;
+  text-align: center;
+}
+
+.gcal-toast-dismiss {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.gcal-toast-dismiss:hover {
+  opacity: 1;
+}
+
+/* ─── MiniMonth ──────────────────────────────────────────────── */
+
+.gcal-panel-header-left {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  justify-self: end;
+}
+
+.gcal-minimonth-container {
+  position: relative;
+}
+
+.gcal-minimonth-trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: var(--text-normal);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.gcal-minimonth-trigger:hover {
+  background: var(--background-secondary);
+}
+
+.gcal-minimonth-popover {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 200;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 12px 16px 12px 12px;
+  width: 240px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gcal-minimonth-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.gcal-minimonth-nav-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-normal);
+}
+
+.gcal-minimonth-nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 16px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  line-height: 1;
+}
+
+.gcal-minimonth-nav-btn:hover {
+  color: var(--text-normal);
+  background: var(--background-secondary);
+}
+
+.gcal-minimonth-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.gcal-minimonth-day-header {
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-muted);
+  padding: 2px 0 4px;
+  font-weight: 500;
+}
+
+.gcal-minimonth-day {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-normal);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.gcal-minimonth-day:hover {
+  background: var(--background-secondary);
+}
+
+.gcal-minimonth-day--today {
+  font-weight: 700;
+  color: var(--interactive-accent);
+}
+
+.gcal-minimonth-day--selected {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+}
+
+.gcal-minimonth-day--selected:hover {
+  background: var(--interactive-accent);
+}
+
+.gcal-minimonth-day--past {
+  opacity: 0.4;
+}
+
+/* ─── View toggle ────────────────────────────────────────────── */
+
+.gcal-panel-btn-view {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.gcal-panel-btn-view--active {
+  color: var(--text-normal);
+  border-color: var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+/* ─── Hide today highlight in day view only ──────────────────── */
+
+.fc-timeGridDay-view .fc-day-today {
+  background: transparent !important;
+}
+
+/* ─── Active view popover ──────────────────── */
+
+.gcal-view-popover {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  z-index: 100;
+  min-width: 48px;
+}
+
+/* ─── Context menu ───────────────────────────────────────────── */
+
+.gcal-context-menu {
+  position: fixed;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 8px 8px 8px 8px;
+  min-width: 210px;
+  z-index: 9999;
+}
+
+.gcal-context-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  color: var(--text-normal);
+  cursor: pointer;
+  text-align: left;
+  font-size: 13.5px;
+}
+
+.gcal-context-item:hover {
+  background: var(--background-secondary);
+}
+
+.gcal-context-item--danger {
+  color: var(--text-error);
+}
+
+.gcal-context-icon {
+  width: 18px;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.gcal-context-rsvp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+}
+
+.gcal-context-rsvp-label {
+  font-size: 13.5px;
+  color: var(--text-normal);
+  padding-right: 25px;
+}
+
+.gcal-context-rsvp-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.gcal-context-rsvp-btns .gcal-btn-response {
+  padding: 3px 10px;
+  font-size: 12px;
+}
+
+.gcal-context-divider {
+  height: 1px;
+  background: var(--background-modifier-border);
+  margin: 8px 0;
+}
+
+/* ─── CalendarToggle ─────────────────────────────────────────── */
+
+.gcal-calendar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: var(--text-normal);
+    font-size: 13px;
+}
+
+.gcal-calendar-item:hover {
+    background: var(--background-secondary);
+}

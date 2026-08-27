@@ -37,4 +37,4 @@ The seat, first. Running product and engineering as one organization under the C
 
 Then the problem. An AI-native GRC platform that also holds FedRAMP Moderate has to move fast and stay auditable at the same time, and those usually pull against each other. That is a builder's puzzle, and compliance is a domain where how the software is built is part of what earns trust.
 
-It also rhymes with what I have been building. My capstone RAG app classifies products into HTC codes, a huge hierarchical rulebook where a general model hallucinates and the answer has to be grounded and verifiable. That is the same shape as the GRC problem, so I would be walking into a domain my recent hands-on work already prepared me for.
+It also rhymes with what I have been building. My capstone RAG app classifies products into HTC codes, a huge hierarchical rulebook where a general model hallucinates and the answer has to be grounded and verifiable. That is the same shape as the GRC problem, so I would be walking into a domain my recent hands-on work already prepared me for

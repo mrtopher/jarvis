@@ -21,3 +21,6 @@ Machine/Scripts/.repo-sync-state.json
 # Secrets: local API keys for content image generation (never commit)
 Machine/Scripts/.secrets
 .env
+
+# gcal-sidebar plugin stores live Google OAuth tokens here (never commit)
+.obsidian/plugins/gcal-sidebar/data.json

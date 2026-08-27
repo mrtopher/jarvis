@@ -1,0 +1,37 @@
+date: "August 21, 2026"
+salutation: "Dear Mr. Nawash,"
+
+paragraphs:
+  - >-
+    You are hiring someone to build Freely's engineering organization and turn signed distributor demand
+    into live production volume. That is the exact work I have done twice. I build the team and the
+    platform in the same motion, and I stay close enough to the code to make the hard architectural calls
+    myself.
+  - >-
+    At Industry Dive I grew one team of 8 into five cross-functional teams of 40-plus and founded the
+    Product function alongside it. The part that held up was the manager-of-managers layer and real career
+    paths, so standards and ownership survived the growth. Retention rose 15 percent because people had a
+    place to go and a manager who saw them.
+  - >-
+    Speed under revenue pressure is the other half of your first six months. At Pipeline 360 I delivered a
+    revenue-critical, multi-tenant platform from zero to production in under 90 days, protecting an
+    8-figure revenue line through a post-divestiture reset. That is the same shape as moving a signed
+    backlog into live production without letting quality slip.
+  - >-
+    Freely moves other people's money, so the platform has to be right. I run cloud-native, event-driven
+    systems across AWS and GCP on Kubernetes and PostgreSQL, with the observability, incident response,
+    and security hardening that kind of load demands. I was also the sole technology voice through PE
+    investor and board diligence, and I set the architecture and security standards that survived it.
+  - >-
+    I will be straight about two things. I have not built a payments platform, so interchange,
+    reconciliation, and cash application are a domain I would ramp into fast and in the open rather than
+    pretend to own. My hands-on backend depth is PHP and JavaScript rather than Node and TypeScript,
+    though the architecture, API design, and event-driven work carry straight across, and your stack is
+    one I would get productive in quickly. Arlington is home for me. I led engineering at Phone2Action
+    here through its Series-A growth, so the on-site build is a fit, not a compromise.
+  - >-
+    I would welcome a conversation about how you want Freely's engineering org and platform to take shape,
+    and where I would push first.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"

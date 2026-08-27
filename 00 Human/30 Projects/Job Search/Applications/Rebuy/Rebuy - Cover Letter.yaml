@@ -1,0 +1,37 @@
+date: "August 20, 2026"
+salutation: "Dear Mr. Erck,"
+
+paragraphs:
+  - >-
+    I am an engineering leader who scales both the org and the platform under it. Your posting is
+    clear about the job: install a pod model that runs without the founders in the loop, ship an
+    API-first V2 that agents can call inside Shopify, and get the org and codebase ready for a
+    strategic transaction. That is the work I do best, and I have done each piece of it under real
+    pressure.
+  - >-
+    At Industry Dive I grew one team of 8 into five cross-functional pods of 40-plus across time
+    zones. The part that made it stick was building the manager-of-managers layer and real career
+    paths, so ownership and standards held as we grew instead of thinning out. Retention went up 15
+    percent because people had somewhere to go and a manager who saw them, not because we pushed
+    harder.
+  - >-
+    The API-first bet is where I spend my time now. At Pipeline 360 I cut a tangle of siloed systems
+    into shared, REST API-driven services so teams stopped rebuilding the same thing. At Dual Logic I
+    put agentic and LLM-backed systems into governed production as reusable, OpenAPI-documented tools
+    with evaluation and guardrails. That is the agent-readiness story I would bring to Rebuy's V2,
+    built to hold up rather than demo well.
+  - >-
+    I also know what the exit-process line in your posting means. At Pipeline 360 I was the sole
+    technology voice through PE investor and board diligence, and I set the architecture and security
+    standards that survived it. I can get an engineering org diligence-ready and keep it shipping,
+    with the discretion that kind of process needs.
+  - >-
+    I have not run a Shopify commerce platform, so I will not pretend the DTC domain is second nature
+    yet. What I have done is scale engineering orgs under real revenue and reliability pressure, own
+    security and performance through hard change, and learn a new domain fast and in the open.
+  - >-
+    I would welcome a conversation about where you want Rebuy's engineering org and its API foundation
+    to go, and how I would help get there.
+
+closing: "Sincerely,"
+signer: "Chris Monnat"
