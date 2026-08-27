@@ -6,12 +6,11 @@ kanban-plugin: board
 
 ## Ideas
 
+- [ ] Week of 8/23 — Tue LinkedIn: Re-entry, first-person — why I stepped away from posting for a week, and what a week of watching AI in the wild actually looked like. Real anchor = the break itself. Buyer/leadership framing; no news reaction. #linkedin
+- [ ] Week of 8/23 — Wed Substack: "No one's job changed" — org-behavior essay. AI adoption stalls not because of the tool but because no role actually changed. Anchor = 20 years / blunt opinion (no client permission needed). Buyer-framed, distinct from the last three essays (everyone-builds, FDE, 95%-pilots). #substack
+- [ ] Week of 8/23 — Wed/Thu LinkedIn: Re-hook of the "No one's job changed" Substack essay for the feed, link in FIRST COMMENT (not body). Works the LI→Substack handoff. Draft after the essay. #linkedin
+- [ ] Week of 8/23 — Thu LinkedIn: Opinionated leadership/adoption take built on a real client anchor (anonymized). Buyer tags (leadership · aiadoption · aistrategy), not engineer-bait. Vary form + close from recent posts. #linkedin
 - [ ] The new engineering org structure in the age of AI
-- [ ] Mon: One real client before/after (WeAquatics or Ridgewells/CATE, anonymized) — the 95%-pilots follow-up; needs client OK + permission #linkedin
-- [ ] Tue: Buyer-framed AI news reaction — pick an adoption/governance story, not a model-release/tooling one; needs current news peg at draft time #linkedin
-- [ ] Wed: Artifact — "What actually goes in an AI usage policy" one-pager, aimed at CEOs; square 1024x1024 image #linkedin
-- [ ] Thu: Contrarian for CEOs — "Your AI adoption problem isn't the tool, it's that no one's job changed" (org-behavior angle, not the Citi peg) #linkedin
-- [ ] Fri: "The AI hire most companies get wrong" — hiring-manager lens; overlaps the #substack FDE card, only run with a genuinely different angle #linkedin
 
 
 ## Drafting

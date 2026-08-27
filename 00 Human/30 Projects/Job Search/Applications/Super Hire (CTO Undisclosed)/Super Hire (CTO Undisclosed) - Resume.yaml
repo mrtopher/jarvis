@@ -1,0 +1,89 @@
+target_title: "Chief Technology Officer"
+target_subtitle: "Technology Strategy | AI Strategy | Organizational Design"
+
+summary: >-
+  I came up writing code and never stopped caring how the work ships. Over twenty years I have set
+  technology strategy and built the engineering orgs that deliver it, from zero-to-production
+  platforms to teams that scale. I run delivery where agents handle the repeatable work and
+  engineers keep the judgment. Known for turning ambiguous business goals into systems that hold up
+  under real load.
+
+achievements:
+  - label: "Agents That Compound Output"
+    text: "Put agentic and LLM-backed systems into governed production with reusable components, evaluation harnesses, and guardrails, so a lean team ships more real software without shipping slop."
+  - label: "Org From One Team To Five"
+    text: "Grew one team of 8 into five cross-functional teams of 40-plus across time zones, built the manager-of-managers layer, and lifted retention 15 percent with career ladders and structured feedback."
+  - label: "Platform Zero To Production"
+    text: "Delivered a revenue-critical, multi-tenant platform on AWS from zero to production in under 90 days, protecting an 8-figure revenue line through a post-divestiture reset."
+  - label: "Board, Budget, And Compliance"
+    text: "Served as the sole technology voice in PE investor and board diligence, owned budget and vendor decisions, and set architecture and security standards including SOC 2 that held up under review instead of being bolted on late."
+
+competencies:
+  - "Technology Leadership"
+  - "Technology Strategy"
+  - "Engineering Leadership"
+  - "Organizational Design"
+  - "Scaling Teams"
+  - "Change Management"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Enterprise Architecture"
+  - "Software Architecture"
+  - "Platform Strategy"
+  - "IT Management"
+  - "Strategic Planning"
+  - "Information Security"
+  - "Regulatory Compliance"
+
+skill_groups:
+  - label: "Cloud & Infrastructure"
+    entries: "AWS, GCP, EKS, Kubernetes, Docker, Terraform, RDS, PostgreSQL"
+  - label: "Security & Compliance"
+    entries: "SOC 2, Information Security, Regulatory Compliance, Web App Security"
+  - label: "Architecture & Data"
+    entries: "Distributed Systems, Microservices, API-Driven, Data Warehousing"
+  - label: "AI & GenAI"
+    entries: "Applied AI, Agentic AI, LLMs, Multi-Agent, RAG, Model Evaluation"
+  - label: "DevOps & Reliability"
+    entries: "CI/CD, IaC, SRE, Observability, DORA Metrics"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Own technology end to end for enterprise clients as a player-coach, putting agentic workflows, LLM-backed systems, and multi-agent orchestration into governed production as reusable, evaluated components."
+      - "Built an operating model where agents carry the repeatable work and engineers keep context and ownership, standardizing reusable agent skills, evaluation harnesses, and DevSecOps guardrails that compound output without eroding quality or cost control."
+      - "Translate ambiguous executive goals into fundable engineering roadmaps and security-first, API-driven architectures, making the rebuild-versus-refactor calls and setting the milestones underneath them."
+      - "Drove AI-forward development across an 800-plus employee SaaS org, turning one-off scripts into a shared, evaluated developer platform teams trusted, and drew a clear line between where AI earns its keep and where the hype breaks."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100+."
+    bullets:
+      - "Delivered a revenue-critical, multi-tenant platform from zero to production in under 90 days on AWS (EKS, Lambda, RDS), protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Owned security and compliance through a hard reset, building SOC 2 controls into the platform architecture rather than bolting them on, and served as the sole technology voice in PE investor and board diligence."
+      - "Consolidated siloed systems into shared, API-driven platform capabilities like authentication, roles and permissions, and workflows on Kubernetes and PostgreSQL, so teams reused instead of rebuilt and technical debt fell."
+      - "Set the delivery metrics, operating cadence, and governance that gave executives visibility and kept multiple product lines on schedule, partnering with Product on sequencing and roadmap."
+      - "Matured CI/CD and Infrastructure-as-Code with Terraform so teams provisioned and deployed through self-service instead of tickets, raising velocity and developer experience."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the platform and product-engineering organization for a B2B digital-media SaaS through post-acquisition integration."
+    bullets:
+      - "Founded and scaled the engineering organization behind 100-plus customer-facing properties used by millions, maturing SRE, observability, and automated CI/CD on AWS and Kubernetes to hold high availability through constant change."
+      - "Grew one team of 8 into five cross-functional teams of 40-plus across time zones, built the manager-of-managers layer, made the calls on when to split teams and add leadership, and lifted retention 15 percent with career ladders and structured feedback."
+      - "Built a paved-road delivery model where automated provisioning and testing cut average time-to-ship 35 percent, then spread the reusable pattern across the broader portfolio."
+      - "Built the Product Management function from zero and shipped an AI-driven personalization and lead-qualification product into the core platform, pairing predictive scoring with a human review loop."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth for a fast-scaling B2B2C SaaS, bringing planning, delivery, and reliability structure to an early-stage team."
+    bullets:
+      - "Brought planning, delivery, and on-call structure to a Series-A team, reaching consistent sprint predictability within 60 days without slowing momentum."
+      - "Doubled the engineering team while release quality held, instituting sprint cadence, code-review gates, and an on-call rotation across web, iOS, and Android products."

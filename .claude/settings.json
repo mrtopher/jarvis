@@ -1,5 +1,6 @@
 {
   "enabledPlugins": {
-    "humanizer@humanizer": true
+    "humanizer@humanizer": true,
+    "claude-blog@agricidaniel-blog": true
   }
 }
