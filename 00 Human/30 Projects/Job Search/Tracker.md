@@ -18,6 +18,7 @@ kanban-plugin: board
 
 ## Apply
 
+- [ ] Lattice - Senior Director of Engineering (materials ready 8/27/26; APPLY strong, 92/100)
 
 
 ## Done

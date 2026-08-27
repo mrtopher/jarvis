@@ -1,0 +1,86 @@
+target_title: "Senior Director of Engineering"
+target_subtitle: "Engineering Leadership | Organizational Design | AI Strategy"
+
+summary: >-
+  I build engineering organizations that develop their own leaders. Over twenty years I have grown
+  teams into multi-layered orgs, coached managers into managers of managers, and kept customer-facing
+  products reliable while the roadmap moved fast. Now I put AI into products people trust, with the
+  guardrails and evaluation that keep it honest. I lead so AI makes strong teams stronger.
+
+achievements:
+  - label: "Org & Leadership Scale"
+    text: "Grew one team of 8 into five cross-functional teams of 40-plus, built the manager-of-managers layer from scratch, and lifted retention 15 percent with career ladders and structured feedback."
+  - label: "AI In Production"
+    text: "Shipped AI-driven personalization and lead qualification into a platform used by millions, pairing predictive scoring with a human review loop so people worked from signals they could trust."
+  - label: "Reliability At Scale"
+    text: "Held high availability across 100-plus customer-facing properties used by millions by maturing SRE, observability, and incident response, keeping the experience steady through constant change."
+  - label: "Revenue-Critical Reset"
+    text: "Reset a revenue-critical multi-tenant platform to production and held it reliable at volume in under 90 days, protecting an 8-figure revenue line through a post-divestiture reset."
+
+competencies:
+  - "Engineering Leadership"
+  - "Technology Leadership"
+  - "Engineering Management"
+  - "Organizational Design"
+  - "Scaling Teams"
+  - "People Management"
+  - "Change Management"
+  - "Technology Strategy"
+  - "Product Strategy"
+  - "Product Leadership"
+  - "AI Strategy"
+  - "Applied AI"
+  - "Software Architecture"
+  - "Agile Delivery"
+  - "Team Building"
+
+skill_groups:
+  - label: "Leadership"
+    entries: "Eng Org Leadership, Manager Development, Org Design, Change Management"
+  - label: "AI & GenAI"
+    entries: "Applied AI, Agentic AI, LLMs, RAG, Evals, Guardrails, AI Enablement"
+  - label: "Product & Delivery"
+    entries: "Product Strategy, Roadmapping, Agile Delivery, SDLC, Quality Engineering"
+  - label: "Cloud & Reliability"
+    entries: "AWS, GCP, Kubernetes, CI/CD, SRE, Observability, Incident Response"
+  - label: "Data & Security"
+    entries: "PostgreSQL, Data Warehousing, Information Security, Compliance"
+
+experience:
+  - company: "Dual Logic"
+    location: "Remote"
+    dates: "2026"
+    role: "Chief Technology Officer & Managing Partner"
+    summary: "Lead the technical side of a full-service AI consulting firm, owning technical vision, architecture, and delivery from discovery through production for enterprise clients."
+    bullets:
+      - "Put agent and LLM-backed systems into governed production for enterprise clients as a player-coach, with secure model access, retrieval, evaluation harnesses, observability, and guardrails so AI features hold up in front of real users."
+      - "Coach client engineering leaders and their teams to adopt AI in daily work, standardizing reusable agent skills, evaluation, and DevSecOps guardrails, then measuring the productivity lift in delivery metrics."
+      - "Translate ambiguous executive goals into fundable roadmaps and security-first architectures, making the build-versus-buy and rebuild calls in plain business terms for CEOs and boards."
+  - company: "Pipeline 360"
+    location: "Remote"
+    dates: "2025-2026"
+    role: "Sr. Vice President, Technology"
+    summary: "Owned technology strategy, platform architecture, and delivery across product, engineering, data, IT, security, and compliance for a newly independent, PE-backed, 100% remote org of 100-plus."
+    bullets:
+      - "Reset a revenue-critical, multi-tenant platform to production and held it reliable at volume in under 90 days on AWS, protecting an 8-figure revenue line through a post-divestiture reset."
+      - "Partnered daily with Product on where to invest limited engineering capacity across the portfolio, making tradeoffs in plain terms, and owned the engineering budget as the sole technology voice in PE and board diligence."
+      - "Stood up production issue management, incident response, and the defect and uptime metrics that gave executives and customers real visibility into product quality and reliability."
+      - "Consolidated siloed systems into shared, API-driven services like authentication, roles and permissions, and workflows so teams reused instead of rebuilt, cutting technical debt and cloud cost."
+  - company: "Industry Dive / Informa TechTarget"
+    location: "Washington, DC"
+    dates: "2018-2025"
+    role: "VP, Engineering"
+    summary: "Founded and scaled the platform and product-engineering organization for a B2B digital-media SaaS through post-acquisition integration."
+    bullets:
+      - "Grew one team of 8 into five cross-functional teams of 40-plus, built the manager-of-managers layer from scratch, and developed engineering managers and senior ICs through career ladders and structured feedback, lifting retention 15 percent."
+      - "Shipped an AI-driven personalization and lead-qualification product into a platform used by millions, pairing predictive scoring with a human review loop so people worked from signals they could trust."
+      - "Held high availability across 100-plus customer-facing properties used by millions by maturing SRE, observability, incident triage, and automated CI/CD on AWS and Kubernetes, so the experience stayed reliable through constant change."
+      - "Partnered with Product and Design across a portfolio of properties to plan and prioritize roadmaps, shipping at a fast pace without giving up quality or reliability."
+  - company: "Phone2Action"
+    location: "Arlington, VA"
+    dates: "2016-2017"
+    role: "VP, Engineering"
+    summary: "Led engineering through Series-A growth for a fast-scaling B2B2C SaaS, bringing planning, delivery, and reliability structure to an early-stage team."
+    bullets:
+      - "Brought planning, delivery, and on-call structure to a Series-A team, reaching consistent sprint predictability within 60 days without slowing momentum."
+      - "Doubled the engineering team while release quality held, instituting sprint cadence, code-review gates, and an on-call rotation across web, iOS, and Android products."
