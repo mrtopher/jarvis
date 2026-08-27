@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# Microsoft Office lock/owner temp files (created while a doc is open)
+~$*
+
 # Obsidian per-machine UI state
 .obsidian/workspace.json
 .obsidian/workspaces.json
